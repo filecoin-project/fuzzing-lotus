@@ -1,0 +1,2340 @@
+====================================================================================================
+Testing ChainNotify: []
+====================================================================================================
+
+read token was able to successfully call the api method ChainNotify
+{"jsonrpc":"2.0","id":0,"error":{"code":-32601,"message":"method 'Filecoin.ChainNotify' not supported in this mode (no out channel support)"}}
+
+
+write token was able to successfully call the api method ChainNotify
+{"jsonrpc":"2.0","id":0,"error":{"code":-32601,"message":"method 'Filecoin.ChainNotify' not supported in this mode (no out channel support)"}}
+
+
+sign token was able to successfully call the api method ChainNotify
+{"jsonrpc":"2.0","id":0,"error":{"code":-32601,"message":"method 'Filecoin.ChainNotify' not supported in this mode (no out channel support)"}}
+
+
+admin token was able to successfully call the api method ChainNotify
+{"jsonrpc":"2.0","id":0,"error":{"code":-32601,"message":"method 'Filecoin.ChainNotify' not supported in this mode (no out channel support)"}}
+
+
+====================================================================================================
+Testing ChainHead: []
+====================================================================================================
+
+read token was able to successfully call the api method ChainHead
+{"jsonrpc":"2.0","result":{"Cids":[{"/":"bafy2bzaceambcuwgrzfwsbbwbophw5ednpje3ea7ufifrvnsekhz35eurrw2k"}],"Blocks":[{"Miner":"t01000","Ticket":{"VRFProof":"qfNSb/AMOxzskHvdCzP0PdddziynVuJhY/iDpitWMpW4RS2pwNRbA7bE6Bv7v5iNF/41+yjefeLj5H9OaJWs4b4KU71USaKN5MBSdzP0cN9IKhUE8oUT9iwGapBCvJ6q"},"ElectionProof":{"VRFProof":"syF4jpvGld8rfAi/lUp6B0Ki7CAv4B8g4LC1Xq6v9IowfW6OBUWGKmk7JdIvfWOnAI9jhEhxqHmxUJ6/e2+gRBqetUwLsRduAkM3vOI8LSYISD418bVBB8AZ1RYe/yMQ"},"BeaconEntries":null,"WinPoStProof":[{"RegisteredProof":9,"ProofBytes":"kVWFK/FsSev0xEL0JNhcZ5AR050AORYuYRpRFbMOXmknLGQIdYMl8fzAaUBQcRSvsDWadz6b6t0/1dRJfjJPSY1ozKHyOdmPyR+KYIXnxDDmQBSsgGJ55D2Nh4RnorQDEYE9U3vSU8xto7a4bPyOuiyuVxsnrdOam3Q88RxAfdwOopQqzEMoB0ApGk2z0MqRpW4qjZsnrW/WgcHspAii13Oy3yNf9xgHDtaaEEuEI3eIj5yWSIopw7vdGZiUOkNN"}],"Parents":[{"/":"bafy2bzacebdb7atoasknet3tdkspoacvhsenwwccw5juqi4eqyt2z3moiiasa"}],"ParentWeight":"19498112","Height":4599,"ParentStateRoot":{"/":"bafy2bzaced4ahzmwbxwp6chzybkv4wq7r5tf4bmtkl3fjvtiqvh2yxd2er232"},"ParentMessageReceipts":{"/":"bafy2bzaceaa43et73tgxsoh2xizd4mxhbrcfig4kqp25zfa5scdgkzppllyuu"},"Messages":{"/":"bafy2bzacecgw6dqj4bctnbnyqfujltkwu7xc7ttaaato4i5miroxr4bayhfea"},"BLSAggregate":{"Type":2,"Data":"wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"},"Timestamp":1593660764,"BlockSig":{"Type":2,"Data":"goVNghAYYBwXMmzyyUpB7WYEvbSFYLcq7dULLvBZf0MJVpK814WVbwfYvKg6yuxWAuU/XxdnFTbbrJpu6IsxcqEPv9Q2Nl8JYkxpDGhstY/fHRKCn/USG2ILWAk9llK5"},"ForkSignaling":0}],"Height":4599},"id":0}
+
+
+write token was able to successfully call the api method ChainHead
+{"jsonrpc":"2.0","result":{"Cids":[{"/":"bafy2bzaceambcuwgrzfwsbbwbophw5ednpje3ea7ufifrvnsekhz35eurrw2k"}],"Blocks":[{"Miner":"t01000","Ticket":{"VRFProof":"qfNSb/AMOxzskHvdCzP0PdddziynVuJhY/iDpitWMpW4RS2pwNRbA7bE6Bv7v5iNF/41+yjefeLj5H9OaJWs4b4KU71USaKN5MBSdzP0cN9IKhUE8oUT9iwGapBCvJ6q"},"ElectionProof":{"VRFProof":"syF4jpvGld8rfAi/lUp6B0Ki7CAv4B8g4LC1Xq6v9IowfW6OBUWGKmk7JdIvfWOnAI9jhEhxqHmxUJ6/e2+gRBqetUwLsRduAkM3vOI8LSYISD418bVBB8AZ1RYe/yMQ"},"BeaconEntries":null,"WinPoStProof":[{"RegisteredProof":9,"ProofBytes":"kVWFK/FsSev0xEL0JNhcZ5AR050AORYuYRpRFbMOXmknLGQIdYMl8fzAaUBQcRSvsDWadz6b6t0/1dRJfjJPSY1ozKHyOdmPyR+KYIXnxDDmQBSsgGJ55D2Nh4RnorQDEYE9U3vSU8xto7a4bPyOuiyuVxsnrdOam3Q88RxAfdwOopQqzEMoB0ApGk2z0MqRpW4qjZsnrW/WgcHspAii13Oy3yNf9xgHDtaaEEuEI3eIj5yWSIopw7vdGZiUOkNN"}],"Parents":[{"/":"bafy2bzacebdb7atoasknet3tdkspoacvhsenwwccw5juqi4eqyt2z3moiiasa"}],"ParentWeight":"19498112","Height":4599,"ParentStateRoot":{"/":"bafy2bzaced4ahzmwbxwp6chzybkv4wq7r5tf4bmtkl3fjvtiqvh2yxd2er232"},"ParentMessageReceipts":{"/":"bafy2bzaceaa43et73tgxsoh2xizd4mxhbrcfig4kqp25zfa5scdgkzppllyuu"},"Messages":{"/":"bafy2bzacecgw6dqj4bctnbnyqfujltkwu7xc7ttaaato4i5miroxr4bayhfea"},"BLSAggregate":{"Type":2,"Data":"wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"},"Timestamp":1593660764,"BlockSig":{"Type":2,"Data":"goVNghAYYBwXMmzyyUpB7WYEvbSFYLcq7dULLvBZf0MJVpK814WVbwfYvKg6yuxWAuU/XxdnFTbbrJpu6IsxcqEPv9Q2Nl8JYkxpDGhstY/fHRKCn/USG2ILWAk9llK5"},"ForkSignaling":0}],"Height":4599},"id":0}
+
+
+sign token was able to successfully call the api method ChainHead
+{"jsonrpc":"2.0","result":{"Cids":[{"/":"bafy2bzaceambcuwgrzfwsbbwbophw5ednpje3ea7ufifrvnsekhz35eurrw2k"}],"Blocks":[{"Miner":"t01000","Ticket":{"VRFProof":"qfNSb/AMOxzskHvdCzP0PdddziynVuJhY/iDpitWMpW4RS2pwNRbA7bE6Bv7v5iNF/41+yjefeLj5H9OaJWs4b4KU71USaKN5MBSdzP0cN9IKhUE8oUT9iwGapBCvJ6q"},"ElectionProof":{"VRFProof":"syF4jpvGld8rfAi/lUp6B0Ki7CAv4B8g4LC1Xq6v9IowfW6OBUWGKmk7JdIvfWOnAI9jhEhxqHmxUJ6/e2+gRBqetUwLsRduAkM3vOI8LSYISD418bVBB8AZ1RYe/yMQ"},"BeaconEntries":null,"WinPoStProof":[{"RegisteredProof":9,"ProofBytes":"kVWFK/FsSev0xEL0JNhcZ5AR050AORYuYRpRFbMOXmknLGQIdYMl8fzAaUBQcRSvsDWadz6b6t0/1dRJfjJPSY1ozKHyOdmPyR+KYIXnxDDmQBSsgGJ55D2Nh4RnorQDEYE9U3vSU8xto7a4bPyOuiyuVxsnrdOam3Q88RxAfdwOopQqzEMoB0ApGk2z0MqRpW4qjZsnrW/WgcHspAii13Oy3yNf9xgHDtaaEEuEI3eIj5yWSIopw7vdGZiUOkNN"}],"Parents":[{"/":"bafy2bzacebdb7atoasknet3tdkspoacvhsenwwccw5juqi4eqyt2z3moiiasa"}],"ParentWeight":"19498112","Height":4599,"ParentStateRoot":{"/":"bafy2bzaced4ahzmwbxwp6chzybkv4wq7r5tf4bmtkl3fjvtiqvh2yxd2er232"},"ParentMessageReceipts":{"/":"bafy2bzaceaa43et73tgxsoh2xizd4mxhbrcfig4kqp25zfa5scdgkzppllyuu"},"Messages":{"/":"bafy2bzacecgw6dqj4bctnbnyqfujltkwu7xc7ttaaato4i5miroxr4bayhfea"},"BLSAggregate":{"Type":2,"Data":"wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"},"Timestamp":1593660764,"BlockSig":{"Type":2,"Data":"goVNghAYYBwXMmzyyUpB7WYEvbSFYLcq7dULLvBZf0MJVpK814WVbwfYvKg6yuxWAuU/XxdnFTbbrJpu6IsxcqEPv9Q2Nl8JYkxpDGhstY/fHRKCn/USG2ILWAk9llK5"},"ForkSignaling":0}],"Height":4599},"id":0}
+
+
+admin token was able to successfully call the api method ChainHead
+{"jsonrpc":"2.0","result":{"Cids":[{"/":"bafy2bzaceambcuwgrzfwsbbwbophw5ednpje3ea7ufifrvnsekhz35eurrw2k"}],"Blocks":[{"Miner":"t01000","Ticket":{"VRFProof":"qfNSb/AMOxzskHvdCzP0PdddziynVuJhY/iDpitWMpW4RS2pwNRbA7bE6Bv7v5iNF/41+yjefeLj5H9OaJWs4b4KU71USaKN5MBSdzP0cN9IKhUE8oUT9iwGapBCvJ6q"},"ElectionProof":{"VRFProof":"syF4jpvGld8rfAi/lUp6B0Ki7CAv4B8g4LC1Xq6v9IowfW6OBUWGKmk7JdIvfWOnAI9jhEhxqHmxUJ6/e2+gRBqetUwLsRduAkM3vOI8LSYISD418bVBB8AZ1RYe/yMQ"},"BeaconEntries":null,"WinPoStProof":[{"RegisteredProof":9,"ProofBytes":"kVWFK/FsSev0xEL0JNhcZ5AR050AORYuYRpRFbMOXmknLGQIdYMl8fzAaUBQcRSvsDWadz6b6t0/1dRJfjJPSY1ozKHyOdmPyR+KYIXnxDDmQBSsgGJ55D2Nh4RnorQDEYE9U3vSU8xto7a4bPyOuiyuVxsnrdOam3Q88RxAfdwOopQqzEMoB0ApGk2z0MqRpW4qjZsnrW/WgcHspAii13Oy3yNf9xgHDtaaEEuEI3eIj5yWSIopw7vdGZiUOkNN"}],"Parents":[{"/":"bafy2bzacebdb7atoasknet3tdkspoacvhsenwwccw5juqi4eqyt2z3moiiasa"}],"ParentWeight":"19498112","Height":4599,"ParentStateRoot":{"/":"bafy2bzaced4ahzmwbxwp6chzybkv4wq7r5tf4bmtkl3fjvtiqvh2yxd2er232"},"ParentMessageReceipts":{"/":"bafy2bzaceaa43et73tgxsoh2xizd4mxhbrcfig4kqp25zfa5scdgkzppllyuu"},"Messages":{"/":"bafy2bzacecgw6dqj4bctnbnyqfujltkwu7xc7ttaaato4i5miroxr4bayhfea"},"BLSAggregate":{"Type":2,"Data":"wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"},"Timestamp":1593660764,"BlockSig":{"Type":2,"Data":"goVNghAYYBwXMmzyyUpB7WYEvbSFYLcq7dULLvBZf0MJVpK814WVbwfYvKg6yuxWAuU/XxdnFTbbrJpu6IsxcqEPv9Q2Nl8JYkxpDGhstY/fHRKCn/USG2ILWAk9llK5"},"ForkSignaling":0}],"Height":4599},"id":0}
+
+
+====================================================================================================
+Testing ChainGetRandomness: [None, None, None, 'VGhpcyBpcyBhIHN0cmluZw==']
+====================================================================================================
+
+read token was able to successfully call the api method ChainGetRandomness
+{"jsonrpc":"2.0","id":0,"error":{"code":1,"message":"loading tipset key: NewTipSet called with zero length array of blocks"}}
+
+
+write token was able to successfully call the api method ChainGetRandomness
+{"jsonrpc":"2.0","id":0,"error":{"code":1,"message":"loading tipset key: NewTipSet called with zero length array of blocks"}}
+
+
+sign token was able to successfully call the api method ChainGetRandomness
+{"jsonrpc":"2.0","id":0,"error":{"code":1,"message":"loading tipset key: NewTipSet called with zero length array of blocks"}}
+
+
+admin token was able to successfully call the api method ChainGetRandomness
+{"jsonrpc":"2.0","id":0,"error":{"code":1,"message":"loading tipset key: NewTipSet called with zero length array of blocks"}}
+
+
+====================================================================================================
+Testing ChainGetBlock: [None]
+====================================================================================================
+
+read token was able to successfully call the api method ChainGetBlock
+{"jsonrpc":"2.0","id":0,"error":{"code":1,"message":"blockstore: block not found"}}
+
+
+write token was able to successfully call the api method ChainGetBlock
+{"jsonrpc":"2.0","id":0,"error":{"code":1,"message":"blockstore: block not found"}}
+
+
+sign token was able to successfully call the api method ChainGetBlock
+{"jsonrpc":"2.0","id":0,"error":{"code":1,"message":"blockstore: block not found"}}
+
+
+admin token was able to successfully call the api method ChainGetBlock
+{"jsonrpc":"2.0","id":0,"error":{"code":1,"message":"blockstore: block not found"}}
+
+
+====================================================================================================
+Testing ChainGetTipSet: [None]
+====================================================================================================
+
+read token was able to successfully call the api method ChainGetTipSet
+{"jsonrpc":"2.0","id":0,"error":{"code":1,"message":"NewTipSet called with zero length array of blocks"}}
+
+
+write token was able to successfully call the api method ChainGetTipSet
+{"jsonrpc":"2.0","id":0,"error":{"code":1,"message":"NewTipSet called with zero length array of blocks"}}
+
+
+sign token was able to successfully call the api method ChainGetTipSet
+{"jsonrpc":"2.0","id":0,"error":{"code":1,"message":"NewTipSet called with zero length array of blocks"}}
+
+
+admin token was able to successfully call the api method ChainGetTipSet
+{"jsonrpc":"2.0","id":0,"error":{"code":1,"message":"NewTipSet called with zero length array of blocks"}}
+
+
+====================================================================================================
+Testing ChainGetBlockMessages: [None]
+====================================================================================================
+
+read token was able to successfully call the api method ChainGetBlockMessages
+{"jsonrpc":"2.0","id":0,"error":{"code":1,"message":"blockstore: block not found"}}
+
+
+write token was able to successfully call the api method ChainGetBlockMessages
+{"jsonrpc":"2.0","id":0,"error":{"code":1,"message":"blockstore: block not found"}}
+
+
+sign token was able to successfully call the api method ChainGetBlockMessages
+{"jsonrpc":"2.0","id":0,"error":{"code":1,"message":"blockstore: block not found"}}
+
+
+admin token was able to successfully call the api method ChainGetBlockMessages
+{"jsonrpc":"2.0","id":0,"error":{"code":1,"message":"blockstore: block not found"}}
+
+
+====================================================================================================
+Testing ChainGetParentReceipts: [None]
+====================================================================================================
+
+read token was able to successfully call the api method ChainGetParentReceipts
+{"jsonrpc":"2.0","id":0,"error":{"code":1,"message":"blockstore: block not found"}}
+
+
+write token was able to successfully call the api method ChainGetParentReceipts
+{"jsonrpc":"2.0","id":0,"error":{"code":1,"message":"blockstore: block not found"}}
+
+
+sign token was able to successfully call the api method ChainGetParentReceipts
+{"jsonrpc":"2.0","id":0,"error":{"code":1,"message":"blockstore: block not found"}}
+
+
+admin token was able to successfully call the api method ChainGetParentReceipts
+{"jsonrpc":"2.0","id":0,"error":{"code":1,"message":"blockstore: block not found"}}
+
+
+====================================================================================================
+Testing ChainGetParentMessages: [None]
+====================================================================================================
+
+read token was able to successfully call the api method ChainGetParentMessages
+{"jsonrpc":"2.0","id":0,"error":{"code":1,"message":"blockstore: block not found"}}
+
+
+write token was able to successfully call the api method ChainGetParentMessages
+{"jsonrpc":"2.0","id":0,"error":{"code":1,"message":"blockstore: block not found"}}
+
+
+sign token was able to successfully call the api method ChainGetParentMessages
+{"jsonrpc":"2.0","id":0,"error":{"code":1,"message":"blockstore: block not found"}}
+
+
+admin token was able to successfully call the api method ChainGetParentMessages
+{"jsonrpc":"2.0","id":0,"error":{"code":1,"message":"blockstore: block not found"}}
+
+
+====================================================================================================
+Testing ChainGetTipSetByHeight: [None, None]
+====================================================================================================
+
+read token was able to successfully call the api method ChainGetTipSetByHeight
+{"jsonrpc":"2.0","result":{"Cids":[{"/":"bafy2bzacecnxmllvivuy3x43rrixuw2353dev2lembnpcjs62k4vipc53ql7m"}],"Blocks":[{"Miner":"t00","Ticket":{"VRFProof":"dnJmIHByb29mMDAwMDAwMHZyZiBwcm9vZjAwMDAwMDA="},"ElectionProof":{"VRFProof":""},"BeaconEntries":[{"Round":0,"Data":"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA="}],"WinPoStProof":null,"Parents":null,"ParentWeight":"0","Height":0,"ParentStateRoot":{"/":"bafy2bzacedi7ru7qq4lcurc7i2bq6ihvm2zv5pthtycs4s75aq454ezecwa64"},"ParentMessageReceipts":{"/":"bafy2bzaceaa43et73tgxsoh2xizd4mxhbrcfig4kqp25zfa5scdgkzppllyuu"},"Messages":{"/":"bafy2bzacecgw6dqj4bctnbnyqfujltkwu7xc7ttaaato4i5miroxr4bayhfea"},"BLSAggregate":null,"Timestamp":1593651566,"BlockSig":null,"ForkSignaling":0}],"Height":0},"id":0}
+
+
+write token was able to successfully call the api method ChainGetTipSetByHeight
+{"jsonrpc":"2.0","result":{"Cids":[{"/":"bafy2bzacecnxmllvivuy3x43rrixuw2353dev2lembnpcjs62k4vipc53ql7m"}],"Blocks":[{"Miner":"t00","Ticket":{"VRFProof":"dnJmIHByb29mMDAwMDAwMHZyZiBwcm9vZjAwMDAwMDA="},"ElectionProof":{"VRFProof":""},"BeaconEntries":[{"Round":0,"Data":"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA="}],"WinPoStProof":null,"Parents":null,"ParentWeight":"0","Height":0,"ParentStateRoot":{"/":"bafy2bzacedi7ru7qq4lcurc7i2bq6ihvm2zv5pthtycs4s75aq454ezecwa64"},"ParentMessageReceipts":{"/":"bafy2bzaceaa43et73tgxsoh2xizd4mxhbrcfig4kqp25zfa5scdgkzppllyuu"},"Messages":{"/":"bafy2bzacecgw6dqj4bctnbnyqfujltkwu7xc7ttaaato4i5miroxr4bayhfea"},"BLSAggregate":null,"Timestamp":1593651566,"BlockSig":null,"ForkSignaling":0}],"Height":0},"id":0}
+
+
+sign token was able to successfully call the api method ChainGetTipSetByHeight
+{"jsonrpc":"2.0","result":{"Cids":[{"/":"bafy2bzacecnxmllvivuy3x43rrixuw2353dev2lembnpcjs62k4vipc53ql7m"}],"Blocks":[{"Miner":"t00","Ticket":{"VRFProof":"dnJmIHByb29mMDAwMDAwMHZyZiBwcm9vZjAwMDAwMDA="},"ElectionProof":{"VRFProof":""},"BeaconEntries":[{"Round":0,"Data":"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA="}],"WinPoStProof":null,"Parents":null,"ParentWeight":"0","Height":0,"ParentStateRoot":{"/":"bafy2bzacedi7ru7qq4lcurc7i2bq6ihvm2zv5pthtycs4s75aq454ezecwa64"},"ParentMessageReceipts":{"/":"bafy2bzaceaa43et73tgxsoh2xizd4mxhbrcfig4kqp25zfa5scdgkzppllyuu"},"Messages":{"/":"bafy2bzacecgw6dqj4bctnbnyqfujltkwu7xc7ttaaato4i5miroxr4bayhfea"},"BLSAggregate":null,"Timestamp":1593651566,"BlockSig":null,"ForkSignaling":0}],"Height":0},"id":0}
+
+
+admin token was able to successfully call the api method ChainGetTipSetByHeight
+{"jsonrpc":"2.0","result":{"Cids":[{"/":"bafy2bzacecnxmllvivuy3x43rrixuw2353dev2lembnpcjs62k4vipc53ql7m"}],"Blocks":[{"Miner":"t00","Ticket":{"VRFProof":"dnJmIHByb29mMDAwMDAwMHZyZiBwcm9vZjAwMDAwMDA="},"ElectionProof":{"VRFProof":""},"BeaconEntries":[{"Round":0,"Data":"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA="}],"WinPoStProof":null,"Parents":null,"ParentWeight":"0","Height":0,"ParentStateRoot":{"/":"bafy2bzacedi7ru7qq4lcurc7i2bq6ihvm2zv5pthtycs4s75aq454ezecwa64"},"ParentMessageReceipts":{"/":"bafy2bzaceaa43et73tgxsoh2xizd4mxhbrcfig4kqp25zfa5scdgkzppllyuu"},"Messages":{"/":"bafy2bzacecgw6dqj4bctnbnyqfujltkwu7xc7ttaaato4i5miroxr4bayhfea"},"BLSAggregate":null,"Timestamp":1593651566,"BlockSig":null,"ForkSignaling":0}],"Height":0},"id":0}
+
+
+====================================================================================================
+Testing ChainReadObj: [None]
+====================================================================================================
+
+read token was able to successfully call the api method ChainReadObj
+{"jsonrpc":"2.0","id":0,"error":{"code":1,"message":"blockstore get: blockstore: block not found"}}
+
+
+write token was able to successfully call the api method ChainReadObj
+{"jsonrpc":"2.0","id":0,"error":{"code":1,"message":"blockstore get: blockstore: block not found"}}
+
+
+sign token was able to successfully call the api method ChainReadObj
+{"jsonrpc":"2.0","id":0,"error":{"code":1,"message":"blockstore get: blockstore: block not found"}}
+
+
+admin token was able to successfully call the api method ChainReadObj
+{"jsonrpc":"2.0","id":0,"error":{"code":1,"message":"blockstore get: blockstore: block not found"}}
+
+
+====================================================================================================
+Testing ChainHasObj: [None]
+====================================================================================================
+
+read token was able to successfully call the api method ChainHasObj
+{"jsonrpc":"2.0","result":false,"id":0}
+
+
+write token was able to successfully call the api method ChainHasObj
+{"jsonrpc":"2.0","result":false,"id":0}
+
+
+sign token was able to successfully call the api method ChainHasObj
+{"jsonrpc":"2.0","result":false,"id":0}
+
+
+admin token was able to successfully call the api method ChainHasObj
+{"jsonrpc":"2.0","result":false,"id":0}
+
+
+====================================================================================================
+Testing ChainSetHead: [None]
+====================================================================================================
+
+read token unable to call the api method ChainSetHead
+{"jsonrpc":"2.0","id":0,"error":{"code":1,"message":"missing permission to invoke 'ChainSetHead' (need 'admin')"}}
+{"jsonrpc": "2.0", "method": "Filecoin.ChainSetHead", "params": [null], "id": 0}
+
+write token unable to call the api method ChainSetHead
+{"jsonrpc":"2.0","id":0,"error":{"code":1,"message":"missing permission to invoke 'ChainSetHead' (need 'admin')"}}
+{"jsonrpc": "2.0", "method": "Filecoin.ChainSetHead", "params": [null], "id": 0}
+
+sign token unable to call the api method ChainSetHead
+{"jsonrpc":"2.0","id":0,"error":{"code":1,"message":"missing permission to invoke 'ChainSetHead' (need 'admin')"}}
+{"jsonrpc": "2.0", "method": "Filecoin.ChainSetHead", "params": [null], "id": 0}
+
+admin token was able to successfully call the api method ChainSetHead
+{"jsonrpc":"2.0","id":0}
+
+
+====================================================================================================
+Testing ChainGetGenesis: []
+====================================================================================================
+
+read token was able to successfully call the api method ChainGetGenesis
+{"jsonrpc":"2.0","result":{"Cids":[{"/":"bafy2bzacecnxmllvivuy3x43rrixuw2353dev2lembnpcjs62k4vipc53ql7m"}],"Blocks":[{"Miner":"t00","Ticket":{"VRFProof":"dnJmIHByb29mMDAwMDAwMHZyZiBwcm9vZjAwMDAwMDA="},"ElectionProof":{"VRFProof":""},"BeaconEntries":[{"Round":0,"Data":"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA="}],"WinPoStProof":null,"Parents":null,"ParentWeight":"0","Height":0,"ParentStateRoot":{"/":"bafy2bzacedi7ru7qq4lcurc7i2bq6ihvm2zv5pthtycs4s75aq454ezecwa64"},"ParentMessageReceipts":{"/":"bafy2bzaceaa43et73tgxsoh2xizd4mxhbrcfig4kqp25zfa5scdgkzppllyuu"},"Messages":{"/":"bafy2bzacecgw6dqj4bctnbnyqfujltkwu7xc7ttaaato4i5miroxr4bayhfea"},"BLSAggregate":null,"Timestamp":1593651566,"BlockSig":null,"ForkSignaling":0}],"Height":0},"id":0}
+
+
+write token was able to successfully call the api method ChainGetGenesis
+{"jsonrpc":"2.0","result":{"Cids":[{"/":"bafy2bzacecnxmllvivuy3x43rrixuw2353dev2lembnpcjs62k4vipc53ql7m"}],"Blocks":[{"Miner":"t00","Ticket":{"VRFProof":"dnJmIHByb29mMDAwMDAwMHZyZiBwcm9vZjAwMDAwMDA="},"ElectionProof":{"VRFProof":""},"BeaconEntries":[{"Round":0,"Data":"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA="}],"WinPoStProof":null,"Parents":null,"ParentWeight":"0","Height":0,"ParentStateRoot":{"/":"bafy2bzacedi7ru7qq4lcurc7i2bq6ihvm2zv5pthtycs4s75aq454ezecwa64"},"ParentMessageReceipts":{"/":"bafy2bzaceaa43et73tgxsoh2xizd4mxhbrcfig4kqp25zfa5scdgkzppllyuu"},"Messages":{"/":"bafy2bzacecgw6dqj4bctnbnyqfujltkwu7xc7ttaaato4i5miroxr4bayhfea"},"BLSAggregate":null,"Timestamp":1593651566,"BlockSig":null,"ForkSignaling":0}],"Height":0},"id":0}
+
+
+sign token was able to successfully call the api method ChainGetGenesis
+{"jsonrpc":"2.0","result":{"Cids":[{"/":"bafy2bzacecnxmllvivuy3x43rrixuw2353dev2lembnpcjs62k4vipc53ql7m"}],"Blocks":[{"Miner":"t00","Ticket":{"VRFProof":"dnJmIHByb29mMDAwMDAwMHZyZiBwcm9vZjAwMDAwMDA="},"ElectionProof":{"VRFProof":""},"BeaconEntries":[{"Round":0,"Data":"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA="}],"WinPoStProof":null,"Parents":null,"ParentWeight":"0","Height":0,"ParentStateRoot":{"/":"bafy2bzacedi7ru7qq4lcurc7i2bq6ihvm2zv5pthtycs4s75aq454ezecwa64"},"ParentMessageReceipts":{"/":"bafy2bzaceaa43et73tgxsoh2xizd4mxhbrcfig4kqp25zfa5scdgkzppllyuu"},"Messages":{"/":"bafy2bzacecgw6dqj4bctnbnyqfujltkwu7xc7ttaaato4i5miroxr4bayhfea"},"BLSAggregate":null,"Timestamp":1593651566,"BlockSig":null,"ForkSignaling":0}],"Height":0},"id":0}
+
+
+admin token was able to successfully call the api method ChainGetGenesis
+{"jsonrpc":"2.0","result":{"Cids":[{"/":"bafy2bzacecnxmllvivuy3x43rrixuw2353dev2lembnpcjs62k4vipc53ql7m"}],"Blocks":[{"Miner":"t00","Ticket":{"VRFProof":"dnJmIHByb29mMDAwMDAwMHZyZiBwcm9vZjAwMDAwMDA="},"ElectionProof":{"VRFProof":""},"BeaconEntries":[{"Round":0,"Data":"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA="}],"WinPoStProof":null,"Parents":null,"ParentWeight":"0","Height":0,"ParentStateRoot":{"/":"bafy2bzacedi7ru7qq4lcurc7i2bq6ihvm2zv5pthtycs4s75aq454ezecwa64"},"ParentMessageReceipts":{"/":"bafy2bzaceaa43et73tgxsoh2xizd4mxhbrcfig4kqp25zfa5scdgkzppllyuu"},"Messages":{"/":"bafy2bzacecgw6dqj4bctnbnyqfujltkwu7xc7ttaaato4i5miroxr4bayhfea"},"BLSAggregate":null,"Timestamp":1593651566,"BlockSig":null,"ForkSignaling":0}],"Height":0},"id":0}
+
+
+====================================================================================================
+Testing ChainTipSetWeight: [None]
+====================================================================================================
+
+read token was able to successfully call the api method ChainTipSetWeight
+{"jsonrpc":"2.0","result":"19502617","id":0}
+
+
+write token was able to successfully call the api method ChainTipSetWeight
+{"jsonrpc":"2.0","result":"19502617","id":0}
+
+
+sign token was able to successfully call the api method ChainTipSetWeight
+{"jsonrpc":"2.0","result":"19502617","id":0}
+
+
+admin token was able to successfully call the api method ChainTipSetWeight
+{"jsonrpc":"2.0","result":"19502617","id":0}
+
+
+====================================================================================================
+Testing ChainGetNode: [None]
+====================================================================================================
+
+read token was able to successfully call the api method ChainGetNode
+{"jsonrpc":"2.0","id":0,"error":{"code":1,"message":"parsing path: invalid path \"\": path does not begin with '/'"}}
+
+
+write token was able to successfully call the api method ChainGetNode
+{"jsonrpc":"2.0","id":0,"error":{"code":1,"message":"parsing path: invalid path \"\": path does not begin with '/'"}}
+
+
+sign token was able to successfully call the api method ChainGetNode
+{"jsonrpc":"2.0","id":0,"error":{"code":1,"message":"parsing path: invalid path \"\": path does not begin with '/'"}}
+
+
+admin token was able to successfully call the api method ChainGetNode
+{"jsonrpc":"2.0","id":0,"error":{"code":1,"message":"parsing path: invalid path \"\": path does not begin with '/'"}}
+
+
+====================================================================================================
+Testing ChainGetMessage: [None]
+====================================================================================================
+
+read token was able to successfully call the api method ChainGetMessage
+{"jsonrpc":"2.0","id":0,"error":{"code":1,"message":"blockstore: block not found"}}
+
+
+write token was able to successfully call the api method ChainGetMessage
+{"jsonrpc":"2.0","id":0,"error":{"code":1,"message":"blockstore: block not found"}}
+
+
+sign token was able to successfully call the api method ChainGetMessage
+{"jsonrpc":"2.0","id":0,"error":{"code":1,"message":"blockstore: block not found"}}
+
+
+admin token was able to successfully call the api method ChainGetMessage
+{"jsonrpc":"2.0","id":0,"error":{"code":1,"message":"blockstore: block not found"}}
+
+
+====================================================================================================
+Testing ChainGetPath: [None, None]
+====================================================================================================
+
+read token was able to successfully call the api method ChainGetPath
+{"jsonrpc":"2.0","id":0,"error":{"code":1,"message":"loading from tipset {}: NewTipSet called with zero length array of blocks"}}
+
+
+write token was able to successfully call the api method ChainGetPath
+{"jsonrpc":"2.0","id":0,"error":{"code":1,"message":"loading from tipset {}: NewTipSet called with zero length array of blocks"}}
+
+
+sign token was able to successfully call the api method ChainGetPath
+{"jsonrpc":"2.0","id":0,"error":{"code":1,"message":"loading from tipset {}: NewTipSet called with zero length array of blocks"}}
+
+
+admin token was able to successfully call the api method ChainGetPath
+{"jsonrpc":"2.0","id":0,"error":{"code":1,"message":"loading from tipset {}: NewTipSet called with zero length array of blocks"}}
+
+
+====================================================================================================
+Testing ChainExport: [None]
+====================================================================================================
+
+read token was able to successfully call the api method ChainExport
+{"jsonrpc":"2.0","id":0,"error":{"code":-32601,"message":"method 'Filecoin.ChainExport' not supported in this mode (no out channel support)"}}
+
+
+write token was able to successfully call the api method ChainExport
+{"jsonrpc":"2.0","id":0,"error":{"code":-32601,"message":"method 'Filecoin.ChainExport' not supported in this mode (no out channel support)"}}
+
+
+sign token was able to successfully call the api method ChainExport
+{"jsonrpc":"2.0","id":0,"error":{"code":-32601,"message":"method 'Filecoin.ChainExport' not supported in this mode (no out channel support)"}}
+
+
+admin token was able to successfully call the api method ChainExport
+{"jsonrpc":"2.0","id":0,"error":{"code":-32601,"message":"method 'Filecoin.ChainExport' not supported in this mode (no out channel support)"}}
+
+
+====================================================================================================
+Testing SyncState: []
+====================================================================================================
+
+read token was able to successfully call the api method SyncState
+{"jsonrpc":"2.0","result":{"ActiveSyncs":[{"Base":null,"Target":null,"Stage":0,"Height":0,"Start":"0001-01-01T00:00:00Z","End":"0001-01-01T00:00:00Z","Message":""},{"Base":null,"Target":null,"Stage":0,"Height":0,"Start":"0001-01-01T00:00:00Z","End":"0001-01-01T00:00:00Z","Message":""},{"Base":null,"Target":null,"Stage":0,"Height":0,"Start":"0001-01-01T00:00:00Z","End":"0001-01-01T00:00:00Z","Message":""}]},"id":0}
+
+
+write token was able to successfully call the api method SyncState
+{"jsonrpc":"2.0","result":{"ActiveSyncs":[{"Base":null,"Target":null,"Stage":0,"Height":0,"Start":"0001-01-01T00:00:00Z","End":"0001-01-01T00:00:00Z","Message":""},{"Base":null,"Target":null,"Stage":0,"Height":0,"Start":"0001-01-01T00:00:00Z","End":"0001-01-01T00:00:00Z","Message":""},{"Base":null,"Target":null,"Stage":0,"Height":0,"Start":"0001-01-01T00:00:00Z","End":"0001-01-01T00:00:00Z","Message":""}]},"id":0}
+
+
+sign token was able to successfully call the api method SyncState
+{"jsonrpc":"2.0","result":{"ActiveSyncs":[{"Base":null,"Target":null,"Stage":0,"Height":0,"Start":"0001-01-01T00:00:00Z","End":"0001-01-01T00:00:00Z","Message":""},{"Base":null,"Target":null,"Stage":0,"Height":0,"Start":"0001-01-01T00:00:00Z","End":"0001-01-01T00:00:00Z","Message":""},{"Base":null,"Target":null,"Stage":0,"Height":0,"Start":"0001-01-01T00:00:00Z","End":"0001-01-01T00:00:00Z","Message":""}]},"id":0}
+
+
+admin token was able to successfully call the api method SyncState
+{"jsonrpc":"2.0","result":{"ActiveSyncs":[{"Base":null,"Target":null,"Stage":0,"Height":0,"Start":"0001-01-01T00:00:00Z","End":"0001-01-01T00:00:00Z","Message":""},{"Base":null,"Target":null,"Stage":0,"Height":0,"Start":"0001-01-01T00:00:00Z","End":"0001-01-01T00:00:00Z","Message":""},{"Base":null,"Target":null,"Stage":0,"Height":0,"Start":"0001-01-01T00:00:00Z","End":"0001-01-01T00:00:00Z","Message":""}]},"id":0}
+
+
+====================================================================================================
+Testing SyncSubmitBlock: [None]
+====================================================================================================
+
+read token unable to call the api method SyncSubmitBlock
+{"jsonrpc":"2.0","id":0,"error":{"code":1,"message":"missing permission to invoke 'SyncSubmitBlock' (need 'write')"}}
+{"jsonrpc": "2.0", "method": "Filecoin.SyncSubmitBlock", "params": [null], "id": 0}
+
+write token was able to successfully call the api method SyncSubmitBlock
+{"jsonrpc":"2.0","id":0,"error":{"code":0,"message":"fatal error calling 'Filecoin.SyncSubmitBlock': panic in rpc method 'Filecoin.SyncSubmitBlock': runtime error: invalid memory address or nil pointer dereference"}}
+
+
+sign token was able to successfully call the api method SyncSubmitBlock
+{"jsonrpc":"2.0","id":0,"error":{"code":0,"message":"fatal error calling 'Filecoin.SyncSubmitBlock': panic in rpc method 'Filecoin.SyncSubmitBlock': runtime error: invalid memory address or nil pointer dereference"}}
+
+
+admin token was able to successfully call the api method SyncSubmitBlock
+{"jsonrpc":"2.0","id":0,"error":{"code":0,"message":"fatal error calling 'Filecoin.SyncSubmitBlock': panic in rpc method 'Filecoin.SyncSubmitBlock': runtime error: invalid memory address or nil pointer dereference"}}
+
+
+====================================================================================================
+Testing SyncIncomingBlocks: []
+====================================================================================================
+
+read token was able to successfully call the api method SyncIncomingBlocks
+{"jsonrpc":"2.0","id":0,"error":{"code":-32601,"message":"method 'Filecoin.SyncIncomingBlocks' not supported in this mode (no out channel support)"}}
+
+
+write token was able to successfully call the api method SyncIncomingBlocks
+{"jsonrpc":"2.0","id":0,"error":{"code":-32601,"message":"method 'Filecoin.SyncIncomingBlocks' not supported in this mode (no out channel support)"}}
+
+
+sign token was able to successfully call the api method SyncIncomingBlocks
+{"jsonrpc":"2.0","id":0,"error":{"code":-32601,"message":"method 'Filecoin.SyncIncomingBlocks' not supported in this mode (no out channel support)"}}
+
+
+admin token was able to successfully call the api method SyncIncomingBlocks
+{"jsonrpc":"2.0","id":0,"error":{"code":-32601,"message":"method 'Filecoin.SyncIncomingBlocks' not supported in this mode (no out channel support)"}}
+
+
+====================================================================================================
+Testing SyncMarkBad: [None]
+====================================================================================================
+
+read token unable to call the api method SyncMarkBad
+{"jsonrpc":"2.0","id":0,"error":{"code":1,"message":"missing permission to invoke 'SyncMarkBad' (need 'admin')"}}
+{"jsonrpc": "2.0", "method": "Filecoin.SyncMarkBad", "params": [null], "id": 0}
+
+write token unable to call the api method SyncMarkBad
+{"jsonrpc":"2.0","id":0,"error":{"code":1,"message":"missing permission to invoke 'SyncMarkBad' (need 'admin')"}}
+{"jsonrpc": "2.0", "method": "Filecoin.SyncMarkBad", "params": [null], "id": 0}
+
+sign token unable to call the api method SyncMarkBad
+{"jsonrpc":"2.0","id":0,"error":{"code":1,"message":"missing permission to invoke 'SyncMarkBad' (need 'admin')"}}
+{"jsonrpc": "2.0", "method": "Filecoin.SyncMarkBad", "params": [null], "id": 0}
+
+admin token was able to successfully call the api method SyncMarkBad
+{"jsonrpc":"2.0","id":0}
+
+
+====================================================================================================
+Testing SyncCheckBad: [None]
+====================================================================================================
+
+read token was able to successfully call the api method SyncCheckBad
+{"jsonrpc":"2.0","result":"manually marked bad","id":0}
+
+
+write token was able to successfully call the api method SyncCheckBad
+{"jsonrpc":"2.0","result":"manually marked bad","id":0}
+
+
+sign token was able to successfully call the api method SyncCheckBad
+{"jsonrpc":"2.0","result":"manually marked bad","id":0}
+
+
+admin token was able to successfully call the api method SyncCheckBad
+{"jsonrpc":"2.0","result":"manually marked bad","id":0}
+
+
+====================================================================================================
+Testing MpoolPending: [None]
+====================================================================================================
+
+read token was able to successfully call the api method MpoolPending
+{"jsonrpc":"2.0","result":[{"Message":{"Version":0,"To":"t01000","From":"t3qcmxscntgxzwpkzodifg6kzopwou4h4mccgyaxjxdcoh6cxrz67rb2moy22ssma4mnhvoeeqvkpotvmjxauq","Nonce":55,"Value":"0","GasPrice":"1","GasLimit":1000000,"Method":6,"Params":"hgMYItgqWCYAAVXCHyCL14dM6rqZ2pYEo/zE/CltsoJv2wAwQk8ca5iQkFT2BBkQA4AaAJiz0Q=="},"Signature":{"Type":2,"Data":"tqocGATHMrYLboovJ6OxRvCezVTWUhZ+IHQLy8D0EwyOL3tquniVNAc5IlZOa7sIDbnx+u9HZnjZpVITaWAQeAIEzO5Ix8dH7J6fGw4+BEVHOroUA9AgKCFzgJ6eOPjP"}},{"Message":{"Version":0,"To":"t01000","From":"t3qcmxscntgxzwpkzodifg6kzopwou4h4mccgyaxjxdcoh6cxrz67rb2moy22ssma4mnhvoeeqvkpotvmjxauq","Nonce":56,"Value":"0","GasPrice":"1","GasLimit":1000000,"Method":6,"Params":"hgMYI9gqWCYAAVXCHyAeEQQHvcEw2s9li0q3dm5mCSQMMfSHu9iEjZ9sC2EMNRkQA4AaAJiz0Q=="},"Signature":{"Type":2,"Data":"hBiNaes74KdprR60WOYpYdF0S9jLvasOsCC4+MxXqmIVUBYAQUCJvn5SNLcdOe9+Cnz+U/HNUOCLWIWwOTOi2NTnm4j3iFuB7WCKj1bDzPBiL3sga2amUnyEwYl5UsyA"}},{"Message":{"Version":0,"To":"t01000","From":"t3qcmxscntgxzwpkzodifg6kzopwou4h4mccgyaxjxdcoh6cxrz67rb2moy22ssma4mnhvoeeqvkpotvmjxauq","Nonce":57,"Value":"0","GasPrice":"1","GasLimit":1000000,"Method":6,"Params":"hgMYJNgqWCYAAVXCHyAlQKWR7vS4QHac4DlaTSPjtY/nFADqE96gfZ4R1KZpPxkQA4AaAJiz0Q=="},"Signature":{"Type":2,"Data":"gQiJc9u1Z+Wh8lZ/fAEjBZZ5MWip3cgUuY3ZzrXY+kWbPgwEg69nNiLnpYJuFb8KEkHbpncR0hPw1aUizJ3uYN1+xqIEYktL6oNbMWJG/7dBF45lPgbUHKewA04B/QSa"}},{"Message":{"Version":0,"To":"t01000","From":"t3qcmxscntgxzwpkzodifg6kzopwou4h4mccgyaxjxdcoh6cxrz67rb2moy22ssma4mnhvoeeqvkpotvmjxauq","Nonce":58,"Value":"0","GasPrice":"1","GasLimit":1000000,"Method":6,"Params":"hgMYI9gqWCYAAVXCHyAeEQQHvcEw2s9li0q3dm5mCSQMMfSHu9iEjZ9sC2EMNRkQA4AaAJiz0Q=="},"Signature":{"Type":2,"Data":"lcgBEKFliw9AbKjpJfMTA2rrwEQ8wWMyoT0twirO9/EfPV9Gw/vbK+ZEW5pYSmpMAGZtqQi4nhEM0XoMJZun5UJM6WEUT4J37v1aTGi3TtJ7k1NzN6zdyFOBDdjacsWs"}},{"Message":{"Version":0,"To":"t01000","From":"t3qcmxscntgxzwpkzodifg6kzopwou4h4mccgyaxjxdcoh6cxrz67rb2moy22ssma4mnhvoeeqvkpotvmjxauq","Nonce":59,"Value":"0","GasPrice":"1","GasLimit":1000000,"Method":6,"Params":"hgMYItgqWCYAAVXCHyCL14dM6rqZ2pYEo/zE/CltsoJv2wAwQk8ca5iQkFT2BBkQA4AaAJiz0Q=="},"Signature":{"Type":2,"Data":"r1YePUX6HQExRFlN0UxDkwZrqt0Lrq9nAdRlp/vWCuB6eEQdJEAYA9ECWKVZletRF00TrqxJ5gGEBDt6uRsRNZ/CjNuzrYyDC20BkvEAFAprj/Kp1XGIB8/dCFAZxCAp"}}],"id":0}
+
+
+write token was able to successfully call the api method MpoolPending
+{"jsonrpc":"2.0","result":[{"Message":{"Version":0,"To":"t01000","From":"t3qcmxscntgxzwpkzodifg6kzopwou4h4mccgyaxjxdcoh6cxrz67rb2moy22ssma4mnhvoeeqvkpotvmjxauq","Nonce":55,"Value":"0","GasPrice":"1","GasLimit":1000000,"Method":6,"Params":"hgMYItgqWCYAAVXCHyCL14dM6rqZ2pYEo/zE/CltsoJv2wAwQk8ca5iQkFT2BBkQA4AaAJiz0Q=="},"Signature":{"Type":2,"Data":"tqocGATHMrYLboovJ6OxRvCezVTWUhZ+IHQLy8D0EwyOL3tquniVNAc5IlZOa7sIDbnx+u9HZnjZpVITaWAQeAIEzO5Ix8dH7J6fGw4+BEVHOroUA9AgKCFzgJ6eOPjP"}},{"Message":{"Version":0,"To":"t01000","From":"t3qcmxscntgxzwpkzodifg6kzopwou4h4mccgyaxjxdcoh6cxrz67rb2moy22ssma4mnhvoeeqvkpotvmjxauq","Nonce":56,"Value":"0","GasPrice":"1","GasLimit":1000000,"Method":6,"Params":"hgMYI9gqWCYAAVXCHyAeEQQHvcEw2s9li0q3dm5mCSQMMfSHu9iEjZ9sC2EMNRkQA4AaAJiz0Q=="},"Signature":{"Type":2,"Data":"hBiNaes74KdprR60WOYpYdF0S9jLvasOsCC4+MxXqmIVUBYAQUCJvn5SNLcdOe9+Cnz+U/HNUOCLWIWwOTOi2NTnm4j3iFuB7WCKj1bDzPBiL3sga2amUnyEwYl5UsyA"}},{"Message":{"Version":0,"To":"t01000","From":"t3qcmxscntgxzwpkzodifg6kzopwou4h4mccgyaxjxdcoh6cxrz67rb2moy22ssma4mnhvoeeqvkpotvmjxauq","Nonce":57,"Value":"0","GasPrice":"1","GasLimit":1000000,"Method":6,"Params":"hgMYJNgqWCYAAVXCHyAlQKWR7vS4QHac4DlaTSPjtY/nFADqE96gfZ4R1KZpPxkQA4AaAJiz0Q=="},"Signature":{"Type":2,"Data":"gQiJc9u1Z+Wh8lZ/fAEjBZZ5MWip3cgUuY3ZzrXY+kWbPgwEg69nNiLnpYJuFb8KEkHbpncR0hPw1aUizJ3uYN1+xqIEYktL6oNbMWJG/7dBF45lPgbUHKewA04B/QSa"}},{"Message":{"Version":0,"To":"t01000","From":"t3qcmxscntgxzwpkzodifg6kzopwou4h4mccgyaxjxdcoh6cxrz67rb2moy22ssma4mnhvoeeqvkpotvmjxauq","Nonce":58,"Value":"0","GasPrice":"1","GasLimit":1000000,"Method":6,"Params":"hgMYI9gqWCYAAVXCHyAeEQQHvcEw2s9li0q3dm5mCSQMMfSHu9iEjZ9sC2EMNRkQA4AaAJiz0Q=="},"Signature":{"Type":2,"Data":"lcgBEKFliw9AbKjpJfMTA2rrwEQ8wWMyoT0twirO9/EfPV9Gw/vbK+ZEW5pYSmpMAGZtqQi4nhEM0XoMJZun5UJM6WEUT4J37v1aTGi3TtJ7k1NzN6zdyFOBDdjacsWs"}},{"Message":{"Version":0,"To":"t01000","From":"t3qcmxscntgxzwpkzodifg6kzopwou4h4mccgyaxjxdcoh6cxrz67rb2moy22ssma4mnhvoeeqvkpotvmjxauq","Nonce":59,"Value":"0","GasPrice":"1","GasLimit":1000000,"Method":6,"Params":"hgMYItgqWCYAAVXCHyCL14dM6rqZ2pYEo/zE/CltsoJv2wAwQk8ca5iQkFT2BBkQA4AaAJiz0Q=="},"Signature":{"Type":2,"Data":"r1YePUX6HQExRFlN0UxDkwZrqt0Lrq9nAdRlp/vWCuB6eEQdJEAYA9ECWKVZletRF00TrqxJ5gGEBDt6uRsRNZ/CjNuzrYyDC20BkvEAFAprj/Kp1XGIB8/dCFAZxCAp"}}],"id":0}
+
+
+sign token was able to successfully call the api method MpoolPending
+{"jsonrpc":"2.0","result":[{"Message":{"Version":0,"To":"t01000","From":"t3qcmxscntgxzwpkzodifg6kzopwou4h4mccgyaxjxdcoh6cxrz67rb2moy22ssma4mnhvoeeqvkpotvmjxauq","Nonce":55,"Value":"0","GasPrice":"1","GasLimit":1000000,"Method":6,"Params":"hgMYItgqWCYAAVXCHyCL14dM6rqZ2pYEo/zE/CltsoJv2wAwQk8ca5iQkFT2BBkQA4AaAJiz0Q=="},"Signature":{"Type":2,"Data":"tqocGATHMrYLboovJ6OxRvCezVTWUhZ+IHQLy8D0EwyOL3tquniVNAc5IlZOa7sIDbnx+u9HZnjZpVITaWAQeAIEzO5Ix8dH7J6fGw4+BEVHOroUA9AgKCFzgJ6eOPjP"}},{"Message":{"Version":0,"To":"t01000","From":"t3qcmxscntgxzwpkzodifg6kzopwou4h4mccgyaxjxdcoh6cxrz67rb2moy22ssma4mnhvoeeqvkpotvmjxauq","Nonce":56,"Value":"0","GasPrice":"1","GasLimit":1000000,"Method":6,"Params":"hgMYI9gqWCYAAVXCHyAeEQQHvcEw2s9li0q3dm5mCSQMMfSHu9iEjZ9sC2EMNRkQA4AaAJiz0Q=="},"Signature":{"Type":2,"Data":"hBiNaes74KdprR60WOYpYdF0S9jLvasOsCC4+MxXqmIVUBYAQUCJvn5SNLcdOe9+Cnz+U/HNUOCLWIWwOTOi2NTnm4j3iFuB7WCKj1bDzPBiL3sga2amUnyEwYl5UsyA"}},{"Message":{"Version":0,"To":"t01000","From":"t3qcmxscntgxzwpkzodifg6kzopwou4h4mccgyaxjxdcoh6cxrz67rb2moy22ssma4mnhvoeeqvkpotvmjxauq","Nonce":57,"Value":"0","GasPrice":"1","GasLimit":1000000,"Method":6,"Params":"hgMYJNgqWCYAAVXCHyAlQKWR7vS4QHac4DlaTSPjtY/nFADqE96gfZ4R1KZpPxkQA4AaAJiz0Q=="},"Signature":{"Type":2,"Data":"gQiJc9u1Z+Wh8lZ/fAEjBZZ5MWip3cgUuY3ZzrXY+kWbPgwEg69nNiLnpYJuFb8KEkHbpncR0hPw1aUizJ3uYN1+xqIEYktL6oNbMWJG/7dBF45lPgbUHKewA04B/QSa"}},{"Message":{"Version":0,"To":"t01000","From":"t3qcmxscntgxzwpkzodifg6kzopwou4h4mccgyaxjxdcoh6cxrz67rb2moy22ssma4mnhvoeeqvkpotvmjxauq","Nonce":58,"Value":"0","GasPrice":"1","GasLimit":1000000,"Method":6,"Params":"hgMYI9gqWCYAAVXCHyAeEQQHvcEw2s9li0q3dm5mCSQMMfSHu9iEjZ9sC2EMNRkQA4AaAJiz0Q=="},"Signature":{"Type":2,"Data":"lcgBEKFliw9AbKjpJfMTA2rrwEQ8wWMyoT0twirO9/EfPV9Gw/vbK+ZEW5pYSmpMAGZtqQi4nhEM0XoMJZun5UJM6WEUT4J37v1aTGi3TtJ7k1NzN6zdyFOBDdjacsWs"}},{"Message":{"Version":0,"To":"t01000","From":"t3qcmxscntgxzwpkzodifg6kzopwou4h4mccgyaxjxdcoh6cxrz67rb2moy22ssma4mnhvoeeqvkpotvmjxauq","Nonce":59,"Value":"0","GasPrice":"1","GasLimit":1000000,"Method":6,"Params":"hgMYItgqWCYAAVXCHyCL14dM6rqZ2pYEo/zE/CltsoJv2wAwQk8ca5iQkFT2BBkQA4AaAJiz0Q=="},"Signature":{"Type":2,"Data":"r1YePUX6HQExRFlN0UxDkwZrqt0Lrq9nAdRlp/vWCuB6eEQdJEAYA9ECWKVZletRF00TrqxJ5gGEBDt6uRsRNZ/CjNuzrYyDC20BkvEAFAprj/Kp1XGIB8/dCFAZxCAp"}}],"id":0}
+
+
+admin token was able to successfully call the api method MpoolPending
+{"jsonrpc":"2.0","result":[{"Message":{"Version":0,"To":"t01000","From":"t3qcmxscntgxzwpkzodifg6kzopwou4h4mccgyaxjxdcoh6cxrz67rb2moy22ssma4mnhvoeeqvkpotvmjxauq","Nonce":55,"Value":"0","GasPrice":"1","GasLimit":1000000,"Method":6,"Params":"hgMYItgqWCYAAVXCHyCL14dM6rqZ2pYEo/zE/CltsoJv2wAwQk8ca5iQkFT2BBkQA4AaAJiz0Q=="},"Signature":{"Type":2,"Data":"tqocGATHMrYLboovJ6OxRvCezVTWUhZ+IHQLy8D0EwyOL3tquniVNAc5IlZOa7sIDbnx+u9HZnjZpVITaWAQeAIEzO5Ix8dH7J6fGw4+BEVHOroUA9AgKCFzgJ6eOPjP"}},{"Message":{"Version":0,"To":"t01000","From":"t3qcmxscntgxzwpkzodifg6kzopwou4h4mccgyaxjxdcoh6cxrz67rb2moy22ssma4mnhvoeeqvkpotvmjxauq","Nonce":56,"Value":"0","GasPrice":"1","GasLimit":1000000,"Method":6,"Params":"hgMYI9gqWCYAAVXCHyAeEQQHvcEw2s9li0q3dm5mCSQMMfSHu9iEjZ9sC2EMNRkQA4AaAJiz0Q=="},"Signature":{"Type":2,"Data":"hBiNaes74KdprR60WOYpYdF0S9jLvasOsCC4+MxXqmIVUBYAQUCJvn5SNLcdOe9+Cnz+U/HNUOCLWIWwOTOi2NTnm4j3iFuB7WCKj1bDzPBiL3sga2amUnyEwYl5UsyA"}},{"Message":{"Version":0,"To":"t01000","From":"t3qcmxscntgxzwpkzodifg6kzopwou4h4mccgyaxjxdcoh6cxrz67rb2moy22ssma4mnhvoeeqvkpotvmjxauq","Nonce":57,"Value":"0","GasPrice":"1","GasLimit":1000000,"Method":6,"Params":"hgMYJNgqWCYAAVXCHyAlQKWR7vS4QHac4DlaTSPjtY/nFADqE96gfZ4R1KZpPxkQA4AaAJiz0Q=="},"Signature":{"Type":2,"Data":"gQiJc9u1Z+Wh8lZ/fAEjBZZ5MWip3cgUuY3ZzrXY+kWbPgwEg69nNiLnpYJuFb8KEkHbpncR0hPw1aUizJ3uYN1+xqIEYktL6oNbMWJG/7dBF45lPgbUHKewA04B/QSa"}},{"Message":{"Version":0,"To":"t01000","From":"t3qcmxscntgxzwpkzodifg6kzopwou4h4mccgyaxjxdcoh6cxrz67rb2moy22ssma4mnhvoeeqvkpotvmjxauq","Nonce":58,"Value":"0","GasPrice":"1","GasLimit":1000000,"Method":6,"Params":"hgMYI9gqWCYAAVXCHyAeEQQHvcEw2s9li0q3dm5mCSQMMfSHu9iEjZ9sC2EMNRkQA4AaAJiz0Q=="},"Signature":{"Type":2,"Data":"lcgBEKFliw9AbKjpJfMTA2rrwEQ8wWMyoT0twirO9/EfPV9Gw/vbK+ZEW5pYSmpMAGZtqQi4nhEM0XoMJZun5UJM6WEUT4J37v1aTGi3TtJ7k1NzN6zdyFOBDdjacsWs"}},{"Message":{"Version":0,"To":"t01000","From":"t3qcmxscntgxzwpkzodifg6kzopwou4h4mccgyaxjxdcoh6cxrz67rb2moy22ssma4mnhvoeeqvkpotvmjxauq","Nonce":59,"Value":"0","GasPrice":"1","GasLimit":1000000,"Method":6,"Params":"hgMYItgqWCYAAVXCHyCL14dM6rqZ2pYEo/zE/CltsoJv2wAwQk8ca5iQkFT2BBkQA4AaAJiz0Q=="},"Signature":{"Type":2,"Data":"r1YePUX6HQExRFlN0UxDkwZrqt0Lrq9nAdRlp/vWCuB6eEQdJEAYA9ECWKVZletRF00TrqxJ5gGEBDt6uRsRNZ/CjNuzrYyDC20BkvEAFAprj/Kp1XGIB8/dCFAZxCAp"}}],"id":0}
+
+
+====================================================================================================
+Testing MpoolPush: [None]
+====================================================================================================
+
+read token unable to call the api method MpoolPush
+{"jsonrpc":"2.0","id":0,"error":{"code":1,"message":"missing permission to invoke 'MpoolPush' (need 'write')"}}
+{"jsonrpc": "2.0", "method": "Filecoin.MpoolPush", "params": [null], "id": 0}
+
+write token was able to successfully call the api method MpoolPush
+{"jsonrpc":"2.0","id":0,"error":{"code":0,"message":"fatal error calling 'Filecoin.MpoolPush': panic in rpc method 'Filecoin.MpoolPush': runtime error: invalid memory address or nil pointer dereference"}}
+
+
+sign token was able to successfully call the api method MpoolPush
+{"jsonrpc":"2.0","id":0,"error":{"code":0,"message":"fatal error calling 'Filecoin.MpoolPush': panic in rpc method 'Filecoin.MpoolPush': runtime error: invalid memory address or nil pointer dereference"}}
+
+
+admin token was able to successfully call the api method MpoolPush
+{"jsonrpc":"2.0","id":0,"error":{"code":0,"message":"fatal error calling 'Filecoin.MpoolPush': panic in rpc method 'Filecoin.MpoolPush': runtime error: invalid memory address or nil pointer dereference"}}
+
+
+====================================================================================================
+Testing MpoolPushMessage: [None]
+====================================================================================================
+
+read token unable to call the api method MpoolPushMessage
+{"jsonrpc":"2.0","id":0,"error":{"code":1,"message":"missing permission to invoke 'MpoolPushMessage' (need 'sign')"}}
+{"jsonrpc": "2.0", "method": "Filecoin.MpoolPushMessage", "params": [null], "id": 0}
+
+write token unable to call the api method MpoolPushMessage
+{"jsonrpc":"2.0","id":0,"error":{"code":1,"message":"missing permission to invoke 'MpoolPushMessage' (need 'sign')"}}
+{"jsonrpc": "2.0", "method": "Filecoin.MpoolPushMessage", "params": [null], "id": 0}
+
+sign token was able to successfully call the api method MpoolPushMessage
+{"jsonrpc":"2.0","id":0,"error":{"code":0,"message":"fatal error calling 'Filecoin.MpoolPushMessage': panic in rpc method 'Filecoin.MpoolPushMessage': runtime error: invalid memory address or nil pointer dereference"}}
+
+
+admin token was able to successfully call the api method MpoolPushMessage
+{"jsonrpc":"2.0","id":0,"error":{"code":0,"message":"fatal error calling 'Filecoin.MpoolPushMessage': panic in rpc method 'Filecoin.MpoolPushMessage': runtime error: invalid memory address or nil pointer dereference"}}
+
+
+====================================================================================================
+Testing MpoolGetNonce: ['t3qcmxscntgxzwpkzodifg6kzopwou4h4mccgyaxjxdcoh6cxrz67rb2moy22ssma4mnhvoeeqvkpotvmjxauq']
+====================================================================================================
+
+read token was able to successfully call the api method MpoolGetNonce
+{"jsonrpc":"2.0","result":60,"id":0}
+
+
+write token was able to successfully call the api method MpoolGetNonce
+{"jsonrpc":"2.0","result":60,"id":0}
+
+
+sign token was able to successfully call the api method MpoolGetNonce
+{"jsonrpc":"2.0","result":60,"id":0}
+
+
+admin token was able to successfully call the api method MpoolGetNonce
+{"jsonrpc":"2.0","result":60,"id":0}
+
+
+====================================================================================================
+Testing MpoolSub: []
+====================================================================================================
+
+read token was able to successfully call the api method MpoolSub
+{"jsonrpc":"2.0","id":0,"error":{"code":-32601,"message":"method 'Filecoin.MpoolSub' not supported in this mode (no out channel support)"}}
+
+
+write token was able to successfully call the api method MpoolSub
+{"jsonrpc":"2.0","id":0,"error":{"code":-32601,"message":"method 'Filecoin.MpoolSub' not supported in this mode (no out channel support)"}}
+
+
+sign token was able to successfully call the api method MpoolSub
+{"jsonrpc":"2.0","id":0,"error":{"code":-32601,"message":"method 'Filecoin.MpoolSub' not supported in this mode (no out channel support)"}}
+
+
+admin token was able to successfully call the api method MpoolSub
+{"jsonrpc":"2.0","id":0,"error":{"code":-32601,"message":"method 'Filecoin.MpoolSub' not supported in this mode (no out channel support)"}}
+
+
+====================================================================================================
+Testing MpoolEstimateGasPrice: [10, 't3qcmxscntgxzwpkzodifg6kzopwou4h4mccgyaxjxdcoh6cxrz67rb2moy22ssma4mnhvoeeqvkpotvmjxauq', 15, None]
+====================================================================================================
+
+read token was able to successfully call the api method MpoolEstimateGasPrice
+{"jsonrpc":"2.0","result":"0","id":0}
+
+
+write token was able to successfully call the api method MpoolEstimateGasPrice
+{"jsonrpc":"2.0","result":"0","id":0}
+
+
+sign token was able to successfully call the api method MpoolEstimateGasPrice
+{"jsonrpc":"2.0","result":"0","id":0}
+
+
+admin token was able to successfully call the api method MpoolEstimateGasPrice
+{"jsonrpc":"2.0","result":"0","id":0}
+
+
+====================================================================================================
+Testing MinerGetBaseInfo: ['t3qcmxscntgxzwpkzodifg6kzopwou4h4mccgyaxjxdcoh6cxrz67rb2moy22ssma4mnhvoeeqvkpotvmjxauq', None, None]
+====================================================================================================
+
+read token was able to successfully call the api method MinerGetBaseInfo
+{"jsonrpc":"2.0","id":0,"error":{"code":1,"message":"failed to load tipset for mining base: NewTipSet called with zero length array of blocks"}}
+
+
+write token was able to successfully call the api method MinerGetBaseInfo
+{"jsonrpc":"2.0","id":0,"error":{"code":1,"message":"failed to load tipset for mining base: NewTipSet called with zero length array of blocks"}}
+
+
+sign token was able to successfully call the api method MinerGetBaseInfo
+{"jsonrpc":"2.0","id":0,"error":{"code":1,"message":"failed to load tipset for mining base: NewTipSet called with zero length array of blocks"}}
+
+
+admin token was able to successfully call the api method MinerGetBaseInfo
+{"jsonrpc":"2.0","id":0,"error":{"code":1,"message":"failed to load tipset for mining base: NewTipSet called with zero length array of blocks"}}
+
+
+====================================================================================================
+Testing MinerCreateBlock: [None]
+====================================================================================================
+
+read token unable to call the api method MinerCreateBlock
+{"jsonrpc":"2.0","id":0,"error":{"code":1,"message":"missing permission to invoke 'MinerCreateBlock' (need 'write')"}}
+{"jsonrpc": "2.0", "method": "Filecoin.MinerCreateBlock", "params": [null], "id": 0}
+
+write token was able to successfully call the api method MinerCreateBlock
+{"jsonrpc":"2.0","id":0,"error":{"code":0,"message":"fatal error calling 'Filecoin.MinerCreateBlock': panic in rpc method 'Filecoin.MinerCreateBlock': runtime error: invalid memory address or nil pointer dereference"}}
+
+
+sign token was able to successfully call the api method MinerCreateBlock
+{"jsonrpc":"2.0","id":0,"error":{"code":0,"message":"fatal error calling 'Filecoin.MinerCreateBlock': panic in rpc method 'Filecoin.MinerCreateBlock': runtime error: invalid memory address or nil pointer dereference"}}
+
+
+admin token was able to successfully call the api method MinerCreateBlock
+{"jsonrpc":"2.0","id":0,"error":{"code":0,"message":"fatal error calling 'Filecoin.MinerCreateBlock': panic in rpc method 'Filecoin.MinerCreateBlock': runtime error: invalid memory address or nil pointer dereference"}}
+
+
+====================================================================================================
+Testing WalletNew: [None]
+====================================================================================================
+
+read token unable to call the api method WalletNew
+{"jsonrpc":"2.0","id":0,"error":{"code":1,"message":"missing permission to invoke 'WalletNew' (need 'write')"}}
+{"jsonrpc": "2.0", "method": "Filecoin.WalletNew", "params": [null], "id": 0}
+
+write token was able to successfully call the api method WalletNew
+{"jsonrpc":"2.0","id":0,"error":{"code":1,"message":"cannot generate private key of unsupported type: 0"}}
+
+
+sign token was able to successfully call the api method WalletNew
+{"jsonrpc":"2.0","id":0,"error":{"code":1,"message":"cannot generate private key of unsupported type: 0"}}
+
+
+admin token was able to successfully call the api method WalletNew
+{"jsonrpc":"2.0","id":0,"error":{"code":1,"message":"cannot generate private key of unsupported type: 0"}}
+
+
+====================================================================================================
+Testing WalletHas: ['t3qcmxscntgxzwpkzodifg6kzopwou4h4mccgyaxjxdcoh6cxrz67rb2moy22ssma4mnhvoeeqvkpotvmjxauq']
+====================================================================================================
+
+read token unable to call the api method WalletHas
+{"jsonrpc":"2.0","id":0,"error":{"code":1,"message":"missing permission to invoke 'WalletHas' (need 'write')"}}
+{"jsonrpc": "2.0", "method": "Filecoin.WalletHas", "params": ["t3qcmxscntgxzwpkzodifg6kzopwou4h4mccgyaxjxdcoh6cxrz67rb2moy22ssma4mnhvoeeqvkpotvmjxauq"], "id": 0}
+
+write token was able to successfully call the api method WalletHas
+{"jsonrpc":"2.0","result":true,"id":0}
+
+
+sign token was able to successfully call the api method WalletHas
+{"jsonrpc":"2.0","result":true,"id":0}
+
+
+admin token was able to successfully call the api method WalletHas
+{"jsonrpc":"2.0","result":true,"id":0}
+
+
+====================================================================================================
+Testing WalletList: []
+====================================================================================================
+
+read token unable to call the api method WalletList
+{"jsonrpc":"2.0","id":0,"error":{"code":1,"message":"missing permission to invoke 'WalletList' (need 'write')"}}
+{"jsonrpc": "2.0", "method": "Filecoin.WalletList", "params": [], "id": 0}
+
+write token was able to successfully call the api method WalletList
+{"jsonrpc":"2.0","result":["t3qcmxscntgxzwpkzodifg6kzopwou4h4mccgyaxjxdcoh6cxrz67rb2moy22ssma4mnhvoeeqvkpotvmjxauq"],"id":0}
+
+
+sign token was able to successfully call the api method WalletList
+{"jsonrpc":"2.0","result":["t3qcmxscntgxzwpkzodifg6kzopwou4h4mccgyaxjxdcoh6cxrz67rb2moy22ssma4mnhvoeeqvkpotvmjxauq"],"id":0}
+
+
+admin token was able to successfully call the api method WalletList
+{"jsonrpc":"2.0","result":["t3qcmxscntgxzwpkzodifg6kzopwou4h4mccgyaxjxdcoh6cxrz67rb2moy22ssma4mnhvoeeqvkpotvmjxauq"],"id":0}
+
+
+====================================================================================================
+Testing WalletBalance: ['t3qcmxscntgxzwpkzodifg6kzopwou4h4mccgyaxjxdcoh6cxrz67rb2moy22ssma4mnhvoeeqvkpotvmjxauq']
+====================================================================================================
+
+read token was able to successfully call the api method WalletBalance
+{"jsonrpc":"2.0","result":"49999992749589767157928024","id":0}
+
+
+write token was able to successfully call the api method WalletBalance
+{"jsonrpc":"2.0","result":"49999992749589767157928024","id":0}
+
+
+sign token was able to successfully call the api method WalletBalance
+{"jsonrpc":"2.0","result":"49999992749589767157928024","id":0}
+
+
+admin token was able to successfully call the api method WalletBalance
+{"jsonrpc":"2.0","result":"49999992749589767157928024","id":0}
+
+
+====================================================================================================
+Testing WalletSign: ['t3qcmxscntgxzwpkzodifg6kzopwou4h4mccgyaxjxdcoh6cxrz67rb2moy22ssma4mnhvoeeqvkpotvmjxauq', 'VGhpcyBpcyBhIHN0cmluZw==']
+====================================================================================================
+
+read token unable to call the api method WalletSign
+{"jsonrpc":"2.0","id":0,"error":{"code":1,"message":"missing permission to invoke 'WalletSign' (need 'sign')"}}
+{"jsonrpc": "2.0", "method": "Filecoin.WalletSign", "params": ["t3qcmxscntgxzwpkzodifg6kzopwou4h4mccgyaxjxdcoh6cxrz67rb2moy22ssma4mnhvoeeqvkpotvmjxauq", "VGhpcyBpcyBhIHN0cmluZw=="], "id": 0}
+
+write token unable to call the api method WalletSign
+{"jsonrpc":"2.0","id":0,"error":{"code":1,"message":"missing permission to invoke 'WalletSign' (need 'sign')"}}
+{"jsonrpc": "2.0", "method": "Filecoin.WalletSign", "params": ["t3qcmxscntgxzwpkzodifg6kzopwou4h4mccgyaxjxdcoh6cxrz67rb2moy22ssma4mnhvoeeqvkpotvmjxauq", "VGhpcyBpcyBhIHN0cmluZw=="], "id": 0}
+
+sign token was able to successfully call the api method WalletSign
+{"jsonrpc":"2.0","result":{"Type":2,"Data":"iEZ452FKyvauilS5bnZac8u2aqopXJBZPZCGJu9dMzAT1bnfyCEmQYu4wZsUh9/lFn+n+Zla7okB/Rwxa1kwnh5sGejFia9+KBuIhU93dGeG0V150ahgK1mEm1jikQ2o"},"id":0}
+
+
+admin token was able to successfully call the api method WalletSign
+{"jsonrpc":"2.0","result":{"Type":2,"Data":"iEZ452FKyvauilS5bnZac8u2aqopXJBZPZCGJu9dMzAT1bnfyCEmQYu4wZsUh9/lFn+n+Zla7okB/Rwxa1kwnh5sGejFia9+KBuIhU93dGeG0V150ahgK1mEm1jikQ2o"},"id":0}
+
+
+====================================================================================================
+Testing WalletSignMessage: ['t3qcmxscntgxzwpkzodifg6kzopwou4h4mccgyaxjxdcoh6cxrz67rb2moy22ssma4mnhvoeeqvkpotvmjxauq', None]
+====================================================================================================
+
+read token unable to call the api method WalletSignMessage
+{"jsonrpc":"2.0","id":0,"error":{"code":1,"message":"missing permission to invoke 'WalletSignMessage' (need 'sign')"}}
+{"jsonrpc": "2.0", "method": "Filecoin.WalletSignMessage", "params": ["t3qcmxscntgxzwpkzodifg6kzopwou4h4mccgyaxjxdcoh6cxrz67rb2moy22ssma4mnhvoeeqvkpotvmjxauq", null], "id": 0}
+
+write token unable to call the api method WalletSignMessage
+{"jsonrpc":"2.0","id":0,"error":{"code":1,"message":"missing permission to invoke 'WalletSignMessage' (need 'sign')"}}
+{"jsonrpc": "2.0", "method": "Filecoin.WalletSignMessage", "params": ["t3qcmxscntgxzwpkzodifg6kzopwou4h4mccgyaxjxdcoh6cxrz67rb2moy22ssma4mnhvoeeqvkpotvmjxauq", null], "id": 0}
+
+sign token was able to successfully call the api method WalletSignMessage
+{"jsonrpc":"2.0","id":0,"error":{"code":0,"message":"fatal error calling 'Filecoin.WalletSignMessage': panic in rpc method 'Filecoin.WalletSignMessage': runtime error: invalid memory address or nil pointer dereference"}}
+
+
+admin token was able to successfully call the api method WalletSignMessage
+{"jsonrpc":"2.0","id":0,"error":{"code":0,"message":"fatal error calling 'Filecoin.WalletSignMessage': panic in rpc method 'Filecoin.WalletSignMessage': runtime error: invalid memory address or nil pointer dereference"}}
+
+
+====================================================================================================
+Testing WalletVerify: ['t3qcmxscntgxzwpkzodifg6kzopwou4h4mccgyaxjxdcoh6cxrz67rb2moy22ssma4mnhvoeeqvkpotvmjxauq', 'VGhpcyBpcyBhIHN0cmluZw==', None]
+====================================================================================================
+
+read token was able to successfully call the api method WalletVerify
+{"jsonrpc":"2.0","result":false,"id":0}
+
+
+write token was able to successfully call the api method WalletVerify
+{"jsonrpc":"2.0","result":false,"id":0}
+
+
+sign token was able to successfully call the api method WalletVerify
+{"jsonrpc":"2.0","result":false,"id":0}
+
+
+admin token was able to successfully call the api method WalletVerify
+{"jsonrpc":"2.0","result":false,"id":0}
+
+
+====================================================================================================
+Testing WalletDefaultAddress: []
+====================================================================================================
+
+read token unable to call the api method WalletDefaultAddress
+{"jsonrpc":"2.0","id":0,"error":{"code":1,"message":"missing permission to invoke 'WalletDefaultAddress' (need 'write')"}}
+{"jsonrpc": "2.0", "method": "Filecoin.WalletDefaultAddress", "params": [], "id": 0}
+
+write token was able to successfully call the api method WalletDefaultAddress
+{"jsonrpc":"2.0","result":"t3qcmxscntgxzwpkzodifg6kzopwou4h4mccgyaxjxdcoh6cxrz67rb2moy22ssma4mnhvoeeqvkpotvmjxauq","id":0}
+
+
+sign token was able to successfully call the api method WalletDefaultAddress
+{"jsonrpc":"2.0","result":"t3qcmxscntgxzwpkzodifg6kzopwou4h4mccgyaxjxdcoh6cxrz67rb2moy22ssma4mnhvoeeqvkpotvmjxauq","id":0}
+
+
+admin token was able to successfully call the api method WalletDefaultAddress
+{"jsonrpc":"2.0","result":"t3qcmxscntgxzwpkzodifg6kzopwou4h4mccgyaxjxdcoh6cxrz67rb2moy22ssma4mnhvoeeqvkpotvmjxauq","id":0}
+
+
+====================================================================================================
+Testing WalletSetDefault: ['t3qcmxscntgxzwpkzodifg6kzopwou4h4mccgyaxjxdcoh6cxrz67rb2moy22ssma4mnhvoeeqvkpotvmjxauq']
+====================================================================================================
+
+read token unable to call the api method WalletSetDefault
+{"jsonrpc":"2.0","id":0,"error":{"code":1,"message":"missing permission to invoke 'WalletSetDefault' (need 'admin')"}}
+{"jsonrpc": "2.0", "method": "Filecoin.WalletSetDefault", "params": ["t3qcmxscntgxzwpkzodifg6kzopwou4h4mccgyaxjxdcoh6cxrz67rb2moy22ssma4mnhvoeeqvkpotvmjxauq"], "id": 0}
+
+write token unable to call the api method WalletSetDefault
+{"jsonrpc":"2.0","id":0,"error":{"code":1,"message":"missing permission to invoke 'WalletSetDefault' (need 'admin')"}}
+{"jsonrpc": "2.0", "method": "Filecoin.WalletSetDefault", "params": ["t3qcmxscntgxzwpkzodifg6kzopwou4h4mccgyaxjxdcoh6cxrz67rb2moy22ssma4mnhvoeeqvkpotvmjxauq"], "id": 0}
+
+sign token unable to call the api method WalletSetDefault
+{"jsonrpc":"2.0","id":0,"error":{"code":1,"message":"missing permission to invoke 'WalletSetDefault' (need 'admin')"}}
+{"jsonrpc": "2.0", "method": "Filecoin.WalletSetDefault", "params": ["t3qcmxscntgxzwpkzodifg6kzopwou4h4mccgyaxjxdcoh6cxrz67rb2moy22ssma4mnhvoeeqvkpotvmjxauq"], "id": 0}
+
+admin token was able to successfully call the api method WalletSetDefault
+{"jsonrpc":"2.0","id":0}
+
+
+====================================================================================================
+Testing WalletExport: ['t3qcmxscntgxzwpkzodifg6kzopwou4h4mccgyaxjxdcoh6cxrz67rb2moy22ssma4mnhvoeeqvkpotvmjxauq']
+====================================================================================================
+
+read token unable to call the api method WalletExport
+{"jsonrpc":"2.0","id":0,"error":{"code":1,"message":"missing permission to invoke 'WalletExport' (need 'admin')"}}
+{"jsonrpc": "2.0", "method": "Filecoin.WalletExport", "params": ["t3qcmxscntgxzwpkzodifg6kzopwou4h4mccgyaxjxdcoh6cxrz67rb2moy22ssma4mnhvoeeqvkpotvmjxauq"], "id": 0}
+
+write token unable to call the api method WalletExport
+{"jsonrpc":"2.0","id":0,"error":{"code":1,"message":"missing permission to invoke 'WalletExport' (need 'admin')"}}
+{"jsonrpc": "2.0", "method": "Filecoin.WalletExport", "params": ["t3qcmxscntgxzwpkzodifg6kzopwou4h4mccgyaxjxdcoh6cxrz67rb2moy22ssma4mnhvoeeqvkpotvmjxauq"], "id": 0}
+
+sign token unable to call the api method WalletExport
+{"jsonrpc":"2.0","id":0,"error":{"code":1,"message":"missing permission to invoke 'WalletExport' (need 'admin')"}}
+{"jsonrpc": "2.0", "method": "Filecoin.WalletExport", "params": ["t3qcmxscntgxzwpkzodifg6kzopwou4h4mccgyaxjxdcoh6cxrz67rb2moy22ssma4mnhvoeeqvkpotvmjxauq"], "id": 0}
+
+admin token was able to successfully call the api method WalletExport
+{"jsonrpc":"2.0","result":{"Type":"bls","PrivateKey":"Y5etT0domAiLdoFDO9uHyd07dY647spLJu5lu6R5Pgo="},"id":0}
+
+
+====================================================================================================
+Testing WalletImport: [None]
+====================================================================================================
+
+read token unable to call the api method WalletImport
+{"jsonrpc":"2.0","id":0,"error":{"code":1,"message":"missing permission to invoke 'WalletImport' (need 'admin')"}}
+{"jsonrpc": "2.0", "method": "Filecoin.WalletImport", "params": [null], "id": 0}
+
+write token unable to call the api method WalletImport
+{"jsonrpc":"2.0","id":0,"error":{"code":1,"message":"missing permission to invoke 'WalletImport' (need 'admin')"}}
+{"jsonrpc": "2.0", "method": "Filecoin.WalletImport", "params": [null], "id": 0}
+
+sign token unable to call the api method WalletImport
+{"jsonrpc":"2.0","id":0,"error":{"code":1,"message":"missing permission to invoke 'WalletImport' (need 'admin')"}}
+{"jsonrpc": "2.0", "method": "Filecoin.WalletImport", "params": [null], "id": 0}
+
+admin token was able to successfully call the api method WalletImport
+{"jsonrpc":"2.0","id":0,"error":{"code":0,"message":"fatal error calling 'Filecoin.WalletImport': panic in rpc method 'Filecoin.WalletImport': runtime error: invalid memory address or nil pointer dereference"}}
+
+
+====================================================================================================
+Testing ClientImport: [None]
+====================================================================================================
+
+read token unable to call the api method ClientImport
+{"jsonrpc":"2.0","id":0,"error":{"code":1,"message":"missing permission to invoke 'ClientImport' (need 'admin')"}}
+{"jsonrpc": "2.0", "method": "Filecoin.ClientImport", "params": [null], "id": 0}
+
+write token unable to call the api method ClientImport
+{"jsonrpc":"2.0","id":0,"error":{"code":1,"message":"missing permission to invoke 'ClientImport' (need 'admin')"}}
+{"jsonrpc": "2.0", "method": "Filecoin.ClientImport", "params": [null], "id": 0}
+
+sign token unable to call the api method ClientImport
+{"jsonrpc":"2.0","id":0,"error":{"code":1,"message":"missing permission to invoke 'ClientImport' (need 'admin')"}}
+{"jsonrpc": "2.0", "method": "Filecoin.ClientImport", "params": [null], "id": 0}
+
+admin token was able to successfully call the api method ClientImport
+{"jsonrpc":"2.0","id":0,"error":{"code":1,"message":"open : no such file or directory"}}
+
+
+====================================================================================================
+Testing ClientListImports: []
+====================================================================================================
+
+read token unable to call the api method ClientListImports
+{"jsonrpc":"2.0","id":0,"error":{"code":1,"message":"missing permission to invoke 'ClientListImports' (need 'write')"}}
+{"jsonrpc": "2.0", "method": "Filecoin.ClientListImports", "params": [], "id": 0}
+
+write token was able to successfully call the api method ClientListImports
+{"jsonrpc":"2.0","result":[],"id":0}
+
+
+sign token was able to successfully call the api method ClientListImports
+{"jsonrpc":"2.0","result":[],"id":0}
+
+
+admin token was able to successfully call the api method ClientListImports
+{"jsonrpc":"2.0","result":[],"id":0}
+
+
+====================================================================================================
+Testing ClientHasLocal: [None]
+====================================================================================================
+
+read token unable to call the api method ClientHasLocal
+{"jsonrpc":"2.0","id":0,"error":{"code":1,"message":"missing permission to invoke 'ClientHasLocal' (need 'write')"}}
+{"jsonrpc": "2.0", "method": "Filecoin.ClientHasLocal", "params": [null], "id": 0}
+
+write token was able to successfully call the api method ClientHasLocal
+{"jsonrpc":"2.0","id":0,"error":{"code":0,"message":"fatal error calling 'Filecoin.ClientHasLocal': panic in rpc method 'Filecoin.ClientHasLocal': runtime error: invalid memory address or nil pointer dereference"}}
+
+
+sign token was able to successfully call the api method ClientHasLocal
+{"jsonrpc":"2.0","id":0,"error":{"code":0,"message":"fatal error calling 'Filecoin.ClientHasLocal': panic in rpc method 'Filecoin.ClientHasLocal': runtime error: invalid memory address or nil pointer dereference"}}
+
+
+admin token was able to successfully call the api method ClientHasLocal
+{"jsonrpc":"2.0","id":0,"error":{"code":0,"message":"fatal error calling 'Filecoin.ClientHasLocal': panic in rpc method 'Filecoin.ClientHasLocal': runtime error: invalid memory address or nil pointer dereference"}}
+
+
+====================================================================================================
+Testing ClientFindData: [None]
+====================================================================================================
+
+read token was able to successfully call the api method ClientFindData
+{"jsonrpc":"2.0","result":[],"id":0}
+
+
+write token was able to successfully call the api method ClientFindData
+{"jsonrpc":"2.0","result":[],"id":0}
+
+
+sign token was able to successfully call the api method ClientFindData
+{"jsonrpc":"2.0","result":[],"id":0}
+
+
+admin token was able to successfully call the api method ClientFindData
+{"jsonrpc":"2.0","result":[],"id":0}
+
+
+====================================================================================================
+Testing ClientStartDeal: [None]
+====================================================================================================
+
+read token unable to call the api method ClientStartDeal
+{"jsonrpc":"2.0","id":0,"error":{"code":1,"message":"missing permission to invoke 'ClientStartDeal' (need 'admin')"}}
+{"jsonrpc": "2.0", "method": "Filecoin.ClientStartDeal", "params": [null], "id": 0}
+
+write token unable to call the api method ClientStartDeal
+{"jsonrpc":"2.0","id":0,"error":{"code":1,"message":"missing permission to invoke 'ClientStartDeal' (need 'admin')"}}
+{"jsonrpc": "2.0", "method": "Filecoin.ClientStartDeal", "params": [null], "id": 0}
+
+sign token unable to call the api method ClientStartDeal
+{"jsonrpc":"2.0","id":0,"error":{"code":1,"message":"missing permission to invoke 'ClientStartDeal' (need 'admin')"}}
+{"jsonrpc": "2.0", "method": "Filecoin.ClientStartDeal", "params": [null], "id": 0}
+
+admin token was able to successfully call the api method ClientStartDeal
+{"jsonrpc":"2.0","id":0,"error":{"code":0,"message":"fatal error calling 'Filecoin.ClientStartDeal': panic in rpc method 'Filecoin.ClientStartDeal': runtime error: invalid memory address or nil pointer dereference"}}
+
+
+====================================================================================================
+Testing ClientGetDealInfo: [None]
+====================================================================================================
+
+read token was able to successfully call the api method ClientGetDealInfo
+{"jsonrpc":"2.0","id":0,"error":{"code":1,"message":"No state for /b: datastore: key not found"}}
+
+
+write token was able to successfully call the api method ClientGetDealInfo
+{"jsonrpc":"2.0","id":0,"error":{"code":1,"message":"No state for /b: datastore: key not found"}}
+
+
+sign token was able to successfully call the api method ClientGetDealInfo
+{"jsonrpc":"2.0","id":0,"error":{"code":1,"message":"No state for /b: datastore: key not found"}}
+
+
+admin token was able to successfully call the api method ClientGetDealInfo
+{"jsonrpc":"2.0","id":0,"error":{"code":1,"message":"No state for /b: datastore: key not found"}}
+
+
+====================================================================================================
+Testing ClientListDeals: []
+====================================================================================================
+
+read token unable to call the api method ClientListDeals
+{"jsonrpc":"2.0","id":0,"error":{"code":1,"message":"missing permission to invoke 'ClientListDeals' (need 'write')"}}
+{"jsonrpc": "2.0", "method": "Filecoin.ClientListDeals", "params": [], "id": 0}
+
+write token was able to successfully call the api method ClientListDeals
+{"jsonrpc":"2.0","result":[],"id":0}
+
+
+sign token was able to successfully call the api method ClientListDeals
+{"jsonrpc":"2.0","result":[],"id":0}
+
+
+admin token was able to successfully call the api method ClientListDeals
+{"jsonrpc":"2.0","result":[],"id":0}
+
+
+====================================================================================================
+Testing ClientRetrieve: [None, None]
+====================================================================================================
+
+read token unable to call the api method ClientRetrieve
+{"jsonrpc":"2.0","id":0,"error":{"code":1,"message":"missing permission to invoke 'ClientRetrieve' (need 'admin')"}}
+{"jsonrpc": "2.0", "method": "Filecoin.ClientRetrieve", "params": [null, null], "id": 0}
+
+write token unable to call the api method ClientRetrieve
+{"jsonrpc":"2.0","id":0,"error":{"code":1,"message":"missing permission to invoke 'ClientRetrieve' (need 'admin')"}}
+{"jsonrpc": "2.0", "method": "Filecoin.ClientRetrieve", "params": [null, null], "id": 0}
+
+sign token unable to call the api method ClientRetrieve
+{"jsonrpc":"2.0","id":0,"error":{"code":1,"message":"missing permission to invoke 'ClientRetrieve' (need 'admin')"}}
+{"jsonrpc": "2.0", "method": "Filecoin.ClientRetrieve", "params": [null, null], "id": 0}
+
+admin token was able to successfully call the api method ClientRetrieve
+{"jsonrpc":"2.0","id":0,"error":{"code":1,"message":"(get ssize) failed to load miner actor state: GetActor called on undefined address"}}
+
+
+====================================================================================================
+Testing ClientQueryAsk: ['12D3KooWN7X2zSAmFS3UDrr4gZS9K6GbgWgmdbRNRSZXUvr1C5kZ', 't3qcmxscntgxzwpkzodifg6kzopwou4h4mccgyaxjxdcoh6cxrz67rb2moy22ssma4mnhvoeeqvkpotvmjxauq']
+====================================================================================================
+
+read token was able to successfully call the api method ClientQueryAsk
+{"jsonrpc":"2.0","id":0,"error":{"code":1,"message":"failed to open stream to miner: dial to self attempted"}}
+
+
+write token was able to successfully call the api method ClientQueryAsk
+{"jsonrpc":"2.0","id":0,"error":{"code":1,"message":"failed to open stream to miner: dial to self attempted"}}
+
+
+sign token was able to successfully call the api method ClientQueryAsk
+{"jsonrpc":"2.0","id":0,"error":{"code":1,"message":"failed to open stream to miner: dial to self attempted"}}
+
+
+admin token was able to successfully call the api method ClientQueryAsk
+{"jsonrpc":"2.0","id":0,"error":{"code":1,"message":"failed to open stream to miner: dial to self attempted"}}
+
+
+====================================================================================================
+Testing ClientCalcCommP: [None, None]
+====================================================================================================
+
+read token was able to successfully call the api method ClientCalcCommP
+{"jsonrpc":"2.0","id":0,"error":{"code":1,"message":"failed checking miners sector size: (get ssize) failed to load miner actor state: GetActor called on undefined address"}}
+
+
+write token was able to successfully call the api method ClientCalcCommP
+{"jsonrpc":"2.0","id":0,"error":{"code":1,"message":"failed checking miners sector size: (get ssize) failed to load miner actor state: GetActor called on undefined address"}}
+
+
+sign token was able to successfully call the api method ClientCalcCommP
+{"jsonrpc":"2.0","id":0,"error":{"code":1,"message":"failed checking miners sector size: (get ssize) failed to load miner actor state: GetActor called on undefined address"}}
+
+
+admin token was able to successfully call the api method ClientCalcCommP
+{"jsonrpc":"2.0","id":0,"error":{"code":1,"message":"failed checking miners sector size: (get ssize) failed to load miner actor state: GetActor called on undefined address"}}
+
+
+====================================================================================================
+Testing ClientGenCar: [None, None]
+====================================================================================================
+
+read token unable to call the api method ClientGenCar
+{"jsonrpc":"2.0","id":0,"error":{"code":1,"message":"missing permission to invoke 'ClientGenCar' (need 'write')"}}
+{"jsonrpc": "2.0", "method": "Filecoin.ClientGenCar", "params": [null, null], "id": 0}
+
+write token was able to successfully call the api method ClientGenCar
+{"jsonrpc":"2.0","id":0,"error":{"code":1,"message":"open : no such file or directory"}}
+
+
+sign token was able to successfully call the api method ClientGenCar
+{"jsonrpc":"2.0","id":0,"error":{"code":1,"message":"open : no such file or directory"}}
+
+
+admin token was able to successfully call the api method ClientGenCar
+{"jsonrpc":"2.0","id":0,"error":{"code":1,"message":"open : no such file or directory"}}
+
+
+====================================================================================================
+Testing StateNetworkName: []
+====================================================================================================
+
+read token was able to successfully call the api method StateNetworkName
+{"jsonrpc":"2.0","result":"localnet-6d48f5f0-1943-414a-af50-75bd288f519e","id":0}
+
+
+write token was able to successfully call the api method StateNetworkName
+{"jsonrpc":"2.0","result":"localnet-6d48f5f0-1943-414a-af50-75bd288f519e","id":0}
+
+
+sign token was able to successfully call the api method StateNetworkName
+{"jsonrpc":"2.0","result":"localnet-6d48f5f0-1943-414a-af50-75bd288f519e","id":0}
+
+
+admin token was able to successfully call the api method StateNetworkName
+{"jsonrpc":"2.0","result":"localnet-6d48f5f0-1943-414a-af50-75bd288f519e","id":0}
+
+
+====================================================================================================
+Testing StateMinerSectors: ['t3qcmxscntgxzwpkzodifg6kzopwou4h4mccgyaxjxdcoh6cxrz67rb2moy22ssma4mnhvoeeqvkpotvmjxauq', None, False, None]
+====================================================================================================
+
+read token was able to successfully call the api method StateMinerSectors
+{"jsonrpc":"2.0","id":0,"error":{"code":1,"message":"(get sset) failed to load miner actor state: cbor input had wrong number of fields"}}
+
+
+write token was able to successfully call the api method StateMinerSectors
+{"jsonrpc":"2.0","id":0,"error":{"code":1,"message":"(get sset) failed to load miner actor state: cbor input had wrong number of fields"}}
+
+
+sign token was able to successfully call the api method StateMinerSectors
+{"jsonrpc":"2.0","id":0,"error":{"code":1,"message":"(get sset) failed to load miner actor state: cbor input had wrong number of fields"}}
+
+
+admin token was able to successfully call the api method StateMinerSectors
+{"jsonrpc":"2.0","id":0,"error":{"code":1,"message":"(get sset) failed to load miner actor state: cbor input had wrong number of fields"}}
+
+
+====================================================================================================
+Testing StateMinerProvingSet: ['t3qcmxscntgxzwpkzodifg6kzopwou4h4mccgyaxjxdcoh6cxrz67rb2moy22ssma4mnhvoeeqvkpotvmjxauq', None]
+====================================================================================================
+
+read token was able to successfully call the api method StateMinerProvingSet
+{"jsonrpc":"2.0","id":0,"error":{"code":1,"message":"(get sset) failed to load miner actor state: cbor input had wrong number of fields"}}
+
+
+write token was able to successfully call the api method StateMinerProvingSet
+{"jsonrpc":"2.0","id":0,"error":{"code":1,"message":"(get sset) failed to load miner actor state: cbor input had wrong number of fields"}}
+
+
+sign token was able to successfully call the api method StateMinerProvingSet
+{"jsonrpc":"2.0","id":0,"error":{"code":1,"message":"(get sset) failed to load miner actor state: cbor input had wrong number of fields"}}
+
+
+admin token was able to successfully call the api method StateMinerProvingSet
+{"jsonrpc":"2.0","id":0,"error":{"code":1,"message":"(get sset) failed to load miner actor state: cbor input had wrong number of fields"}}
+
+
+====================================================================================================
+Testing StateMinerProvingDeadline: ['t3qcmxscntgxzwpkzodifg6kzopwou4h4mccgyaxjxdcoh6cxrz67rb2moy22ssma4mnhvoeeqvkpotvmjxauq', None]
+====================================================================================================
+
+read token was able to successfully call the api method StateMinerProvingDeadline
+{"jsonrpc":"2.0","id":0,"error":{"code":1,"message":"(get sset) failed to load miner actor state: cbor input had wrong number of fields"}}
+
+
+write token was able to successfully call the api method StateMinerProvingDeadline
+{"jsonrpc":"2.0","id":0,"error":{"code":1,"message":"(get sset) failed to load miner actor state: cbor input had wrong number of fields"}}
+
+
+sign token was able to successfully call the api method StateMinerProvingDeadline
+{"jsonrpc":"2.0","id":0,"error":{"code":1,"message":"(get sset) failed to load miner actor state: cbor input had wrong number of fields"}}
+
+
+admin token was able to successfully call the api method StateMinerProvingDeadline
+{"jsonrpc":"2.0","id":0,"error":{"code":1,"message":"(get sset) failed to load miner actor state: cbor input had wrong number of fields"}}
+
+
+====================================================================================================
+Testing StateMinerPower: ['t3qcmxscntgxzwpkzodifg6kzopwou4h4mccgyaxjxdcoh6cxrz67rb2moy22ssma4mnhvoeeqvkpotvmjxauq', None]
+====================================================================================================
+
+read token was able to successfully call the api method StateMinerPower
+{"jsonrpc":"2.0","result":{"MinerPower":{"RawBytePower":"0","QualityAdjPower":"0"},"TotalPower":{"RawBytePower":"49152","QualityAdjPower":"86016"}},"id":0}
+
+
+write token was able to successfully call the api method StateMinerPower
+{"jsonrpc":"2.0","result":{"MinerPower":{"RawBytePower":"0","QualityAdjPower":"0"},"TotalPower":{"RawBytePower":"49152","QualityAdjPower":"86016"}},"id":0}
+
+
+sign token was able to successfully call the api method StateMinerPower
+{"jsonrpc":"2.0","result":{"MinerPower":{"RawBytePower":"0","QualityAdjPower":"0"},"TotalPower":{"RawBytePower":"49152","QualityAdjPower":"86016"}},"id":0}
+
+
+admin token was able to successfully call the api method StateMinerPower
+{"jsonrpc":"2.0","result":{"MinerPower":{"RawBytePower":"0","QualityAdjPower":"0"},"TotalPower":{"RawBytePower":"49152","QualityAdjPower":"86016"}},"id":0}
+
+
+====================================================================================================
+Testing StateMinerInfo: ['t3qcmxscntgxzwpkzodifg6kzopwou4h4mccgyaxjxdcoh6cxrz67rb2moy22ssma4mnhvoeeqvkpotvmjxauq', None]
+====================================================================================================
+
+read token was able to successfully call the api method StateMinerInfo
+{"jsonrpc":"2.0","id":0,"error":{"code":1,"message":"(get ssize) failed to load miner actor state: cbor input had wrong number of fields"}}
+
+
+write token was able to successfully call the api method StateMinerInfo
+{"jsonrpc":"2.0","id":0,"error":{"code":1,"message":"(get ssize) failed to load miner actor state: cbor input had wrong number of fields"}}
+
+
+sign token was able to successfully call the api method StateMinerInfo
+{"jsonrpc":"2.0","id":0,"error":{"code":1,"message":"(get ssize) failed to load miner actor state: cbor input had wrong number of fields"}}
+
+
+admin token was able to successfully call the api method StateMinerInfo
+{"jsonrpc":"2.0","id":0,"error":{"code":1,"message":"(get ssize) failed to load miner actor state: cbor input had wrong number of fields"}}
+
+
+====================================================================================================
+Testing StateMinerDeadlines: ['t3qcmxscntgxzwpkzodifg6kzopwou4h4mccgyaxjxdcoh6cxrz67rb2moy22ssma4mnhvoeeqvkpotvmjxauq', None]
+====================================================================================================
+
+read token was able to successfully call the api method StateMinerDeadlines
+{"jsonrpc":"2.0","id":0,"error":{"code":1,"message":"(get ssize) failed to load miner actor state: cbor input had wrong number of fields"}}
+
+
+write token was able to successfully call the api method StateMinerDeadlines
+{"jsonrpc":"2.0","id":0,"error":{"code":1,"message":"(get ssize) failed to load miner actor state: cbor input had wrong number of fields"}}
+
+
+sign token was able to successfully call the api method StateMinerDeadlines
+{"jsonrpc":"2.0","id":0,"error":{"code":1,"message":"(get ssize) failed to load miner actor state: cbor input had wrong number of fields"}}
+
+
+admin token was able to successfully call the api method StateMinerDeadlines
+{"jsonrpc":"2.0","id":0,"error":{"code":1,"message":"(get ssize) failed to load miner actor state: cbor input had wrong number of fields"}}
+
+
+====================================================================================================
+Testing StateMinerFaults: ['t3qcmxscntgxzwpkzodifg6kzopwou4h4mccgyaxjxdcoh6cxrz67rb2moy22ssma4mnhvoeeqvkpotvmjxauq', None]
+====================================================================================================
+
+read token was able to successfully call the api method StateMinerFaults
+{"jsonrpc":"2.0","id":0,"error":{"code":1,"message":"(get faults) failed to load miner actor state: cbor input had wrong number of fields"}}
+
+
+write token was able to successfully call the api method StateMinerFaults
+{"jsonrpc":"2.0","id":0,"error":{"code":1,"message":"(get faults) failed to load miner actor state: cbor input had wrong number of fields"}}
+
+
+sign token was able to successfully call the api method StateMinerFaults
+{"jsonrpc":"2.0","id":0,"error":{"code":1,"message":"(get faults) failed to load miner actor state: cbor input had wrong number of fields"}}
+
+
+admin token was able to successfully call the api method StateMinerFaults
+{"jsonrpc":"2.0","id":0,"error":{"code":1,"message":"(get faults) failed to load miner actor state: cbor input had wrong number of fields"}}
+
+
+====================================================================================================
+Testing StateAllMinerFaults: [None, None]
+====================================================================================================
+
+read token was able to successfully call the api method StateAllMinerFaults
+{"jsonrpc":"2.0","result":null,"id":0}
+
+
+write token was able to successfully call the api method StateAllMinerFaults
+{"jsonrpc":"2.0","result":null,"id":0}
+
+
+sign token was able to successfully call the api method StateAllMinerFaults
+{"jsonrpc":"2.0","result":null,"id":0}
+
+
+admin token was able to successfully call the api method StateAllMinerFaults
+{"jsonrpc":"2.0","result":null,"id":0}
+
+
+====================================================================================================
+Testing StateMinerRecoveries: ['t3qcmxscntgxzwpkzodifg6kzopwou4h4mccgyaxjxdcoh6cxrz67rb2moy22ssma4mnhvoeeqvkpotvmjxauq', None]
+====================================================================================================
+
+read token was able to successfully call the api method StateMinerRecoveries
+{"jsonrpc":"2.0","id":0,"error":{"code":1,"message":"(get recoveries) failed to load miner actor state: cbor input had wrong number of fields"}}
+
+
+write token was able to successfully call the api method StateMinerRecoveries
+{"jsonrpc":"2.0","id":0,"error":{"code":1,"message":"(get recoveries) failed to load miner actor state: cbor input had wrong number of fields"}}
+
+
+sign token was able to successfully call the api method StateMinerRecoveries
+{"jsonrpc":"2.0","id":0,"error":{"code":1,"message":"(get recoveries) failed to load miner actor state: cbor input had wrong number of fields"}}
+
+
+admin token was able to successfully call the api method StateMinerRecoveries
+{"jsonrpc":"2.0","id":0,"error":{"code":1,"message":"(get recoveries) failed to load miner actor state: cbor input had wrong number of fields"}}
+
+
+====================================================================================================
+Testing StateMinerInitialPledgeCollateral: ['t3qcmxscntgxzwpkzodifg6kzopwou4h4mccgyaxjxdcoh6cxrz67rb2moy22ssma4mnhvoeeqvkpotvmjxauq', None, None]
+====================================================================================================
+
+read token was able to successfully call the api method StateMinerInitialPledgeCollateral
+{"jsonrpc":"2.0","id":0,"error":{"code":1,"message":"cbor input had wrong number of fields"}}
+
+
+write token was able to successfully call the api method StateMinerInitialPledgeCollateral
+{"jsonrpc":"2.0","id":0,"error":{"code":1,"message":"cbor input had wrong number of fields"}}
+
+
+sign token was able to successfully call the api method StateMinerInitialPledgeCollateral
+{"jsonrpc":"2.0","id":0,"error":{"code":1,"message":"cbor input had wrong number of fields"}}
+
+
+admin token was able to successfully call the api method StateMinerInitialPledgeCollateral
+{"jsonrpc":"2.0","id":0,"error":{"code":1,"message":"cbor input had wrong number of fields"}}
+
+
+====================================================================================================
+Testing StateMinerAvailableBalance: ['t3qcmxscntgxzwpkzodifg6kzopwou4h4mccgyaxjxdcoh6cxrz67rb2moy22ssma4mnhvoeeqvkpotvmjxauq', None]
+====================================================================================================
+
+read token was able to successfully call the api method StateMinerAvailableBalance
+{"jsonrpc":"2.0","id":0,"error":{"code":1,"message":"cbor input had wrong number of fields"}}
+
+
+write token was able to successfully call the api method StateMinerAvailableBalance
+{"jsonrpc":"2.0","id":0,"error":{"code":1,"message":"cbor input had wrong number of fields"}}
+
+
+sign token was able to successfully call the api method StateMinerAvailableBalance
+{"jsonrpc":"2.0","id":0,"error":{"code":1,"message":"cbor input had wrong number of fields"}}
+
+
+admin token was able to successfully call the api method StateMinerAvailableBalance
+{"jsonrpc":"2.0","id":0,"error":{"code":1,"message":"cbor input had wrong number of fields"}}
+
+
+====================================================================================================
+Testing StateSectorPreCommitInfo: ['t3qcmxscntgxzwpkzodifg6kzopwou4h4mccgyaxjxdcoh6cxrz67rb2moy22ssma4mnhvoeeqvkpotvmjxauq', None, None]
+====================================================================================================
+
+read token was able to successfully call the api method StateSectorPreCommitInfo
+{"jsonrpc":"2.0","id":0,"error":{"code":1,"message":"(get sset) failed to load miner actor state: cbor input had wrong number of fields"}}
+
+
+write token was able to successfully call the api method StateSectorPreCommitInfo
+{"jsonrpc":"2.0","id":0,"error":{"code":1,"message":"(get sset) failed to load miner actor state: cbor input had wrong number of fields"}}
+
+
+sign token was able to successfully call the api method StateSectorPreCommitInfo
+{"jsonrpc":"2.0","id":0,"error":{"code":1,"message":"(get sset) failed to load miner actor state: cbor input had wrong number of fields"}}
+
+
+admin token was able to successfully call the api method StateSectorPreCommitInfo
+{"jsonrpc":"2.0","id":0,"error":{"code":1,"message":"(get sset) failed to load miner actor state: cbor input had wrong number of fields"}}
+
+
+====================================================================================================
+Testing StateCall: [None, None]
+====================================================================================================
+
+read token was able to successfully call the api method StateCall
+{"jsonrpc":"2.0","id":0,"error":{"code":0,"message":"fatal error calling 'Filecoin.StateCall': panic in rpc method 'Filecoin.StateCall': runtime error: invalid memory address or nil pointer dereference"}}
+
+
+write token was able to successfully call the api method StateCall
+{"jsonrpc":"2.0","id":0,"error":{"code":0,"message":"fatal error calling 'Filecoin.StateCall': panic in rpc method 'Filecoin.StateCall': runtime error: invalid memory address or nil pointer dereference"}}
+
+
+sign token was able to successfully call the api method StateCall
+{"jsonrpc":"2.0","id":0,"error":{"code":0,"message":"fatal error calling 'Filecoin.StateCall': panic in rpc method 'Filecoin.StateCall': runtime error: invalid memory address or nil pointer dereference"}}
+
+
+admin token was able to successfully call the api method StateCall
+{"jsonrpc":"2.0","id":0,"error":{"code":0,"message":"fatal error calling 'Filecoin.StateCall': panic in rpc method 'Filecoin.StateCall': runtime error: invalid memory address or nil pointer dereference"}}
+
+
+====================================================================================================
+Testing StateReplay: [None, None]
+====================================================================================================
+
+read token was able to successfully call the api method StateReplay
+{"jsonrpc":"2.0","id":0,"error":{"code":1,"message":"given message not found in tipset"}}
+
+
+write token was able to successfully call the api method StateReplay
+{"jsonrpc":"2.0","id":0,"error":{"code":1,"message":"given message not found in tipset"}}
+
+
+sign token was able to successfully call the api method StateReplay
+{"jsonrpc":"2.0","id":0,"error":{"code":1,"message":"given message not found in tipset"}}
+
+
+admin token was able to successfully call the api method StateReplay
+{"jsonrpc":"2.0","id":0,"error":{"code":1,"message":"given message not found in tipset"}}
+
+
+====================================================================================================
+Testing StateGetActor: ['t3qcmxscntgxzwpkzodifg6kzopwou4h4mccgyaxjxdcoh6cxrz67rb2moy22ssma4mnhvoeeqvkpotvmjxauq', None]
+====================================================================================================
+
+read token was able to successfully call the api method StateGetActor
+{"jsonrpc":"2.0","result":{"Code":{"/":"bafkqadlgnfwc6mjpmfrwg33vnz2a"},"Head":{"/":"bafy2bzacednotkepx2jj6nf6p34lgwgizix3pqv6dakf2ruegixh7owrqxzew"},"Nonce":55,"Balance":"49999992749589767157928024"},"id":0}
+
+
+write token was able to successfully call the api method StateGetActor
+{"jsonrpc":"2.0","result":{"Code":{"/":"bafkqadlgnfwc6mjpmfrwg33vnz2a"},"Head":{"/":"bafy2bzacednotkepx2jj6nf6p34lgwgizix3pqv6dakf2ruegixh7owrqxzew"},"Nonce":55,"Balance":"49999992749589767157928024"},"id":0}
+
+
+sign token was able to successfully call the api method StateGetActor
+{"jsonrpc":"2.0","result":{"Code":{"/":"bafkqadlgnfwc6mjpmfrwg33vnz2a"},"Head":{"/":"bafy2bzacednotkepx2jj6nf6p34lgwgizix3pqv6dakf2ruegixh7owrqxzew"},"Nonce":55,"Balance":"49999992749589767157928024"},"id":0}
+
+
+admin token was able to successfully call the api method StateGetActor
+{"jsonrpc":"2.0","result":{"Code":{"/":"bafkqadlgnfwc6mjpmfrwg33vnz2a"},"Head":{"/":"bafy2bzacednotkepx2jj6nf6p34lgwgizix3pqv6dakf2ruegixh7owrqxzew"},"Nonce":55,"Balance":"49999992749589767157928024"},"id":0}
+
+
+====================================================================================================
+Testing StateReadState: [None, None]
+====================================================================================================
+
+read token was able to successfully call the api method StateReadState
+{"jsonrpc":"2.0","id":0,"error":{"code":0,"message":"fatal error calling 'Filecoin.StateReadState': panic in rpc method 'Filecoin.StateReadState': runtime error: invalid memory address or nil pointer dereference"}}
+
+
+write token was able to successfully call the api method StateReadState
+{"jsonrpc":"2.0","id":0,"error":{"code":0,"message":"fatal error calling 'Filecoin.StateReadState': panic in rpc method 'Filecoin.StateReadState': runtime error: invalid memory address or nil pointer dereference"}}
+
+
+sign token was able to successfully call the api method StateReadState
+{"jsonrpc":"2.0","id":0,"error":{"code":0,"message":"fatal error calling 'Filecoin.StateReadState': panic in rpc method 'Filecoin.StateReadState': runtime error: invalid memory address or nil pointer dereference"}}
+
+
+admin token was able to successfully call the api method StateReadState
+{"jsonrpc":"2.0","id":0,"error":{"code":0,"message":"fatal error calling 'Filecoin.StateReadState': panic in rpc method 'Filecoin.StateReadState': runtime error: invalid memory address or nil pointer dereference"}}
+
+
+====================================================================================================
+Testing StatePledgeCollateral: [None]
+====================================================================================================
+
+read token was able to successfully call the api method StatePledgeCollateral
+{"jsonrpc":"2.0","result":"0","id":0}
+
+
+write token was able to successfully call the api method StatePledgeCollateral
+{"jsonrpc":"2.0","result":"0","id":0}
+
+
+sign token was able to successfully call the api method StatePledgeCollateral
+{"jsonrpc":"2.0","result":"0","id":0}
+
+
+admin token was able to successfully call the api method StatePledgeCollateral
+{"jsonrpc":"2.0","result":"0","id":0}
+
+
+====================================================================================================
+Testing StateWaitMsg: [None]
+====================================================================================================
+
+read token was able to successfully call the api method StateWaitMsg
+{"jsonrpc":"2.0","id":0,"error":{"code":1,"message":"failed to load message: blockstore: block not found"}}
+
+
+write token was able to successfully call the api method StateWaitMsg
+{"jsonrpc":"2.0","id":0,"error":{"code":1,"message":"failed to load message: blockstore: block not found"}}
+
+
+sign token was able to successfully call the api method StateWaitMsg
+{"jsonrpc":"2.0","id":0,"error":{"code":1,"message":"failed to load message: blockstore: block not found"}}
+
+
+admin token was able to successfully call the api method StateWaitMsg
+{"jsonrpc":"2.0","id":0,"error":{"code":1,"message":"failed to load message: blockstore: block not found"}}
+
+
+====================================================================================================
+Testing StateSearchMsg: [None]
+====================================================================================================
+
+read token was able to successfully call the api method StateSearchMsg
+{"jsonrpc":"2.0","id":0,"error":{"code":1,"message":"failed to load message: blockstore: block not found"}}
+
+
+write token was able to successfully call the api method StateSearchMsg
+{"jsonrpc":"2.0","id":0,"error":{"code":1,"message":"failed to load message: blockstore: block not found"}}
+
+
+sign token was able to successfully call the api method StateSearchMsg
+{"jsonrpc":"2.0","id":0,"error":{"code":1,"message":"failed to load message: blockstore: block not found"}}
+
+
+admin token was able to successfully call the api method StateSearchMsg
+{"jsonrpc":"2.0","id":0,"error":{"code":1,"message":"failed to load message: blockstore: block not found"}}
+
+
+====================================================================================================
+Testing StateListMiners: [None]
+====================================================================================================
+
+read token was able to successfully call the api method StateListMiners
+{"jsonrpc":"2.0","result":["t01000"],"id":0}
+
+
+write token was able to successfully call the api method StateListMiners
+{"jsonrpc":"2.0","result":["t01000"],"id":0}
+
+
+sign token was able to successfully call the api method StateListMiners
+{"jsonrpc":"2.0","result":["t01000"],"id":0}
+
+
+admin token was able to successfully call the api method StateListMiners
+{"jsonrpc":"2.0","result":["t01000"],"id":0}
+
+
+====================================================================================================
+Testing StateListActors: [None]
+====================================================================================================
+
+read token was able to successfully call the api method StateListActors
+{"jsonrpc":"2.0","result":["t04","t05","t00","t099","t01","t06","t01000","t03","t080","t0100","t02"],"id":0}
+
+
+write token was able to successfully call the api method StateListActors
+{"jsonrpc":"2.0","result":["t04","t05","t00","t099","t01","t06","t01000","t03","t080","t0100","t02"],"id":0}
+
+
+sign token was able to successfully call the api method StateListActors
+{"jsonrpc":"2.0","result":["t04","t05","t00","t099","t01","t06","t01000","t03","t080","t0100","t02"],"id":0}
+
+
+admin token was able to successfully call the api method StateListActors
+{"jsonrpc":"2.0","result":["t04","t05","t00","t099","t01","t06","t01000","t03","t080","t0100","t02"],"id":0}
+
+
+====================================================================================================
+Testing StateMarketBalance: ['t3qcmxscntgxzwpkzodifg6kzopwou4h4mccgyaxjxdcoh6cxrz67rb2moy22ssma4mnhvoeeqvkpotvmjxauq', None]
+====================================================================================================
+
+read token was able to successfully call the api method StateMarketBalance
+{"jsonrpc":"2.0","result":{"Escrow":"0","Locked":"0"},"id":0}
+
+
+write token was able to successfully call the api method StateMarketBalance
+{"jsonrpc":"2.0","result":{"Escrow":"0","Locked":"0"},"id":0}
+
+
+sign token was able to successfully call the api method StateMarketBalance
+{"jsonrpc":"2.0","result":{"Escrow":"0","Locked":"0"},"id":0}
+
+
+admin token was able to successfully call the api method StateMarketBalance
+{"jsonrpc":"2.0","result":{"Escrow":"0","Locked":"0"},"id":0}
+
+
+====================================================================================================
+Testing StateMarketParticipants: [None]
+====================================================================================================
+
+read token was able to successfully call the api method StateMarketParticipants
+{"jsonrpc":"2.0","result":{"t0100":{"Escrow":"0","Locked":"\u003cnil\u003e"},"t01000":{"Escrow":"0","Locked":"\u003cnil\u003e"}},"id":0}
+
+
+write token was able to successfully call the api method StateMarketParticipants
+{"jsonrpc":"2.0","result":{"t0100":{"Escrow":"0","Locked":"\u003cnil\u003e"},"t01000":{"Escrow":"0","Locked":"\u003cnil\u003e"}},"id":0}
+
+
+sign token was able to successfully call the api method StateMarketParticipants
+{"jsonrpc":"2.0","result":{"t0100":{"Escrow":"0","Locked":"\u003cnil\u003e"},"t01000":{"Escrow":"0","Locked":"\u003cnil\u003e"}},"id":0}
+
+
+admin token was able to successfully call the api method StateMarketParticipants
+{"jsonrpc":"2.0","result":{"t0100":{"Escrow":"0","Locked":"\u003cnil\u003e"},"t01000":{"Escrow":"0","Locked":"\u003cnil\u003e"}},"id":0}
+
+
+====================================================================================================
+Testing StateMarketDeals: [None]
+====================================================================================================
+
+read token was able to successfully call the api method StateMarketDeals
+{"jsonrpc":"2.0","result":{"0":{"Proposal":{"PieceCID":{"/":"bafk4chzat4ra6axvun2mac5nhyea3iuk62eojye26vrhrr4ze7vx37dcpeha"},"PieceSize":2048,"VerifiedDeal":true,"Client":"t0100","Provider":"t01000","StartEpoch":0,"EndEpoch":9001,"StoragePricePerEpoch":"0","ProviderCollateral":"0","ClientCollateral":"0"},"State":{"SectorStartEpoch":0,"LastUpdatedEpoch":-1,"SlashEpoch":-1}},"1":{"Proposal":{"PieceCID":{"/":"bafk4chzafnhfrj6udcp2kqhxy5oba24pnydheitiqsmjtyjxsuh7q626civq"},"PieceSize":2048,"VerifiedDeal":true,"Client":"t0100","Provider":"t01000","StartEpoch":0,"EndEpoch":9001,"StoragePricePerEpoch":"0","ProviderCollateral":"0","ClientCollateral":"0"},"State":{"SectorStartEpoch":0,"LastUpdatedEpoch":-1,"SlashEpoch":-1}}},"id":0}
+
+
+write token was able to successfully call the api method StateMarketDeals
+{"jsonrpc":"2.0","result":{"0":{"Proposal":{"PieceCID":{"/":"bafk4chzat4ra6axvun2mac5nhyea3iuk62eojye26vrhrr4ze7vx37dcpeha"},"PieceSize":2048,"VerifiedDeal":true,"Client":"t0100","Provider":"t01000","StartEpoch":0,"EndEpoch":9001,"StoragePricePerEpoch":"0","ProviderCollateral":"0","ClientCollateral":"0"},"State":{"SectorStartEpoch":0,"LastUpdatedEpoch":-1,"SlashEpoch":-1}},"1":{"Proposal":{"PieceCID":{"/":"bafk4chzafnhfrj6udcp2kqhxy5oba24pnydheitiqsmjtyjxsuh7q626civq"},"PieceSize":2048,"VerifiedDeal":true,"Client":"t0100","Provider":"t01000","StartEpoch":0,"EndEpoch":9001,"StoragePricePerEpoch":"0","ProviderCollateral":"0","ClientCollateral":"0"},"State":{"SectorStartEpoch":0,"LastUpdatedEpoch":-1,"SlashEpoch":-1}}},"id":0}
+
+
+sign token was able to successfully call the api method StateMarketDeals
+{"jsonrpc":"2.0","result":{"0":{"Proposal":{"PieceCID":{"/":"bafk4chzat4ra6axvun2mac5nhyea3iuk62eojye26vrhrr4ze7vx37dcpeha"},"PieceSize":2048,"VerifiedDeal":true,"Client":"t0100","Provider":"t01000","StartEpoch":0,"EndEpoch":9001,"StoragePricePerEpoch":"0","ProviderCollateral":"0","ClientCollateral":"0"},"State":{"SectorStartEpoch":0,"LastUpdatedEpoch":-1,"SlashEpoch":-1}},"1":{"Proposal":{"PieceCID":{"/":"bafk4chzafnhfrj6udcp2kqhxy5oba24pnydheitiqsmjtyjxsuh7q626civq"},"PieceSize":2048,"VerifiedDeal":true,"Client":"t0100","Provider":"t01000","StartEpoch":0,"EndEpoch":9001,"StoragePricePerEpoch":"0","ProviderCollateral":"0","ClientCollateral":"0"},"State":{"SectorStartEpoch":0,"LastUpdatedEpoch":-1,"SlashEpoch":-1}}},"id":0}
+
+
+admin token was able to successfully call the api method StateMarketDeals
+{"jsonrpc":"2.0","result":{"0":{"Proposal":{"PieceCID":{"/":"bafk4chzat4ra6axvun2mac5nhyea3iuk62eojye26vrhrr4ze7vx37dcpeha"},"PieceSize":2048,"VerifiedDeal":true,"Client":"t0100","Provider":"t01000","StartEpoch":0,"EndEpoch":9001,"StoragePricePerEpoch":"0","ProviderCollateral":"0","ClientCollateral":"0"},"State":{"SectorStartEpoch":0,"LastUpdatedEpoch":-1,"SlashEpoch":-1}},"1":{"Proposal":{"PieceCID":{"/":"bafk4chzafnhfrj6udcp2kqhxy5oba24pnydheitiqsmjtyjxsuh7q626civq"},"PieceSize":2048,"VerifiedDeal":true,"Client":"t0100","Provider":"t01000","StartEpoch":0,"EndEpoch":9001,"StoragePricePerEpoch":"0","ProviderCollateral":"0","ClientCollateral":"0"},"State":{"SectorStartEpoch":0,"LastUpdatedEpoch":-1,"SlashEpoch":-1}}},"id":0}
+
+
+====================================================================================================
+Testing StateMarketStorageDeal: [None, None]
+====================================================================================================
+
+read token was able to successfully call the api method StateMarketStorageDeal
+{"jsonrpc":"2.0","result":{"Proposal":{"PieceCID":{"/":"bafk4chzat4ra6axvun2mac5nhyea3iuk62eojye26vrhrr4ze7vx37dcpeha"},"PieceSize":2048,"VerifiedDeal":true,"Client":"t0100","Provider":"t01000","StartEpoch":0,"EndEpoch":9001,"StoragePricePerEpoch":"0","ProviderCollateral":"0","ClientCollateral":"0"},"State":{"SectorStartEpoch":0,"LastUpdatedEpoch":-1,"SlashEpoch":-1}},"id":0}
+
+
+write token was able to successfully call the api method StateMarketStorageDeal
+{"jsonrpc":"2.0","result":{"Proposal":{"PieceCID":{"/":"bafk4chzat4ra6axvun2mac5nhyea3iuk62eojye26vrhrr4ze7vx37dcpeha"},"PieceSize":2048,"VerifiedDeal":true,"Client":"t0100","Provider":"t01000","StartEpoch":0,"EndEpoch":9001,"StoragePricePerEpoch":"0","ProviderCollateral":"0","ClientCollateral":"0"},"State":{"SectorStartEpoch":0,"LastUpdatedEpoch":-1,"SlashEpoch":-1}},"id":0}
+
+
+sign token was able to successfully call the api method StateMarketStorageDeal
+{"jsonrpc":"2.0","result":{"Proposal":{"PieceCID":{"/":"bafk4chzat4ra6axvun2mac5nhyea3iuk62eojye26vrhrr4ze7vx37dcpeha"},"PieceSize":2048,"VerifiedDeal":true,"Client":"t0100","Provider":"t01000","StartEpoch":0,"EndEpoch":9001,"StoragePricePerEpoch":"0","ProviderCollateral":"0","ClientCollateral":"0"},"State":{"SectorStartEpoch":0,"LastUpdatedEpoch":-1,"SlashEpoch":-1}},"id":0}
+
+
+admin token was able to successfully call the api method StateMarketStorageDeal
+{"jsonrpc":"2.0","result":{"Proposal":{"PieceCID":{"/":"bafk4chzat4ra6axvun2mac5nhyea3iuk62eojye26vrhrr4ze7vx37dcpeha"},"PieceSize":2048,"VerifiedDeal":true,"Client":"t0100","Provider":"t01000","StartEpoch":0,"EndEpoch":9001,"StoragePricePerEpoch":"0","ProviderCollateral":"0","ClientCollateral":"0"},"State":{"SectorStartEpoch":0,"LastUpdatedEpoch":-1,"SlashEpoch":-1}},"id":0}
+
+
+====================================================================================================
+Testing StateLookupID: ['t3qcmxscntgxzwpkzodifg6kzopwou4h4mccgyaxjxdcoh6cxrz67rb2moy22ssma4mnhvoeeqvkpotvmjxauq', None]
+====================================================================================================
+
+read token was able to successfully call the api method StateLookupID
+{"jsonrpc":"2.0","result":"t0100","id":0}
+
+
+write token was able to successfully call the api method StateLookupID
+{"jsonrpc":"2.0","result":"t0100","id":0}
+
+
+sign token was able to successfully call the api method StateLookupID
+{"jsonrpc":"2.0","result":"t0100","id":0}
+
+
+admin token was able to successfully call the api method StateLookupID
+{"jsonrpc":"2.0","result":"t0100","id":0}
+
+
+====================================================================================================
+Testing StateAccountKey: ['t3qcmxscntgxzwpkzodifg6kzopwou4h4mccgyaxjxdcoh6cxrz67rb2moy22ssma4mnhvoeeqvkpotvmjxauq', None]
+====================================================================================================
+
+read token was able to successfully call the api method StateAccountKey
+{"jsonrpc":"2.0","result":"t3qcmxscntgxzwpkzodifg6kzopwou4h4mccgyaxjxdcoh6cxrz67rb2moy22ssma4mnhvoeeqvkpotvmjxauq","id":0}
+
+
+write token was able to successfully call the api method StateAccountKey
+{"jsonrpc":"2.0","result":"t3qcmxscntgxzwpkzodifg6kzopwou4h4mccgyaxjxdcoh6cxrz67rb2moy22ssma4mnhvoeeqvkpotvmjxauq","id":0}
+
+
+sign token was able to successfully call the api method StateAccountKey
+{"jsonrpc":"2.0","result":"t3qcmxscntgxzwpkzodifg6kzopwou4h4mccgyaxjxdcoh6cxrz67rb2moy22ssma4mnhvoeeqvkpotvmjxauq","id":0}
+
+
+admin token was able to successfully call the api method StateAccountKey
+{"jsonrpc":"2.0","result":"t3qcmxscntgxzwpkzodifg6kzopwou4h4mccgyaxjxdcoh6cxrz67rb2moy22ssma4mnhvoeeqvkpotvmjxauq","id":0}
+
+
+====================================================================================================
+Testing StateChangedActors: [None, None]
+====================================================================================================
+
+read token was able to successfully call the api method StateChangedActors
+{"jsonrpc":"2.0","id":0,"error":{"code":1,"message":"blockstore: block not found"}}
+
+
+write token was able to successfully call the api method StateChangedActors
+{"jsonrpc":"2.0","id":0,"error":{"code":1,"message":"blockstore: block not found"}}
+
+
+sign token was able to successfully call the api method StateChangedActors
+{"jsonrpc":"2.0","id":0,"error":{"code":1,"message":"blockstore: block not found"}}
+
+
+admin token was able to successfully call the api method StateChangedActors
+{"jsonrpc":"2.0","id":0,"error":{"code":1,"message":"blockstore: block not found"}}
+
+
+====================================================================================================
+Testing StateGetReceipt: [None, None]
+====================================================================================================
+
+read token was able to successfully call the api method StateGetReceipt
+{"jsonrpc":"2.0","id":0,"error":{"code":1,"message":"failed to load message: blockstore: block not found"}}
+
+
+write token was able to successfully call the api method StateGetReceipt
+{"jsonrpc":"2.0","id":0,"error":{"code":1,"message":"failed to load message: blockstore: block not found"}}
+
+
+sign token was able to successfully call the api method StateGetReceipt
+{"jsonrpc":"2.0","id":0,"error":{"code":1,"message":"failed to load message: blockstore: block not found"}}
+
+
+admin token was able to successfully call the api method StateGetReceipt
+{"jsonrpc":"2.0","id":0,"error":{"code":1,"message":"failed to load message: blockstore: block not found"}}
+
+
+====================================================================================================
+Testing StateMinerSectorCount: ['t3qcmxscntgxzwpkzodifg6kzopwou4h4mccgyaxjxdcoh6cxrz67rb2moy22ssma4mnhvoeeqvkpotvmjxauq', None]
+====================================================================================================
+
+read token was able to successfully call the api method StateMinerSectorCount
+{"jsonrpc":"2.0","id":0,"error":{"code":1,"message":"(get sset) failed to load miner actor state: cbor input had wrong number of fields"}}
+
+
+write token was able to successfully call the api method StateMinerSectorCount
+{"jsonrpc":"2.0","id":0,"error":{"code":1,"message":"(get sset) failed to load miner actor state: cbor input had wrong number of fields"}}
+
+
+sign token was able to successfully call the api method StateMinerSectorCount
+{"jsonrpc":"2.0","id":0,"error":{"code":1,"message":"(get sset) failed to load miner actor state: cbor input had wrong number of fields"}}
+
+
+admin token was able to successfully call the api method StateMinerSectorCount
+{"jsonrpc":"2.0","id":0,"error":{"code":1,"message":"(get sset) failed to load miner actor state: cbor input had wrong number of fields"}}
+
+
+====================================================================================================
+Testing StateListMessages: [None, None, None]
+====================================================================================================
+
+read token was able to successfully call the api method StateListMessages
+{"jsonrpc":"2.0","id":0,"error":{"code":0,"message":"fatal error calling 'Filecoin.StateListMessages': panic in rpc method 'Filecoin.StateListMessages': runtime error: invalid memory address or nil pointer dereference"}}
+
+
+write token was able to successfully call the api method StateListMessages
+{"jsonrpc":"2.0","id":0,"error":{"code":0,"message":"fatal error calling 'Filecoin.StateListMessages': panic in rpc method 'Filecoin.StateListMessages': runtime error: invalid memory address or nil pointer dereference"}}
+
+
+sign token was able to successfully call the api method StateListMessages
+{"jsonrpc":"2.0","id":0,"error":{"code":0,"message":"fatal error calling 'Filecoin.StateListMessages': panic in rpc method 'Filecoin.StateListMessages': runtime error: invalid memory address or nil pointer dereference"}}
+
+
+admin token was able to successfully call the api method StateListMessages
+{"jsonrpc":"2.0","id":0,"error":{"code":0,"message":"fatal error calling 'Filecoin.StateListMessages': panic in rpc method 'Filecoin.StateListMessages': runtime error: invalid memory address or nil pointer dereference"}}
+
+
+====================================================================================================
+Testing StateCompute: [None, None, None]
+====================================================================================================
+
+read token was able to successfully call the api method StateCompute
+{"jsonrpc":"2.0","result":{"Root":{"/":"bafy2bzaceayum3vnwjh4e2vyukwhaawohprq5kitniadefswphqrti446qimk"},"Trace":[{"Msg":{"Version":0,"To":"t02","From":"t00","Nonce":0,"Value":"0","GasPrice":"0","GasLimit":1073741824,"Method":2,"Params":"hEMA6AdAQAE="},"MsgRct":{"ExitCode":0,"Return":null,"GasUsed":0},"InternalExecutions":[{"Msg":{"Version":0,"To":"t01000","From":"t02","Nonce":0,"Value":"1829644863247946020","GasPrice":"0","GasLimit":1073741824,"Method":14,"Params":"SQAZZDRPKwMRJA=="},"MsgRct":{"ExitCode":0,"Return":null,"GasUsed":0},"Error":"","Duration":702606,"Subcalls":[{"Msg":{"Version":0,"To":"t04","From":"t01000","Nonce":0,"Value":"0","GasPrice":"0","GasLimit":1073741824,"Method":11,"Params":"SQAZZDRPKwMRJA=="},"MsgRct":{"ExitCode":0,"Return":null,"GasUsed":0},"Error":"","Duration":66016,"Subcalls":null}]},{"Msg":{"Version":0,"To":"t099","From":"t02","Nonce":0,"Value":"0","GasPrice":"0","GasLimit":1073741824,"Method":0,"Params":null},"MsgRct":{"ExitCode":0,"Return":null,"GasUsed":0},"Error":"","Duration":7575,"Subcalls":null}],"Error":"","Duration":775533},{"Msg":{"Version":0,"To":"t03","From":"t00","Nonce":0,"Value":"0","GasPrice":"0","GasLimit":1073741824,"Method":2,"Params":null},"MsgRct":{"ExitCode":0,"Return":null,"GasUsed":0},"InternalExecutions":[{"Msg":{"Version":0,"To":"t04","From":"t03","Nonce":0,"Value":"0","GasPrice":"0","GasLimit":1073741824,"Method":10,"Params":null},"MsgRct":{"ExitCode":0,"Return":null,"GasUsed":0},"Error":"","Duration":217814,"Subcalls":[{"Msg":{"Version":0,"To":"t02","From":"t04","Nonce":0,"Value":"0","GasPrice":"0","GasLimit":1073741824,"Method":4,"Params":"QwDAAA=="},"MsgRct":{"ExitCode":0,"Return":null,"GasUsed":0},"Error":"","Duration":131588,"Subcalls":null}]},{"Msg":{"Version":0,"To":"t05","From":"t03","Nonce":0,"Value":"0","GasPrice":"0","GasLimit":1073741824,"Method":8,"Params":null},"MsgRct":{"ExitCode":0,"Return":null,"GasUsed":0},"Error":"","Duration":175694,"Subcalls":[{"Msg":{"Version":0,"To":"t099","From":"t05","Nonce":0,"Value":"0","GasPrice":"0","GasLimit":1073741824,"Method":0,"Params":null},"MsgRct":{"ExitCode":0,"Return":null,"GasUsed":0},"Error":"","Duration":4392,"Subcalls":null}]}],"Error":"","Duration":435878}]},"id":0}
+
+
+write token was able to successfully call the api method StateCompute
+{"jsonrpc":"2.0","result":{"Root":{"/":"bafy2bzaceayum3vnwjh4e2vyukwhaawohprq5kitniadefswphqrti446qimk"},"Trace":[{"Msg":{"Version":0,"To":"t02","From":"t00","Nonce":0,"Value":"0","GasPrice":"0","GasLimit":1073741824,"Method":2,"Params":"hEMA6AdAQAE="},"MsgRct":{"ExitCode":0,"Return":null,"GasUsed":0},"InternalExecutions":[{"Msg":{"Version":0,"To":"t01000","From":"t02","Nonce":0,"Value":"1829644863247946020","GasPrice":"0","GasLimit":1073741824,"Method":14,"Params":"SQAZZDRPKwMRJA=="},"MsgRct":{"ExitCode":0,"Return":null,"GasUsed":0},"Error":"","Duration":868881,"Subcalls":[{"Msg":{"Version":0,"To":"t04","From":"t01000","Nonce":0,"Value":"0","GasPrice":"0","GasLimit":1073741824,"Method":11,"Params":"SQAZZDRPKwMRJA=="},"MsgRct":{"ExitCode":0,"Return":null,"GasUsed":0},"Error":"","Duration":91745,"Subcalls":null}]},{"Msg":{"Version":0,"To":"t099","From":"t02","Nonce":0,"Value":"0","GasPrice":"0","GasLimit":1073741824,"Method":0,"Params":null},"MsgRct":{"ExitCode":0,"Return":null,"GasUsed":0},"Error":"","Duration":9777,"Subcalls":null}],"Error":"","Duration":943517},{"Msg":{"Version":0,"To":"t03","From":"t00","Nonce":0,"Value":"0","GasPrice":"0","GasLimit":1073741824,"Method":2,"Params":null},"MsgRct":{"ExitCode":0,"Return":null,"GasUsed":0},"InternalExecutions":[{"Msg":{"Version":0,"To":"t04","From":"t03","Nonce":0,"Value":"0","GasPrice":"0","GasLimit":1073741824,"Method":10,"Params":null},"MsgRct":{"ExitCode":0,"Return":null,"GasUsed":0},"Error":"","Duration":219983,"Subcalls":[{"Msg":{"Version":0,"To":"t02","From":"t04","Nonce":0,"Value":"0","GasPrice":"0","GasLimit":1073741824,"Method":4,"Params":"QwDAAA=="},"MsgRct":{"ExitCode":0,"Return":null,"GasUsed":0},"Error":"","Duration":126052,"Subcalls":null}]},{"Msg":{"Version":0,"To":"t05","From":"t03","Nonce":0,"Value":"0","GasPrice":"0","GasLimit":1073741824,"Method":8,"Params":null},"MsgRct":{"ExitCode":0,"Return":null,"GasUsed":0},"Error":"","Duration":177367,"Subcalls":[{"Msg":{"Version":0,"To":"t099","From":"t05","Nonce":0,"Value":"0","GasPrice":"0","GasLimit":1073741824,"Method":0,"Params":null},"MsgRct":{"ExitCode":0,"Return":null,"GasUsed":0},"Error":"","Duration":4741,"Subcalls":null}]}],"Error":"","Duration":447531}]},"id":0}
+
+
+sign token was able to successfully call the api method StateCompute
+{"jsonrpc":"2.0","result":{"Root":{"/":"bafy2bzaceayum3vnwjh4e2vyukwhaawohprq5kitniadefswphqrti446qimk"},"Trace":[{"Msg":{"Version":0,"To":"t02","From":"t00","Nonce":0,"Value":"0","GasPrice":"0","GasLimit":1073741824,"Method":2,"Params":"hEMA6AdAQAE="},"MsgRct":{"ExitCode":0,"Return":null,"GasUsed":0},"InternalExecutions":[{"Msg":{"Version":0,"To":"t01000","From":"t02","Nonce":0,"Value":"1829644863247946020","GasPrice":"0","GasLimit":1073741824,"Method":14,"Params":"SQAZZDRPKwMRJA=="},"MsgRct":{"ExitCode":0,"Return":null,"GasUsed":0},"Error":"","Duration":486422,"Subcalls":[{"Msg":{"Version":0,"To":"t04","From":"t01000","Nonce":0,"Value":"0","GasPrice":"0","GasLimit":1073741824,"Method":11,"Params":"SQAZZDRPKwMRJA=="},"MsgRct":{"ExitCode":0,"Return":null,"GasUsed":0},"Error":"","Duration":37992,"Subcalls":null}]},{"Msg":{"Version":0,"To":"t099","From":"t02","Nonce":0,"Value":"0","GasPrice":"0","GasLimit":1073741824,"Method":0,"Params":null},"MsgRct":{"ExitCode":0,"Return":null,"GasUsed":0},"Error":"","Duration":5516,"Subcalls":null}],"Error":"","Duration":530526},{"Msg":{"Version":0,"To":"t03","From":"t00","Nonce":0,"Value":"0","GasPrice":"0","GasLimit":1073741824,"Method":2,"Params":null},"MsgRct":{"ExitCode":0,"Return":null,"GasUsed":0},"InternalExecutions":[{"Msg":{"Version":0,"To":"t04","From":"t03","Nonce":0,"Value":"0","GasPrice":"0","GasLimit":1073741824,"Method":10,"Params":null},"MsgRct":{"ExitCode":0,"Return":null,"GasUsed":0},"Error":"","Duration":137787,"Subcalls":[{"Msg":{"Version":0,"To":"t02","From":"t04","Nonce":0,"Value":"0","GasPrice":"0","GasLimit":1073741824,"Method":4,"Params":"QwDAAA=="},"MsgRct":{"ExitCode":0,"Return":null,"GasUsed":0},"Error":"","Duration":85374,"Subcalls":null}]},{"Msg":{"Version":0,"To":"t05","From":"t03","Nonce":0,"Value":"0","GasPrice":"0","GasLimit":1073741824,"Method":8,"Params":null},"MsgRct":{"ExitCode":0,"Return":null,"GasUsed":0},"Error":"","Duration":160911,"Subcalls":[{"Msg":{"Version":0,"To":"t099","From":"t05","Nonce":0,"Value":"0","GasPrice":"0","GasLimit":1073741824,"Method":0,"Params":null},"MsgRct":{"ExitCode":0,"Return":null,"GasUsed":0},"Error":"","Duration":3225,"Subcalls":null}]}],"Error":"","Duration":327169}]},"id":0}
+
+
+admin token was able to successfully call the api method StateCompute
+{"jsonrpc":"2.0","result":{"Root":{"/":"bafy2bzaceayum3vnwjh4e2vyukwhaawohprq5kitniadefswphqrti446qimk"},"Trace":[{"Msg":{"Version":0,"To":"t02","From":"t00","Nonce":0,"Value":"0","GasPrice":"0","GasLimit":1073741824,"Method":2,"Params":"hEMA6AdAQAE="},"MsgRct":{"ExitCode":0,"Return":null,"GasUsed":0},"InternalExecutions":[{"Msg":{"Version":0,"To":"t01000","From":"t02","Nonce":0,"Value":"1829644863247946020","GasPrice":"0","GasLimit":1073741824,"Method":14,"Params":"SQAZZDRPKwMRJA=="},"MsgRct":{"ExitCode":0,"Return":null,"GasUsed":0},"Error":"","Duration":1441506,"Subcalls":[{"Msg":{"Version":0,"To":"t04","From":"t01000","Nonce":0,"Value":"0","GasPrice":"0","GasLimit":1073741824,"Method":11,"Params":"SQAZZDRPKwMRJA=="},"MsgRct":{"ExitCode":0,"Return":null,"GasUsed":0},"Error":"","Duration":210794,"Subcalls":null}]},{"Msg":{"Version":0,"To":"t099","From":"t02","Nonce":0,"Value":"0","GasPrice":"0","GasLimit":1073741824,"Method":0,"Params":null},"MsgRct":{"ExitCode":0,"Return":null,"GasUsed":0},"Error":"","Duration":16790,"Subcalls":null}],"Error":"","Duration":1543178},{"Msg":{"Version":0,"To":"t03","From":"t00","Nonce":0,"Value":"0","GasPrice":"0","GasLimit":1073741824,"Method":2,"Params":null},"MsgRct":{"ExitCode":0,"Return":null,"GasUsed":0},"InternalExecutions":[{"Msg":{"Version":0,"To":"t04","From":"t03","Nonce":0,"Value":"0","GasPrice":"0","GasLimit":1073741824,"Method":10,"Params":null},"MsgRct":{"ExitCode":0,"Return":null,"GasUsed":0},"Error":"","Duration":431813,"Subcalls":[{"Msg":{"Version":0,"To":"t02","From":"t04","Nonce":0,"Value":"0","GasPrice":"0","GasLimit":1073741824,"Method":4,"Params":"QwDAAA=="},"MsgRct":{"ExitCode":0,"Return":null,"GasUsed":0},"Error":"","Duration":266611,"Subcalls":null}]},{"Msg":{"Version":0,"To":"t05","From":"t03","Nonce":0,"Value":"0","GasPrice":"0","GasLimit":1073741824,"Method":8,"Params":null},"MsgRct":{"ExitCode":0,"Return":null,"GasUsed":0},"Error":"","Duration":403219,"Subcalls":[{"Msg":{"Version":0,"To":"t099","From":"t05","Nonce":0,"Value":"0","GasPrice":"0","GasLimit":1073741824,"Method":0,"Params":null},"MsgRct":{"ExitCode":0,"Return":null,"GasUsed":0},"Error":"","Duration":16232,"Subcalls":null}]}],"Error":"","Duration":913638}]},"id":0}
+
+
+====================================================================================================
+Testing MsigGetAvailableBalance: ['t3qcmxscntgxzwpkzodifg6kzopwou4h4mccgyaxjxdcoh6cxrz67rb2moy22ssma4mnhvoeeqvkpotvmjxauq', None]
+====================================================================================================
+
+read token was able to successfully call the api method MsigGetAvailableBalance
+{"jsonrpc":"2.0","id":0,"error":{"code":1,"message":"failed to load multisig actor state: cbor input had wrong number of fields"}}
+
+
+write token was able to successfully call the api method MsigGetAvailableBalance
+{"jsonrpc":"2.0","id":0,"error":{"code":1,"message":"failed to load multisig actor state: cbor input had wrong number of fields"}}
+
+
+sign token was able to successfully call the api method MsigGetAvailableBalance
+{"jsonrpc":"2.0","id":0,"error":{"code":1,"message":"failed to load multisig actor state: cbor input had wrong number of fields"}}
+
+
+admin token was able to successfully call the api method MsigGetAvailableBalance
+{"jsonrpc":"2.0","id":0,"error":{"code":1,"message":"failed to load multisig actor state: cbor input had wrong number of fields"}}
+
+
+====================================================================================================
+Testing MsigCreate: [None, None, '0', None, '0']
+====================================================================================================
+
+read token unable to call the api method MsigCreate
+{"jsonrpc":"2.0","id":0,"error":{"code":1,"message":"missing permission to invoke 'MsigCreate' (need 'sign')"}}
+{"jsonrpc": "2.0", "method": "Filecoin.MsigCreate", "params": [null, null, "0", null, "0"], "id": 0}
+
+write token unable to call the api method MsigCreate
+{"jsonrpc":"2.0","id":0,"error":{"code":1,"message":"missing permission to invoke 'MsigCreate' (need 'sign')"}}
+{"jsonrpc": "2.0", "method": "Filecoin.MsigCreate", "params": [null, null, "0", null, "0"], "id": 0}
+
+sign token was able to successfully call the api method MsigCreate
+{"jsonrpc":"2.0","id":0,"error":{"code":1,"message":"must provide source address"}}
+
+
+admin token was able to successfully call the api method MsigCreate
+{"jsonrpc":"2.0","id":0,"error":{"code":1,"message":"must provide source address"}}
+
+
+====================================================================================================
+Testing MsigPropose: [None, None, '0', None, None, 'VGhpcyBpcyBhIHN0cmluZw==']
+====================================================================================================
+
+read token unable to call the api method MsigPropose
+{"jsonrpc":"2.0","id":0,"error":{"code":1,"message":"missing permission to invoke 'MsigPropose' (need 'sign')"}}
+{"jsonrpc": "2.0", "method": "Filecoin.MsigPropose", "params": [null, null, "0", null, null, "VGhpcyBpcyBhIHN0cmluZw=="], "id": 0}
+
+write token unable to call the api method MsigPropose
+{"jsonrpc":"2.0","id":0,"error":{"code":1,"message":"missing permission to invoke 'MsigPropose' (need 'sign')"}}
+{"jsonrpc": "2.0", "method": "Filecoin.MsigPropose", "params": [null, null, "0", null, null, "VGhpcyBpcyBhIHN0cmluZw=="], "id": 0}
+
+sign token was able to successfully call the api method MsigPropose
+{"jsonrpc":"2.0","id":0,"error":{"code":1,"message":"must provide a multisig address for proposal"}}
+
+
+admin token was able to successfully call the api method MsigPropose
+{"jsonrpc":"2.0","id":0,"error":{"code":1,"message":"must provide a multisig address for proposal"}}
+
+
+====================================================================================================
+Testing MsigApprove: [None, None, None, None, '0', None, None, 'VGhpcyBpcyBhIHN0cmluZw==']
+====================================================================================================
+
+read token unable to call the api method MsigApprove
+{"jsonrpc":"2.0","id":0,"error":{"code":1,"message":"missing permission to invoke 'MsigApprove' (need 'sign')"}}
+{"jsonrpc": "2.0", "method": "Filecoin.MsigApprove", "params": [null, null, null, null, "0", null, null, "VGhpcyBpcyBhIHN0cmluZw=="], "id": 0}
+
+write token unable to call the api method MsigApprove
+{"jsonrpc":"2.0","id":0,"error":{"code":1,"message":"missing permission to invoke 'MsigApprove' (need 'sign')"}}
+{"jsonrpc": "2.0", "method": "Filecoin.MsigApprove", "params": [null, null, null, null, "0", null, null, "VGhpcyBpcyBhIHN0cmluZw=="], "id": 0}
+
+sign token was able to successfully call the api method MsigApprove
+{"jsonrpc":"2.0","id":0,"error":{"code":1,"message":"must provide multisig address"}}
+
+
+admin token was able to successfully call the api method MsigApprove
+{"jsonrpc":"2.0","id":0,"error":{"code":1,"message":"must provide multisig address"}}
+
+
+====================================================================================================
+Testing MsigCancel: [None, None, None, None, '0', None, None, 'VGhpcyBpcyBhIHN0cmluZw==']
+====================================================================================================
+
+read token unable to call the api method MsigCancel
+{"jsonrpc":"2.0","id":0,"error":{"code":1,"message":"missing permission to invoke 'MsigCancel' (need 'sign')"}}
+{"jsonrpc": "2.0", "method": "Filecoin.MsigCancel", "params": [null, null, null, null, "0", null, null, "VGhpcyBpcyBhIHN0cmluZw=="], "id": 0}
+
+write token unable to call the api method MsigCancel
+{"jsonrpc":"2.0","id":0,"error":{"code":1,"message":"missing permission to invoke 'MsigCancel' (need 'sign')"}}
+{"jsonrpc": "2.0", "method": "Filecoin.MsigCancel", "params": [null, null, null, null, "0", null, null, "VGhpcyBpcyBhIHN0cmluZw=="], "id": 0}
+
+sign token was able to successfully call the api method MsigCancel
+{"jsonrpc":"2.0","id":0,"error":{"code":1,"message":"must provide multisig address"}}
+
+
+admin token was able to successfully call the api method MsigCancel
+{"jsonrpc":"2.0","id":0,"error":{"code":1,"message":"must provide multisig address"}}
+
+
+====================================================================================================
+Testing MarketEnsureAvailable: [None, None, '0']
+====================================================================================================
+
+read token unable to call the api method MarketEnsureAvailable
+{"jsonrpc":"2.0","id":0,"error":{"code":1,"message":"missing permission to invoke 'MarketEnsureAvailable' (need 'sign')"}}
+{"jsonrpc": "2.0", "method": "Filecoin.MarketEnsureAvailable", "params": [null, null, "0"], "id": 0}
+
+write token unable to call the api method MarketEnsureAvailable
+{"jsonrpc":"2.0","id":0,"error":{"code":1,"message":"missing permission to invoke 'MarketEnsureAvailable' (need 'sign')"}}
+{"jsonrpc": "2.0", "method": "Filecoin.MarketEnsureAvailable", "params": [null, null, "0"], "id": 0}
+
+sign token was able to successfully call the api method MarketEnsureAvailable
+{"jsonrpc":"2.0","id":0,"error":{"code":1,"message":"resolve address \u003cempty\u003e: address not found"}}
+
+
+admin token was able to successfully call the api method MarketEnsureAvailable
+{"jsonrpc":"2.0","id":0,"error":{"code":1,"message":"resolve address \u003cempty\u003e: address not found"}}
+
+
+====================================================================================================
+Testing PaychGet: [None, None, '0']
+====================================================================================================
+
+read token unable to call the api method PaychGet
+{"jsonrpc":"2.0","id":0,"error":{"code":1,"message":"missing permission to invoke 'PaychGet' (need 'sign')"}}
+{"jsonrpc": "2.0", "method": "Filecoin.PaychGet", "params": [null, null, "0"], "id": 0}
+
+write token unable to call the api method PaychGet
+{"jsonrpc":"2.0","id":0,"error":{"code":1,"message":"missing permission to invoke 'PaychGet' (need 'sign')"}}
+{"jsonrpc": "2.0", "method": "Filecoin.PaychGet", "params": [null, null, "0"], "id": 0}
+
+sign token was able to successfully call the api method PaychGet
+{"jsonrpc":"2.0","id":0,"error":{"code":1,"message":"failed to encode parameter (RetCode=1): cannot marshal undefined address"}}
+
+
+admin token was able to successfully call the api method PaychGet
+{"jsonrpc":"2.0","id":0,"error":{"code":1,"message":"failed to encode parameter (RetCode=1): cannot marshal undefined address"}}
+
+
+====================================================================================================
+Testing PaychList: []
+====================================================================================================
+
+read token was able to successfully call the api method PaychList
+{"jsonrpc":"2.0","result":null,"id":0}
+
+
+write token was able to successfully call the api method PaychList
+{"jsonrpc":"2.0","result":null,"id":0}
+
+
+sign token was able to successfully call the api method PaychList
+{"jsonrpc":"2.0","result":null,"id":0}
+
+
+admin token was able to successfully call the api method PaychList
+{"jsonrpc":"2.0","result":null,"id":0}
+
+
+====================================================================================================
+Testing PaychStatus: ['t3qcmxscntgxzwpkzodifg6kzopwou4h4mccgyaxjxdcoh6cxrz67rb2moy22ssma4mnhvoeeqvkpotvmjxauq']
+====================================================================================================
+
+read token was able to successfully call the api method PaychStatus
+{"jsonrpc":"2.0","id":0,"error":{"code":1,"message":"channel not tracked"}}
+
+
+write token was able to successfully call the api method PaychStatus
+{"jsonrpc":"2.0","id":0,"error":{"code":1,"message":"channel not tracked"}}
+
+
+sign token was able to successfully call the api method PaychStatus
+{"jsonrpc":"2.0","id":0,"error":{"code":1,"message":"channel not tracked"}}
+
+
+admin token was able to successfully call the api method PaychStatus
+{"jsonrpc":"2.0","id":0,"error":{"code":1,"message":"channel not tracked"}}
+
+
+====================================================================================================
+Testing PaychClose: ['t3qcmxscntgxzwpkzodifg6kzopwou4h4mccgyaxjxdcoh6cxrz67rb2moy22ssma4mnhvoeeqvkpotvmjxauq']
+====================================================================================================
+
+read token unable to call the api method PaychClose
+{"jsonrpc":"2.0","id":0,"error":{"code":1,"message":"missing permission to invoke 'PaychClose' (need 'sign')"}}
+{"jsonrpc": "2.0", "method": "Filecoin.PaychClose", "params": ["t3qcmxscntgxzwpkzodifg6kzopwou4h4mccgyaxjxdcoh6cxrz67rb2moy22ssma4mnhvoeeqvkpotvmjxauq"], "id": 0}
+
+write token unable to call the api method PaychClose
+{"jsonrpc":"2.0","id":0,"error":{"code":1,"message":"missing permission to invoke 'PaychClose' (need 'sign')"}}
+{"jsonrpc": "2.0", "method": "Filecoin.PaychClose", "params": ["t3qcmxscntgxzwpkzodifg6kzopwou4h4mccgyaxjxdcoh6cxrz67rb2moy22ssma4mnhvoeeqvkpotvmjxauq"], "id": 0}
+
+sign token was able to successfully call the api method PaychClose
+{"jsonrpc":"2.0","id":0,"error":{"code":0,"message":"fatal error calling 'Filecoin.PaychClose': panic in rpc method 'Filecoin.PaychClose': TODO Settle logic"}}
+
+
+admin token was able to successfully call the api method PaychClose
+{"jsonrpc":"2.0","id":0,"error":{"code":0,"message":"fatal error calling 'Filecoin.PaychClose': panic in rpc method 'Filecoin.PaychClose': TODO Settle logic"}}
+
+
+====================================================================================================
+Testing PaychAllocateLane: ['t3qcmxscntgxzwpkzodifg6kzopwou4h4mccgyaxjxdcoh6cxrz67rb2moy22ssma4mnhvoeeqvkpotvmjxauq']
+====================================================================================================
+
+read token unable to call the api method PaychAllocateLane
+{"jsonrpc":"2.0","id":0,"error":{"code":1,"message":"missing permission to invoke 'PaychAllocateLane' (need 'sign')"}}
+{"jsonrpc": "2.0", "method": "Filecoin.PaychAllocateLane", "params": ["t3qcmxscntgxzwpkzodifg6kzopwou4h4mccgyaxjxdcoh6cxrz67rb2moy22ssma4mnhvoeeqvkpotvmjxauq"], "id": 0}
+
+write token unable to call the api method PaychAllocateLane
+{"jsonrpc":"2.0","id":0,"error":{"code":1,"message":"missing permission to invoke 'PaychAllocateLane' (need 'sign')"}}
+{"jsonrpc": "2.0", "method": "Filecoin.PaychAllocateLane", "params": ["t3qcmxscntgxzwpkzodifg6kzopwou4h4mccgyaxjxdcoh6cxrz67rb2moy22ssma4mnhvoeeqvkpotvmjxauq"], "id": 0}
+
+sign token was able to successfully call the api method PaychAllocateLane
+{"jsonrpc":"2.0","id":0,"error":{"code":1,"message":"channel not tracked"}}
+
+
+admin token was able to successfully call the api method PaychAllocateLane
+{"jsonrpc":"2.0","id":0,"error":{"code":1,"message":"channel not tracked"}}
+
+
+====================================================================================================
+Testing PaychNewPayment: [None, None, None]
+====================================================================================================
+
+read token unable to call the api method PaychNewPayment
+{"jsonrpc":"2.0","id":0,"error":{"code":1,"message":"missing permission to invoke 'PaychNewPayment' (need 'sign')"}}
+{"jsonrpc": "2.0", "method": "Filecoin.PaychNewPayment", "params": [null, null, null], "id": 0}
+
+write token unable to call the api method PaychNewPayment
+{"jsonrpc":"2.0","id":0,"error":{"code":1,"message":"missing permission to invoke 'PaychNewPayment' (need 'sign')"}}
+{"jsonrpc": "2.0", "method": "Filecoin.PaychNewPayment", "params": [null, null, null], "id": 0}
+
+sign token was able to successfully call the api method PaychNewPayment
+{"jsonrpc":"2.0","id":0,"error":{"code":0,"message":"fatal error calling 'Filecoin.PaychNewPayment': panic in rpc method 'Filecoin.PaychNewPayment': runtime error: index out of range [-1]"}}
+
+
+admin token was able to successfully call the api method PaychNewPayment
+{"jsonrpc":"2.0","id":0,"error":{"code":0,"message":"fatal error calling 'Filecoin.PaychNewPayment': panic in rpc method 'Filecoin.PaychNewPayment': runtime error: index out of range [-1]"}}
+
+
+====================================================================================================
+Testing PaychVoucherCheck: [None]
+====================================================================================================
+
+read token was able to successfully call the api method PaychVoucherCheck
+{"jsonrpc":"2.0","id":0,"error":{"code":-32601,"message":"method 'Filecoin.PaychVoucherCheck' not found"}}
+
+
+write token was able to successfully call the api method PaychVoucherCheck
+{"jsonrpc":"2.0","id":0,"error":{"code":-32601,"message":"method 'Filecoin.PaychVoucherCheck' not found"}}
+
+
+sign token was able to successfully call the api method PaychVoucherCheck
+{"jsonrpc":"2.0","id":0,"error":{"code":-32601,"message":"method 'Filecoin.PaychVoucherCheck' not found"}}
+
+
+admin token was able to successfully call the api method PaychVoucherCheck
+{"jsonrpc":"2.0","id":0,"error":{"code":-32601,"message":"method 'Filecoin.PaychVoucherCheck' not found"}}
+
+
+====================================================================================================
+Testing PaychVoucherCheckValid: ['t3qcmxscntgxzwpkzodifg6kzopwou4h4mccgyaxjxdcoh6cxrz67rb2moy22ssma4mnhvoeeqvkpotvmjxauq', None]
+====================================================================================================
+
+read token was able to successfully call the api method PaychVoucherCheckValid
+{"jsonrpc":"2.0","id":0,"error":{"code":1,"message":"cbor input had wrong number of fields"}}
+
+
+write token was able to successfully call the api method PaychVoucherCheckValid
+{"jsonrpc":"2.0","id":0,"error":{"code":1,"message":"cbor input had wrong number of fields"}}
+
+
+sign token was able to successfully call the api method PaychVoucherCheckValid
+{"jsonrpc":"2.0","id":0,"error":{"code":1,"message":"cbor input had wrong number of fields"}}
+
+
+admin token was able to successfully call the api method PaychVoucherCheckValid
+{"jsonrpc":"2.0","id":0,"error":{"code":1,"message":"cbor input had wrong number of fields"}}
+
+
+====================================================================================================
+Testing PaychVoucherCheckSpendable: ['t3qcmxscntgxzwpkzodifg6kzopwou4h4mccgyaxjxdcoh6cxrz67rb2moy22ssma4mnhvoeeqvkpotvmjxauq', None, 'VGhpcyBpcyBhIHN0cmluZw==', 'VGhpcyBpcyBhIHN0cmluZw==']
+====================================================================================================
+
+read token was able to successfully call the api method PaychVoucherCheckSpendable
+{"jsonrpc":"2.0","id":0,"error":{"code":1,"message":"cbor input had wrong number of fields"}}
+
+
+write token was able to successfully call the api method PaychVoucherCheckSpendable
+{"jsonrpc":"2.0","id":0,"error":{"code":1,"message":"cbor input had wrong number of fields"}}
+
+
+sign token was able to successfully call the api method PaychVoucherCheckSpendable
+{"jsonrpc":"2.0","id":0,"error":{"code":1,"message":"cbor input had wrong number of fields"}}
+
+
+admin token was able to successfully call the api method PaychVoucherCheckSpendable
+{"jsonrpc":"2.0","id":0,"error":{"code":1,"message":"cbor input had wrong number of fields"}}
+
+
+====================================================================================================
+Testing PaychVoucherAdd: ['t3qcmxscntgxzwpkzodifg6kzopwou4h4mccgyaxjxdcoh6cxrz67rb2moy22ssma4mnhvoeeqvkpotvmjxauq', None, 'VGhpcyBpcyBhIHN0cmluZw==', '0']
+====================================================================================================
+
+read token unable to call the api method PaychVoucherAdd
+{"jsonrpc":"2.0","id":0,"error":{"code":1,"message":"missing permission to invoke 'PaychVoucherAdd' (need 'write')"}}
+{"jsonrpc": "2.0", "method": "Filecoin.PaychVoucherAdd", "params": ["t3qcmxscntgxzwpkzodifg6kzopwou4h4mccgyaxjxdcoh6cxrz67rb2moy22ssma4mnhvoeeqvkpotvmjxauq", null, "VGhpcyBpcyBhIHN0cmluZw==", "0"], "id": 0}
+
+write token was able to successfully call the api method PaychVoucherAdd
+{"jsonrpc":"2.0","id":0,"error":{"code":1,"message":"cbor input had wrong number of fields"}}
+
+
+sign token was able to successfully call the api method PaychVoucherAdd
+{"jsonrpc":"2.0","id":0,"error":{"code":1,"message":"cbor input had wrong number of fields"}}
+
+
+admin token was able to successfully call the api method PaychVoucherAdd
+{"jsonrpc":"2.0","id":0,"error":{"code":1,"message":"cbor input had wrong number of fields"}}
+
+
+====================================================================================================
+Testing PaychVoucherCreate: ['t3qcmxscntgxzwpkzodifg6kzopwou4h4mccgyaxjxdcoh6cxrz67rb2moy22ssma4mnhvoeeqvkpotvmjxauq', '5', 10]
+====================================================================================================
+
+read token unable to call the api method PaychVoucherCreate
+{"jsonrpc":"2.0","id":0,"error":{"code":1,"message":"missing permission to invoke 'PaychVoucherCreate' (need 'sign')"}}
+{"jsonrpc": "2.0", "method": "Filecoin.PaychVoucherCreate", "params": ["t3qcmxscntgxzwpkzodifg6kzopwou4h4mccgyaxjxdcoh6cxrz67rb2moy22ssma4mnhvoeeqvkpotvmjxauq", "5", 10], "id": 0}
+
+write token unable to call the api method PaychVoucherCreate
+{"jsonrpc":"2.0","id":0,"error":{"code":1,"message":"missing permission to invoke 'PaychVoucherCreate' (need 'sign')"}}
+{"jsonrpc": "2.0", "method": "Filecoin.PaychVoucherCreate", "params": ["t3qcmxscntgxzwpkzodifg6kzopwou4h4mccgyaxjxdcoh6cxrz67rb2moy22ssma4mnhvoeeqvkpotvmjxauq", "5", 10], "id": 0}
+
+sign token was able to successfully call the api method PaychVoucherCreate
+{"jsonrpc":"2.0","id":0,"error":{"code":1,"message":"get channel info: channel not tracked"}}
+
+
+admin token was able to successfully call the api method PaychVoucherCreate
+{"jsonrpc":"2.0","id":0,"error":{"code":1,"message":"get channel info: channel not tracked"}}
+
+
+====================================================================================================
+Testing PaychVoucherList: ['t3qcmxscntgxzwpkzodifg6kzopwou4h4mccgyaxjxdcoh6cxrz67rb2moy22ssma4mnhvoeeqvkpotvmjxauq']
+====================================================================================================
+
+read token unable to call the api method PaychVoucherList
+{"jsonrpc":"2.0","id":0,"error":{"code":1,"message":"missing permission to invoke 'PaychVoucherList' (need 'write')"}}
+{"jsonrpc": "2.0", "method": "Filecoin.PaychVoucherList", "params": ["t3qcmxscntgxzwpkzodifg6kzopwou4h4mccgyaxjxdcoh6cxrz67rb2moy22ssma4mnhvoeeqvkpotvmjxauq"], "id": 0}
+
+write token was able to successfully call the api method PaychVoucherList
+{"jsonrpc":"2.0","id":0,"error":{"code":1,"message":"channel not tracked"}}
+
+
+sign token was able to successfully call the api method PaychVoucherList
+{"jsonrpc":"2.0","id":0,"error":{"code":1,"message":"channel not tracked"}}
+
+
+admin token was able to successfully call the api method PaychVoucherList
+{"jsonrpc":"2.0","id":0,"error":{"code":1,"message":"channel not tracked"}}
+
+
+====================================================================================================
+Testing PaychVoucherSubmit: ['t3qcmxscntgxzwpkzodifg6kzopwou4h4mccgyaxjxdcoh6cxrz67rb2moy22ssma4mnhvoeeqvkpotvmjxauq', None]
+====================================================================================================
+
+read token unable to call the api method PaychVoucherSubmit
+{"jsonrpc":"2.0","id":0,"error":{"code":1,"message":"missing permission to invoke 'PaychVoucherSubmit' (need 'sign')"}}
+{"jsonrpc": "2.0", "method": "Filecoin.PaychVoucherSubmit", "params": ["t3qcmxscntgxzwpkzodifg6kzopwou4h4mccgyaxjxdcoh6cxrz67rb2moy22ssma4mnhvoeeqvkpotvmjxauq", null], "id": 0}
+
+write token unable to call the api method PaychVoucherSubmit
+{"jsonrpc":"2.0","id":0,"error":{"code":1,"message":"missing permission to invoke 'PaychVoucherSubmit' (need 'sign')"}}
+{"jsonrpc": "2.0", "method": "Filecoin.PaychVoucherSubmit", "params": ["t3qcmxscntgxzwpkzodifg6kzopwou4h4mccgyaxjxdcoh6cxrz67rb2moy22ssma4mnhvoeeqvkpotvmjxauq", null], "id": 0}
+
+sign token was able to successfully call the api method PaychVoucherSubmit
+{"jsonrpc":"2.0","id":0,"error":{"code":1,"message":"channel not tracked"}}
+
+
+admin token was able to successfully call the api method PaychVoucherSubmit
+{"jsonrpc":"2.0","id":0,"error":{"code":1,"message":"channel not tracked"}}
+
+
+====================================================================================================
+Testing AuthVerify: ['eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJBbGxvdyI6WyJyZWFkIiwid3JpdGUiLCJzaWduIiwiYWRtaW4iXX0.XVQkudhLBdPTCNKkGSmelLXxql8W-d2yyvc3QWPQdII']
+====================================================================================================
+
+read token was able to successfully call the api method AuthVerify
+{"jsonrpc":"2.0","result":["read","write","sign","admin"],"id":0}
+
+
+write token was able to successfully call the api method AuthVerify
+{"jsonrpc":"2.0","result":["read","write","sign","admin"],"id":0}
+
+
+sign token was able to successfully call the api method AuthVerify
+{"jsonrpc":"2.0","result":["read","write","sign","admin"],"id":0}
+
+
+admin token was able to successfully call the api method AuthVerify
+{"jsonrpc":"2.0","result":["read","write","sign","admin"],"id":0}
+
+
+====================================================================================================
+Testing AuthNew: [None]
+====================================================================================================
+
+read token unable to call the api method AuthNew
+{"jsonrpc":"2.0","id":0,"error":{"code":1,"message":"missing permission to invoke 'AuthNew' (need 'admin')"}}
+{"jsonrpc": "2.0", "method": "Filecoin.AuthNew", "params": [null], "id": 0}
+
+write token unable to call the api method AuthNew
+{"jsonrpc":"2.0","id":0,"error":{"code":1,"message":"missing permission to invoke 'AuthNew' (need 'admin')"}}
+{"jsonrpc": "2.0", "method": "Filecoin.AuthNew", "params": [null], "id": 0}
+
+sign token unable to call the api method AuthNew
+{"jsonrpc":"2.0","id":0,"error":{"code":1,"message":"missing permission to invoke 'AuthNew' (need 'admin')"}}
+{"jsonrpc": "2.0", "method": "Filecoin.AuthNew", "params": [null], "id": 0}
+
+admin token was able to successfully call the api method AuthNew
+{"jsonrpc":"2.0","result":"ZXlKaGJHY2lPaUpJVXpJMU5pSXNJblI1Y0NJNklrcFhWQ0o5LmV5SkJiR3h2ZHlJNmJuVnNiSDAuc0lzMnNZYmwxOTVZUkNCWkQ4eXR5R2FfeXdfekZxOUw5Q25NVTlsNHVBWQ==","id":0}
+
+
+====================================================================================================
+Testing NetConnectedness: ['12D3KooWN7X2zSAmFS3UDrr4gZS9K6GbgWgmdbRNRSZXUvr1C5kZ']
+====================================================================================================
+
+read token was able to successfully call the api method NetConnectedness
+{"jsonrpc":"2.0","result":0,"id":0}
+
+
+write token was able to successfully call the api method NetConnectedness
+{"jsonrpc":"2.0","result":0,"id":0}
+
+
+sign token was able to successfully call the api method NetConnectedness
+{"jsonrpc":"2.0","result":0,"id":0}
+
+
+admin token was able to successfully call the api method NetConnectedness
+{"jsonrpc":"2.0","result":0,"id":0}
+
+
+====================================================================================================
+Testing NetPeers: []
+====================================================================================================
+
+read token was able to successfully call the api method NetPeers
+{"jsonrpc":"2.0","result":[{"Addrs":["/ip4/147.75.67.199/tcp/4001"],"ID":"QmTd6UvR47vUidRNZ1ZKXHrAFhqTJAD27rKL9XYghEKgKX"},{"Addrs":["/ip4/192.168.9.197/tcp/43157"],"ID":"12D3KooWLptAJHtSc35GGoibKPAcwCHdSS4jUe8r4Z4NNSizrJFR"}],"id":0}
+
+
+write token was able to successfully call the api method NetPeers
+{"jsonrpc":"2.0","result":[{"Addrs":["/ip4/147.75.67.199/tcp/4001"],"ID":"QmTd6UvR47vUidRNZ1ZKXHrAFhqTJAD27rKL9XYghEKgKX"},{"Addrs":["/ip4/192.168.9.197/tcp/43157"],"ID":"12D3KooWLptAJHtSc35GGoibKPAcwCHdSS4jUe8r4Z4NNSizrJFR"}],"id":0}
+
+
+sign token was able to successfully call the api method NetPeers
+{"jsonrpc":"2.0","result":[{"Addrs":["/ip4/147.75.67.199/tcp/4001"],"ID":"QmTd6UvR47vUidRNZ1ZKXHrAFhqTJAD27rKL9XYghEKgKX"},{"Addrs":["/ip4/192.168.9.197/tcp/43157"],"ID":"12D3KooWLptAJHtSc35GGoibKPAcwCHdSS4jUe8r4Z4NNSizrJFR"}],"id":0}
+
+
+admin token was able to successfully call the api method NetPeers
+{"jsonrpc":"2.0","result":[{"Addrs":["/ip4/147.75.67.199/tcp/4001"],"ID":"QmTd6UvR47vUidRNZ1ZKXHrAFhqTJAD27rKL9XYghEKgKX"},{"Addrs":["/ip4/192.168.9.197/tcp/43157"],"ID":"12D3KooWLptAJHtSc35GGoibKPAcwCHdSS4jUe8r4Z4NNSizrJFR"}],"id":0}
+
+
+====================================================================================================
+Testing NetConnect: [{'Addrs': ['/ip4/147.75.67.199/tcp/4001'], 'ID': 'QmTd6UvR47vUidRNZ1ZKXHrAFhqTJAD27rKL9XYghEKgKX'}]
+====================================================================================================
+
+read token unable to call the api method NetConnect
+{"jsonrpc":"2.0","id":0,"error":{"code":1,"message":"missing permission to invoke 'NetConnect' (need 'write')"}}
+{"jsonrpc": "2.0", "method": "Filecoin.NetConnect", "params": [{"Addrs": ["/ip4/147.75.67.199/tcp/4001"], "ID": "QmTd6UvR47vUidRNZ1ZKXHrAFhqTJAD27rKL9XYghEKgKX"}], "id": 0}
+
+write token was able to successfully call the api method NetConnect
+{"jsonrpc":"2.0","id":0}
+
+
+sign token was able to successfully call the api method NetConnect
+{"jsonrpc":"2.0","id":0}
+
+
+admin token was able to successfully call the api method NetConnect
+{"jsonrpc":"2.0","id":0}
+
+
+====================================================================================================
+Testing NetAddrsListen: []
+====================================================================================================
+
+read token was able to successfully call the api method NetAddrsListen
+{"jsonrpc":"2.0","result":{"Addrs":["/ip4/127.0.0.1/tcp/40097","/ip4/192.168.9.197/tcp/40097","/ip6/::1/tcp/45281"],"ID":"12D3KooWN7X2zSAmFS3UDrr4gZS9K6GbgWgmdbRNRSZXUvr1C5kZ"},"id":0}
+
+
+write token was able to successfully call the api method NetAddrsListen
+{"jsonrpc":"2.0","result":{"Addrs":["/ip4/127.0.0.1/tcp/40097","/ip4/192.168.9.197/tcp/40097","/ip6/::1/tcp/45281"],"ID":"12D3KooWN7X2zSAmFS3UDrr4gZS9K6GbgWgmdbRNRSZXUvr1C5kZ"},"id":0}
+
+
+sign token was able to successfully call the api method NetAddrsListen
+{"jsonrpc":"2.0","result":{"Addrs":["/ip4/127.0.0.1/tcp/40097","/ip4/192.168.9.197/tcp/40097","/ip6/::1/tcp/45281"],"ID":"12D3KooWN7X2zSAmFS3UDrr4gZS9K6GbgWgmdbRNRSZXUvr1C5kZ"},"id":0}
+
+
+admin token was able to successfully call the api method NetAddrsListen
+{"jsonrpc":"2.0","result":{"Addrs":["/ip4/127.0.0.1/tcp/40097","/ip4/192.168.9.197/tcp/40097","/ip6/::1/tcp/45281"],"ID":"12D3KooWN7X2zSAmFS3UDrr4gZS9K6GbgWgmdbRNRSZXUvr1C5kZ"},"id":0}
+
+
+====================================================================================================
+Testing NetDisconnect: ['12D3KooWN7X2zSAmFS3UDrr4gZS9K6GbgWgmdbRNRSZXUvr1C5kZ']
+====================================================================================================
+
+read token unable to call the api method NetDisconnect
+{"jsonrpc":"2.0","id":0,"error":{"code":1,"message":"missing permission to invoke 'NetDisconnect' (need 'write')"}}
+{"jsonrpc": "2.0", "method": "Filecoin.NetDisconnect", "params": ["12D3KooWN7X2zSAmFS3UDrr4gZS9K6GbgWgmdbRNRSZXUvr1C5kZ"], "id": 0}
+
+write token was able to successfully call the api method NetDisconnect
+{"jsonrpc":"2.0","id":0}
+
+
+sign token was able to successfully call the api method NetDisconnect
+{"jsonrpc":"2.0","id":0}
+
+
+admin token was able to successfully call the api method NetDisconnect
+{"jsonrpc":"2.0","id":0}
+
+
+====================================================================================================
+Testing NetFindPeer: ['12D3KooWN7X2zSAmFS3UDrr4gZS9K6GbgWgmdbRNRSZXUvr1C5kZ']
+====================================================================================================
+
+read token was able to successfully call the api method NetFindPeer
+{"jsonrpc":"2.0","id":0,"error":{"code":1,"message":"failed to find any peer in table"}}
+
+
+write token was able to successfully call the api method NetFindPeer
+{"jsonrpc":"2.0","id":0,"error":{"code":1,"message":"failed to find any peer in table"}}
+
+
+sign token was able to successfully call the api method NetFindPeer
+{"jsonrpc":"2.0","id":0,"error":{"code":1,"message":"failed to find any peer in table"}}
+
+
+admin token was able to successfully call the api method NetFindPeer
+{"jsonrpc":"2.0","id":0,"error":{"code":1,"message":"failed to find any peer in table"}}
+
+
+====================================================================================================
+Testing ID: []
+====================================================================================================
+
+read token was able to successfully call the api method ID
+{"jsonrpc":"2.0","result":"12D3KooWN7X2zSAmFS3UDrr4gZS9K6GbgWgmdbRNRSZXUvr1C5kZ","id":0}
+
+
+write token was able to successfully call the api method ID
+{"jsonrpc":"2.0","result":"12D3KooWN7X2zSAmFS3UDrr4gZS9K6GbgWgmdbRNRSZXUvr1C5kZ","id":0}
+
+
+sign token was able to successfully call the api method ID
+{"jsonrpc":"2.0","result":"12D3KooWN7X2zSAmFS3UDrr4gZS9K6GbgWgmdbRNRSZXUvr1C5kZ","id":0}
+
+
+admin token was able to successfully call the api method ID
+{"jsonrpc":"2.0","result":"12D3KooWN7X2zSAmFS3UDrr4gZS9K6GbgWgmdbRNRSZXUvr1C5kZ","id":0}
+
+
+====================================================================================================
+Testing Version: []
+====================================================================================================
+
+read token was able to successfully call the api method Version
+{"jsonrpc":"2.0","result":{"Version":"0.3.0'+git7d166fd7'","APIVersion":768,"BlockDelay":25},"id":0}
+
+
+write token was able to successfully call the api method Version
+{"jsonrpc":"2.0","result":{"Version":"0.3.0'+git7d166fd7'","APIVersion":768,"BlockDelay":25},"id":0}
+
+
+sign token was able to successfully call the api method Version
+{"jsonrpc":"2.0","result":{"Version":"0.3.0'+git7d166fd7'","APIVersion":768,"BlockDelay":25},"id":0}
+
+
+admin token was able to successfully call the api method Version
+{"jsonrpc":"2.0","result":{"Version":"0.3.0'+git7d166fd7'","APIVersion":768,"BlockDelay":25},"id":0}
+
+
+====================================================================================================
+Testing LogList: []
+====================================================================================================
+
+read token unable to call the api method LogList
+{"jsonrpc":"2.0","id":0,"error":{"code":1,"message":"missing permission to invoke 'LogList' (need 'write')"}}
+{"jsonrpc": "2.0", "method": "Filecoin.LogList", "params": [], "id": 0}
+
+write token was able to successfully call the api method LogList
+{"jsonrpc":"2.0","result":["events","swarm2","tarutil","bufbs","providers","table","connmgr","modules","sub","blocksync","market_adapter","discovery","messagepool","provideradapter","stores","vm","cmds/http","advmgr","peerstore","blankhost","bs:sprmgr","graphsync-impl","cborrrpc","tcp-tpt","ping","dht","statemgr","drand","mplex","basichost","p2p-config","bs:sess","providerstates","statetree","lock","wallet","addrutil","test-logger","filestore","repo","gen","auth","dht/RtRefreshManager","chain","sectors","data_transfer_network","build","routing/record","p2pnode","bs:peermgr","cmds","blockstore","beacon","secio","quic-transport","paych","autorelay","boguskey","stream-upgrader","autonat","storagemarket_impl","rpc","dht.pb","nat","retrieval","builder","miner","cli","pubsub","amt","badger","ipns","bitswap","hello","preseal","storedask","metrics","types","chainstore","genesis","bitswap_network","graphsync_network","peermgr","fsm","net/identify","blockservice","evtsm","main","ffiwrapper","relay","graphsync","fullnode","mocknet","storageminer","chunk","pathresolv","reuseport-transport","incrt","tracing","routedhost","node","retrieval_network","storagemarket_network","eventlog","engine"],"id":0}
+
+
+sign token was able to successfully call the api method LogList
+{"jsonrpc":"2.0","result":["secio","quic-transport","paych","autorelay","boguskey","stream-upgrader","autonat","rpc","dht.pb","storagemarket_impl","nat","miner","cli","pubsub","retrieval","builder","badger","ipns","amt","hello","bitswap","chainstore","genesis","preseal","storedask","metrics","types","bitswap_network","peermgr","fsm","net/identify","graphsync_network","evtsm","main","blockservice","relay","graphsync","ffiwrapper","fullnode","mocknet","storageminer","chunk","pathresolv","reuseport-transport","tracing","incrt","routedhost","node","engine","retrieval_network","storagemarket_network","eventlog","bufbs","providers","table","events","swarm2","tarutil","connmgr","modules","market_adapter","sub","blocksync","vm","discovery","messagepool","provideradapter","stores","cmds/http","advmgr","peerstore","tcp-tpt","ping","blankhost","bs:sprmgr","graphsync-impl","cborrrpc","statemgr","dht","drand","basichost","p2p-config","bs:sess","mplex","lock","wallet","addrutil","providerstates","statetree","filestore","repo","gen","test-logger","dht/RtRefreshManager","chain","sectors","auth","routing/record","data_transfer_network","build","p2pnode","bs:peermgr","beacon","cmds","blockstore"],"id":0}
+
+
+admin token was able to successfully call the api method LogList
+{"jsonrpc":"2.0","result":["swarm2","tarutil","bufbs","providers","table","events","connmgr","modules","blocksync","market_adapter","sub","messagepool","provideradapter","stores","vm","discovery","cmds/http","advmgr","peerstore","bs:sprmgr","graphsync-impl","cborrrpc","tcp-tpt","ping","blankhost","statemgr","dht","drand","mplex","basichost","p2p-config","bs:sess","statetree","lock","wallet","addrutil","providerstates","test-logger","filestore","repo","gen","auth","dht/RtRefreshManager","chain","sectors","build","routing/record","data_transfer_network","p2pnode","bs:peermgr","blockstore","beacon","cmds","secio","quic-transport","autorelay","paych","boguskey","stream-upgrader","autonat","rpc","dht.pb","storagemarket_impl","nat","miner","cli","pubsub","retrieval","builder","amt","badger","ipns","hello","bitswap","storedask","metrics","types","chainstore","genesis","preseal","bitswap_network","graphsync_network","peermgr","fsm","net/identify","blockservice","evtsm","main","ffiwrapper","relay","graphsync","fullnode","mocknet","storageminer","chunk","pathresolv","reuseport-transport","incrt","tracing","routedhost","node","eventlog","engine","retrieval_network","storagemarket_network"],"id":0}
+
+
+====================================================================================================
+Testing LogSetLevel: ['*', 'Debug']
+====================================================================================================
+
+read token unable to call the api method LogSetLevel
+{"jsonrpc":"2.0","id":0,"error":{"code":1,"message":"missing permission to invoke 'LogSetLevel' (need 'write')"}}
+{"jsonrpc": "2.0", "method": "Filecoin.LogSetLevel", "params": ["*", "Debug"], "id": 0}
+
+write token was able to successfully call the api method LogSetLevel
+{"jsonrpc":"2.0","id":0}
+
+
+sign token was able to successfully call the api method LogSetLevel
+{"jsonrpc":"2.0","id":0}
+
+
+admin token was able to successfully call the api method LogSetLevel
+{"jsonrpc":"2.0","id":0}
+
+

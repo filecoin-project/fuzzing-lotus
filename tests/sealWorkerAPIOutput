@@ -1,0 +1,220 @@
+====================================================================================================
+Testing Version: []
+====================================================================================================
+
+read token unable to call the api method Version
+{"jsonrpc":"2.0","id":0,"error":{"code":1,"message":"missing permission to invoke 'Version' (need 'admin')"}}
+{"jsonrpc": "2.0", "method": "Filecoin.Version", "params": [], "id": 0}
+
+write token unable to call the api method Version
+{"jsonrpc":"2.0","id":0,"error":{"code":1,"message":"missing permission to invoke 'Version' (need 'admin')"}}
+{"jsonrpc": "2.0", "method": "Filecoin.Version", "params": [], "id": 0}
+
+sign token unable to call the api method Version
+{"jsonrpc":"2.0","id":0,"error":{"code":1,"message":"missing permission to invoke 'Version' (need 'admin')"}}
+{"jsonrpc": "2.0", "method": "Filecoin.Version", "params": [], "id": 0}
+
+admin token was able to successfully call the api method Version
+{"jsonrpc":"2.0","result":768,"id":0}
+
+
+====================================================================================================
+Testing TaskTypes: []
+====================================================================================================
+
+read token unable to call the api method TaskTypes
+{"jsonrpc":"2.0","id":0,"error":{"code":1,"message":"missing permission to invoke 'TaskTypes' (need 'admin')"}}
+{"jsonrpc": "2.0", "method": "Filecoin.TaskTypes", "params": [], "id": 0}
+
+write token unable to call the api method TaskTypes
+{"jsonrpc":"2.0","id":0,"error":{"code":1,"message":"missing permission to invoke 'TaskTypes' (need 'admin')"}}
+{"jsonrpc": "2.0", "method": "Filecoin.TaskTypes", "params": [], "id": 0}
+
+sign token unable to call the api method TaskTypes
+{"jsonrpc":"2.0","id":0,"error":{"code":1,"message":"missing permission to invoke 'TaskTypes' (need 'admin')"}}
+{"jsonrpc": "2.0", "method": "Filecoin.TaskTypes", "params": [], "id": 0}
+
+admin token was able to successfully call the api method TaskTypes
+{"jsonrpc":"2.0","result":{"seal/v0/commit/2":{},"seal/v0/fetch":{},"seal/v0/precommit/1":{},"seal/v0/precommit/2":{}},"id":0}
+
+
+====================================================================================================
+Testing Paths: []
+====================================================================================================
+
+read token unable to call the api method Paths
+{"jsonrpc":"2.0","id":0,"error":{"code":1,"message":"missing permission to invoke 'Paths' (need 'admin')"}}
+{"jsonrpc": "2.0", "method": "Filecoin.Paths", "params": [], "id": 0}
+
+write token unable to call the api method Paths
+{"jsonrpc":"2.0","id":0,"error":{"code":1,"message":"missing permission to invoke 'Paths' (need 'admin')"}}
+{"jsonrpc": "2.0", "method": "Filecoin.Paths", "params": [], "id": 0}
+
+sign token unable to call the api method Paths
+{"jsonrpc":"2.0","id":0,"error":{"code":1,"message":"missing permission to invoke 'Paths' (need 'admin')"}}
+{"jsonrpc": "2.0", "method": "Filecoin.Paths", "params": [], "id": 0}
+
+admin token was able to successfully call the api method Paths
+{"jsonrpc":"2.0","result":[{"ID":"bd6fdb2a-a3ad-4609-a86e-ad1956525e44","Weight":10,"LocalPath":"/home/liam/.lotusworker","CanSeal":true,"CanStore":false}],"id":0}
+
+
+====================================================================================================
+Testing Info: []
+====================================================================================================
+
+read token unable to call the api method Info
+{"jsonrpc":"2.0","id":0,"error":{"code":1,"message":"missing permission to invoke 'Info' (need 'admin')"}}
+{"jsonrpc": "2.0", "method": "Filecoin.Info", "params": [], "id": 0}
+
+write token unable to call the api method Info
+{"jsonrpc":"2.0","id":0,"error":{"code":1,"message":"missing permission to invoke 'Info' (need 'admin')"}}
+{"jsonrpc": "2.0", "method": "Filecoin.Info", "params": [], "id": 0}
+
+sign token unable to call the api method Info
+{"jsonrpc":"2.0","id":0,"error":{"code":1,"message":"missing permission to invoke 'Info' (need 'admin')"}}
+{"jsonrpc": "2.0", "method": "Filecoin.Info", "params": [], "id": 0}
+
+admin token was able to successfully call the api method Info
+{"jsonrpc":"2.0","result":{"Hostname":"liam","Resources":{"MemPhysical":16524787712,"MemSwap":0,"MemReserved":13458452480,"CPUs":4,"GPUs":[]}},"id":0}
+
+
+====================================================================================================
+Testing SealPreCommit1: [None, None, None]
+====================================================================================================
+
+read token unable to call the api method SealPreCommit1
+{"jsonrpc":"2.0","id":0,"error":{"code":1,"message":"missing permission to invoke 'SealPreCommit1' (need 'admin')"}}
+{"jsonrpc": "2.0", "method": "Filecoin.SealPreCommit1", "params": [null, null, null], "id": 0}
+
+write token unable to call the api method SealPreCommit1
+{"jsonrpc":"2.0","id":0,"error":{"code":1,"message":"missing permission to invoke 'SealPreCommit1' (need 'admin')"}}
+{"jsonrpc": "2.0", "method": "Filecoin.SealPreCommit1", "params": [null, null, null], "id": 0}
+
+sign token unable to call the api method SealPreCommit1
+{"jsonrpc":"2.0","id":0,"error":{"code":1,"message":"missing permission to invoke 'SealPreCommit1' (need 'admin')"}}
+{"jsonrpc": "2.0", "method": "Filecoin.SealPreCommit1", "params": [null, null, null], "id": 0}
+
+admin token was able to successfully call the api method SealPreCommit1
+{"jsonrpc":"2.0","id":0,"error":{"code":1,"message":"acquiring sector paths: failed to acquire sector {0 0} from remote(1): not found"}}
+
+
+====================================================================================================
+Testing SealPreCommit2: [None, None]
+====================================================================================================
+
+read token unable to call the api method SealPreCommit2
+{"jsonrpc":"2.0","id":0,"error":{"code":1,"message":"missing permission to invoke 'SealPreCommit2' (need 'admin')"}}
+{"jsonrpc": "2.0", "method": "Filecoin.SealPreCommit2", "params": [null, null], "id": 0}
+
+write token unable to call the api method SealPreCommit2
+{"jsonrpc":"2.0","id":0,"error":{"code":1,"message":"missing permission to invoke 'SealPreCommit2' (need 'admin')"}}
+{"jsonrpc": "2.0", "method": "Filecoin.SealPreCommit2", "params": [null, null], "id": 0}
+
+sign token unable to call the api method SealPreCommit2
+{"jsonrpc":"2.0","id":0,"error":{"code":1,"message":"missing permission to invoke 'SealPreCommit2' (need 'admin')"}}
+{"jsonrpc": "2.0", "method": "Filecoin.SealPreCommit2", "params": [null, null], "id": 0}
+
+admin token was able to successfully call the api method SealPreCommit2
+{"jsonrpc":"2.0","id":0,"error":{"code":1,"message":"acquiring sector paths: failed to acquire sector {0 0} from remote(2): not found"}}
+
+
+====================================================================================================
+Testing SealCommit1: [None, None, None, None, None]
+====================================================================================================
+
+read token unable to call the api method SealCommit1
+{"jsonrpc":"2.0","id":0,"error":{"code":1,"message":"missing permission to invoke 'SealCommit1' (need 'admin')"}}
+{"jsonrpc": "2.0", "method": "Filecoin.SealCommit1", "params": [null, null, null, null, null], "id": 0}
+
+write token unable to call the api method SealCommit1
+{"jsonrpc":"2.0","id":0,"error":{"code":1,"message":"missing permission to invoke 'SealCommit1' (need 'admin')"}}
+{"jsonrpc": "2.0", "method": "Filecoin.SealCommit1", "params": [null, null, null, null, null], "id": 0}
+
+sign token unable to call the api method SealCommit1
+{"jsonrpc":"2.0","id":0,"error":{"code":1,"message":"missing permission to invoke 'SealCommit1' (need 'admin')"}}
+{"jsonrpc": "2.0", "method": "Filecoin.SealCommit1", "params": [null, null, null, null, null], "id": 0}
+
+admin token was able to successfully call the api method SealCommit1
+{"jsonrpc":"2.0","id":0,"error":{"code":1,"message":"acquire sector paths: failed to acquire sector {0 0} from remote(2): not found"}}
+
+
+====================================================================================================
+Testing SealCommit2: [None, None]
+====================================================================================================
+
+read token unable to call the api method SealCommit2
+{"jsonrpc":"2.0","id":0,"error":{"code":1,"message":"missing permission to invoke 'SealCommit2' (need 'admin')"}}
+{"jsonrpc": "2.0", "method": "Filecoin.SealCommit2", "params": [null, null], "id": 0}
+
+write token unable to call the api method SealCommit2
+{"jsonrpc":"2.0","id":0,"error":{"code":1,"message":"missing permission to invoke 'SealCommit2' (need 'admin')"}}
+{"jsonrpc": "2.0", "method": "Filecoin.SealCommit2", "params": [null, null], "id": 0}
+
+sign token unable to call the api method SealCommit2
+{"jsonrpc":"2.0","id":0,"error":{"code":1,"message":"missing permission to invoke 'SealCommit2' (need 'admin')"}}
+{"jsonrpc": "2.0", "method": "Filecoin.SealCommit2", "params": [null, null], "id": 0}
+
+admin token was able to successfully call the api method SealCommit2
+{"jsonrpc":"2.0","id":0,"error":{"code":1,"message":"EOF while parsing a value at line 1 column 0"}}
+
+
+====================================================================================================
+Testing FinalizeSector: [None]
+====================================================================================================
+
+read token unable to call the api method FinalizeSector
+{"jsonrpc":"2.0","id":0,"error":{"code":1,"message":"missing permission to invoke 'FinalizeSector' (need 'admin')"}}
+{"jsonrpc": "2.0", "method": "Filecoin.FinalizeSector", "params": [null], "id": 0}
+
+write token unable to call the api method FinalizeSector
+{"jsonrpc":"2.0","id":0,"error":{"code":1,"message":"missing permission to invoke 'FinalizeSector' (need 'admin')"}}
+{"jsonrpc": "2.0", "method": "Filecoin.FinalizeSector", "params": [null], "id": 0}
+
+sign token unable to call the api method FinalizeSector
+{"jsonrpc":"2.0","id":0,"error":{"code":1,"message":"missing permission to invoke 'FinalizeSector' (need 'admin')"}}
+{"jsonrpc": "2.0", "method": "Filecoin.FinalizeSector", "params": [null], "id": 0}
+
+admin token was able to successfully call the api method FinalizeSector
+{"jsonrpc":"2.0","id":0,"error":{"code":1,"message":"finalizing sector: acquiring sector cache path: failed to acquire sector {0 0} from remote(4): not found"}}
+
+
+====================================================================================================
+Testing Fetch: [None, None, True]
+====================================================================================================
+
+read token unable to call the api method Fetch
+{"jsonrpc":"2.0","id":0,"error":{"code":1,"message":"missing permission to invoke 'Fetch' (need 'admin')"}}
+{"jsonrpc": "2.0", "method": "Filecoin.Fetch", "params": [null, null, true], "id": 0}
+
+write token unable to call the api method Fetch
+{"jsonrpc":"2.0","id":0,"error":{"code":1,"message":"missing permission to invoke 'Fetch' (need 'admin')"}}
+{"jsonrpc": "2.0", "method": "Filecoin.Fetch", "params": [null, null, true], "id": 0}
+
+sign token unable to call the api method Fetch
+{"jsonrpc":"2.0","id":0,"error":{"code":1,"message":"missing permission to invoke 'Fetch' (need 'admin')"}}
+{"jsonrpc": "2.0", "method": "Filecoin.Fetch", "params": [null, null, true], "id": 0}
+
+admin token was able to successfully call the api method Fetch
+{"jsonrpc":"2.0","id":0}
+
+
+====================================================================================================
+Testing Closing: []
+====================================================================================================
+
+read token was able to successfully call the api method Closing
+{"jsonrpc":"2.0","id":0,"error":{"code":-32601,"message":"method 'Filecoin.Closing' not supported in this mode (no out channel support)"}}
+
+
+write token was able to successfully call the api method Closing
+{"jsonrpc":"2.0","id":0,"error":{"code":-32601,"message":"method 'Filecoin.Closing' not supported in this mode (no out channel support)"}}
+
+
+sign token was able to successfully call the api method Closing
+{"jsonrpc":"2.0","id":0,"error":{"code":-32601,"message":"method 'Filecoin.Closing' not supported in this mode (no out channel support)"}}
+
+
+admin token was able to successfully call the api method Closing
+{"jsonrpc":"2.0","id":0,"error":{"code":-32601,"message":"method 'Filecoin.Closing' not supported in this mode (no out channel support)"}}
+
+

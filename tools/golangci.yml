@@ -1,0 +1,52 @@
+# Common golangci config run across dependencies
+
+run:
+  tests: false
+
+linters:
+  disable-all: true
+  enable:
+    - bodyclose
+    - deadcode
+    - dupl
+    - errcheck
+    - gocritic
+    - godox
+    - goerr113
+    - gosec
+    - gosimple
+    - govet
+    - ineffassign
+    - misspell
+    - nolintlint
+    - rowserrcheck
+    - scopelint
+    - staticcheck
+    - structcheck
+    - typecheck
+    - unparam
+    - unused
+    - varcheck
+
+
+issues:
+  exclude-use-default: true
+  include:
+    - EXC0001
+    - EXC0004
+    - EXC0005
+    - EXC0006
+    - EXC0007
+    - EXC0009
+
+linters-settings:
+  gocritic:
+    enabled-tags:
+      - performance
+      - diagnostic
+      - experimental
+    disabled-tags:
+      - style
+  govet:
+    check-shadowing: true
+    enable-all: true
