@@ -40,3 +40,18 @@
 [submodule "code/deps/go-hamt-ipld"]
 	path = code/deps/go-hamt-ipld
 	url = https://github.com/ipfs/go-hamt-ipld
+[submodule "code/deps/go-ipld-cbor"]
+	path = code/deps/go-ipld-cbor
+	url = https://github.com/ipfs/go-ipld-cbor
+[submodule "code/deps/go-padreader"]
+	path = code/deps/go-padreader
+	url = https://github.com/filecoin-project/go-padreader
+[submodule "code/deps/go-statemachine"]
+	path = code/deps/go-statemachine
+	url = https://github.com/filecoin-project/go-statemachine
+[submodule "code/deps/go-statestore"]
+	path = code/deps/go-statestore
+	url = https://github.com/filecoin-project/go-statestore
+[submodule "code/deps/specs-storage"]
+	path = code/deps/specs-storage
+	url = https://github.com/filecoin-project/specs-storage
