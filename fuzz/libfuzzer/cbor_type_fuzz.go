@@ -28,7 +28,6 @@ import (
 	"github.com/filecoin-project/specs-actors/actors/builtin/reward"
 	"github.com/filecoin-project/specs-actors/actors/builtin/verifreg"
 	"github.com/filecoin-project/specs-actors/actors/puppet"
-	fsm "github.com/filecoin-project/storage-fsm"
 	gfuzz "github.com/google/gofuzz"
 	hamtipld "github.com/ipfs/go-hamt-ipld"
 
@@ -46,13 +45,11 @@ type CBORer interface {
 
 // To save making the reflection type every time the harness is called
 var cborTypeMap = map[string]reflect.Type{
-	"BlockSyncRequest":  reflect.TypeOf((*blocksync.BlockSyncRequest)(nil)).Elem(),
-	"BlockSyncResponse": reflect.TypeOf((*blocksync.BlockSyncResponse)(nil)).Elem(),
+	"Request":  reflect.TypeOf((*blocksync.Request)(nil)).Elem(),
+	"Response": reflect.TypeOf((*blocksync.Response)(nil)).Elem(),
 	"HelloMessage":      reflect.TypeOf((*hello.HelloMessage)(nil)).Elem(),
 	"LatencyMessage":    reflect.TypeOf((*hello.LatencyMessage)(nil)).Elem(),
 	"VoucherInfo":       reflect.TypeOf((*paychmgr.VoucherInfo)(nil)).Elem(),
-	"ChannelInfo":       reflect.TypeOf((*paychmgr.ChannelInfo)(nil)).Elem(),
-	"PaymentInfo":       reflect.TypeOf((*api.PaymentInfo)(nil)).Elem(),
 	"SealedRef":         reflect.TypeOf((*api.SealedRef)(nil)).Elem(),
 	"SealedRefs":        reflect.TypeOf((*api.SealedRefs)(nil)).Elem(),
 	"SealTicket":        reflect.TypeOf((*api.SealTicket)(nil)).Elem(),
@@ -63,11 +60,15 @@ var cborTypeMap = map[string]reflect.Type{
 	"MsgMeta":           reflect.TypeOf((*types.MsgMeta)(nil)).Elem(),
 	"MessageReceipt":    reflect.TypeOf((*types.MessageReceipt)(nil)).Elem(),
 	"DealProposal":      reflect.TypeOf((*retrievalmarket.DealProposal)(nil)).Elem(),
+
 	// patrick targets
-	"SectorInfo":   reflect.TypeOf((*fsm.SectorInfo)(nil)).Elem(),
-	"Piece":        reflect.TypeOf((*fsm.Piece)(nil)).Elem(),
-	"DealSchedule": reflect.TypeOf((*fsm.DealSchedule)(nil)).Elem(),
-	"DealInfo":     reflect.TypeOf((*fsm.DealInfo)(nil)).Elem(),
+
+	// The following have moved somewhere
+	// "SectorInfo":   reflect.TypeOf((*fsm.SectorInfo)(nil)).Elem(),
+	// "Piece":        reflect.TypeOf((*fsm.Piece)(nil)).Elem(),
+	// "DealSchedule": reflect.TypeOf((*fsm.DealSchedule)(nil)).Elem(),
+	// "DealInfo":     reflect.TypeOf((*fsm.DealInfo)(nil)).Elem(),
+
 	"Address":      reflect.TypeOf((*goaddr.Address)(nil)).Elem(),
 	"Deferred":     reflect.TypeOf((*cbg.Deferred)(nil)).Elem(),
 	"KV":           reflect.TypeOf((*hamtipld.KV)(nil)).Elem(),
@@ -83,21 +84,15 @@ var cborTypeMap = map[string]reflect.Type{
 	//TODO remove? the following types don't implement CBORer
 	//"SortedPublicSectorInfo":  reflect.TypeOf((*ffi.SortedPublicSectorInfo)(nil)).Elem(),
 	//"SortedPrivateSectorInfo": reflect.TypeOf((*ffi.SortedPrivateSectorInfo)(nil)).Elem(),
-	// spec-actor "*Params"
+
+	// // spec-actor "*Params"
 	"SendParams":                           reflect.TypeOf((*puppet.SendParams)(nil)).Elem(),
 	"MarketWithdrawBalanceParams":          reflect.TypeOf((*market.WithdrawBalanceParams)(nil)).Elem(),
 	"PublishStorageDealsParams":            reflect.TypeOf((*market.PublishStorageDealsParams)(nil)).Elem(),
-	"VerifyDealsOnSectorProveCommitParams": reflect.TypeOf((*market.VerifyDealsOnSectorProveCommitParams)(nil)).Elem(),
 	"ComputeDataCommitmentParams":          reflect.TypeOf((*market.ComputeDataCommitmentParams)(nil)).Elem(),
 	"OnMinerSectorsTerminateParams":        reflect.TypeOf((*market.OnMinerSectorsTerminateParams)(nil)).Elem(),
 	"CreateMinerParams":                    reflect.TypeOf((*power.CreateMinerParams)(nil)).Elem(),
-	"DeleteMinerParams":                    reflect.TypeOf((*power.DeleteMinerParams)(nil)).Elem(),
 	"EnrollCronEventParams":                reflect.TypeOf((*power.EnrollCronEventParams)(nil)).Elem(),
-	"OnSectorTerminateParams":              reflect.TypeOf((*power.OnSectorTerminateParams)(nil)).Elem(),
-	"OnSectorModifyWeightDescParams":       reflect.TypeOf((*power.OnSectorModifyWeightDescParams)(nil)).Elem(),
-	"OnSectorProveCommitParams":            reflect.TypeOf((*power.OnSectorProveCommitParams)(nil)).Elem(),
-	"OnFaultBeginParams":                   reflect.TypeOf((*power.OnFaultBeginParams)(nil)).Elem(),
-	"OnFaultEndParams":                     reflect.TypeOf((*power.OnFaultEndParams)(nil)).Elem(),
 	"MinerConstructorParams":               reflect.TypeOf((*power.MinerConstructorParams)(nil)).Elem(),
 	"SubmitWindowedPoStParams":             reflect.TypeOf((*miner.SubmitWindowedPoStParams)(nil)).Elem(),
 	"TerminateSectorsParams":               reflect.TypeOf((*miner.TerminateSectorsParams)(nil)).Elem(),
@@ -222,24 +217,24 @@ func cborFuzzUtilStructured(data []byte, typ reflect.Type) int {
 	return 1
 }
 
-// Fuzzing BlockSyncRequest unmarshal/marshal from raw byteslice
-func FuzzBlockSyncRequestRaw(data []byte) int {
-	return cborFuzzUtilRaw(data, cborTypeMap["BlockSyncRequest"])
+// Fuzzing Request unmarshal/marshal from raw byteslice
+func FuzzRequestRaw(data []byte) int {
+	return cborFuzzUtilRaw(data, cborTypeMap["Request"])
 }
 
-// Fuzzing BlockSyncRequest marshal/unmarshal from generated struct
-func FuzzBlockSyncRequestStructured(data []byte) int {
-	return cborFuzzUtilStructured(data, cborTypeMap["BlockSyncRequest"])
+// Fuzzing Request marshal/unmarshal from generated struct
+func FuzzRequestStructured(data []byte) int {
+	return cborFuzzUtilStructured(data, cborTypeMap["Request"])
 }
 
-// Fuzzing BlockSyncResponse unmarshal/marshal from raw byteslice
-func FuzzBlockSyncResponseRaw(data []byte) int {
-	return cborFuzzUtilRaw(data, cborTypeMap["BlockSyncResponse"])
+// Fuzzing Response unmarshal/marshal from raw byteslice
+func FuzzResponseRaw(data []byte) int {
+	return cborFuzzUtilRaw(data, cborTypeMap["Response"])
 }
 
-// Fuzzing BlockSyncResponse marshal/unmarshal from generated struct
-func FuzzBlockSyncResponseStructured(data []byte) int {
-	return cborFuzzUtilStructured(data, cborTypeMap["BlockSyncResponse"])
+// Fuzzing Response marshal/unmarshal from generated struct
+func FuzzResponseStructured(data []byte) int {
+	return cborFuzzUtilStructured(data, cborTypeMap["Response"])
 }
 
 // Fuzzing HelloMessage unmarshal/marshal from raw byteslice
@@ -270,26 +265,6 @@ func FuzzVoucherInfoRaw(data []byte) int {
 // Fuzzing VoucherInfo marshal/unmarshal from generated struct
 func FuzzVoucherInfoStructured(data []byte) int {
 	return cborFuzzUtilStructured(data, cborTypeMap["VoucherInfo"])
-}
-
-// Fuzzing ChannelInfo unmarshal/marshal from raw byteslice
-func FuzzChannelInfoRaw(data []byte) int {
-	return cborFuzzUtilRaw(data, cborTypeMap["ChannelInfo"])
-}
-
-// Fuzzing ChannelInfo marshal/unmarshal from generated struct
-func FuzzChannelInfoStructured(data []byte) int {
-	return cborFuzzUtilStructured(data, cborTypeMap["ChannelInfo"])
-}
-
-// Fuzzing PaymentInfo unmarshal/marshal from raw byteslice
-func FuzzPaymentInfoRaw(data []byte) int {
-	return cborFuzzUtilRaw(data, cborTypeMap["PaymentInfo"])
-}
-
-// Fuzzing PaymentInfo marshal/unmarshal from generated struct
-func FuzzPaymentInfoStructured(data []byte) int {
-	return cborFuzzUtilStructured(data, cborTypeMap["PaymentInfo"])
 }
 
 // Fuzzing SealedRef unmarshal/marshal from raw byteslice
@@ -394,34 +369,9 @@ func FuzzDealProposalStructured(data []byte) int {
 
 // patrick targets
 
-// Fuzzing SectorInfo unmarshal/marshal from raw byteslice
-func FuzzSectorInfoRaw(data []byte) int {
-	return cborFuzzUtilRaw(data, cborTypeMap["SectorInfo"])
-}
-
-// Fuzzing SectorInfo unmarshal/marshal from generated struct
-func FuzzSectorInfoStructured(data []byte) int {
-	return cborFuzzUtilStructured(data, cborTypeMap["SectorInfo"])
-}
-
-// Fuzzing Piece unmarshal/marshal from raw byteslice
-func FuzzPieceRaw(data []byte) int {
-	return cborFuzzUtilRaw(data, cborTypeMap["Piece"])
-}
-
-// Fuzzing Piece unmarshal/marshal from generated struct
-func FuzzPieceStructured(data []byte) int {
-	return cborFuzzUtilStructured(data, cborTypeMap["Piece"])
-}
-
 // Fuzzing Address unmarshal/marshal from raw byteslice
 func FuzzAddressRaw(data []byte) int {
 	return cborFuzzUtilRaw(data, cborTypeMap["Address"])
-}
-
-// Fuzzing Address unmarshal/marshal from generated struct
-func FuzzAddressStructured(data []byte) int {
-	return cborFuzzUtilStructured(data, cborTypeMap["Address"])
 }
 
 // Fuzzing Deferred unmarshal/marshal from raw byteslice
@@ -504,25 +454,25 @@ func FuzzTestStateStructured(data []byte) int {
 	return cborFuzzUtilStructured(data, cborTypeMap["TestState"])
 }
 
-// Fuzzing DealSchedule unmarshal/marshal from raw byteslice
-func FuzzDealScheduleRaw(data []byte) int {
-	return cborFuzzUtilRaw(data, cborTypeMap["DealSchedule"])
-}
-
-// Fuzzing DealSchedule unmarshal/marshal from generated struct
-func FuzzDealScheduleStructured(data []byte) int {
-	return cborFuzzUtilStructured(data, cborTypeMap["DealSchedule"])
-}
-
-// Fuzzing DealInfo unmarshal/marshal from raw byteslice
-func FuzzDealInfoRaw(data []byte) int {
-	return cborFuzzUtilRaw(data, cborTypeMap["DealInfo"])
-}
-
-// Fuzzing DealInfo unmarshal/marshal from generated struct
-func FuzzDealInfoStructured(data []byte) int {
-	return cborFuzzUtilStructured(data, cborTypeMap["DealInfo"])
-}
+// // Fuzzing DealSchedule unmarshal/marshal from raw byteslice
+// func FuzzDealScheduleRaw(data []byte) int {
+// 	return cborFuzzUtilRaw(data, cborTypeMap["DealSchedule"])
+// }
+//
+// // Fuzzing DealSchedule unmarshal/marshal from generated struct
+// func FuzzDealScheduleStructured(data []byte) int {
+// 	return cborFuzzUtilStructured(data, cborTypeMap["DealSchedule"])
+// }
+//
+// // Fuzzing DealInfo unmarshal/marshal from raw byteslice
+// func FuzzDealInfoRaw(data []byte) int {
+// 	return cborFuzzUtilRaw(data, cborTypeMap["DealInfo"])
+// }
+//
+// // Fuzzing DealInfo unmarshal/marshal from generated struct
+// func FuzzDealInfoStructured(data []byte) int {
+// 	return cborFuzzUtilStructured(data, cborTypeMap["DealInfo"])
+// }
 
 //TODO DataTransferMessage is an interface not a struct type, need to expose
 //the hidden `transferMessage` type
@@ -579,16 +529,6 @@ func FuzzPublishStorageDealsParamsStructured(data []byte) int {
 	return cborFuzzUtilStructured(data, cborTypeMap["PublishStorageDealsParams"])
 }
 
-// Fuzzing VerifyDealsOnSectorProveCommitParams unmarshal/marshal from raw byteslice
-func FuzzVerifyDealsOnSectorProveCommitParamsRaw(data []byte) int {
-	return cborFuzzUtilRaw(data, cborTypeMap["VerifyDealsOnSectorProveCommitParams"])
-}
-
-// Fuzzing VerifyDealsOnSectorProveCommitParams marshal/unmarshal from generated struct
-func FuzzVerifyDealsOnSectorProveCommitParamsStructured(data []byte) int {
-	return cborFuzzUtilStructured(data, cborTypeMap["VerifyDealsOnSectorProveCommitParams"])
-}
-
 // Fuzzing ComputeDataCommitmentParams unmarshal/marshal from raw byteslice
 func FuzzComputeDataCommitmentParamsRaw(data []byte) int {
 	return cborFuzzUtilRaw(data, cborTypeMap["ComputeDataCommitmentParams"])
@@ -637,56 +577,6 @@ func FuzzEnrollCronEventParamsRaw(data []byte) int {
 // Fuzzing EnrollCronEventParams marshal/unmarshal from generated struct
 func FuzzEnrollCronEventParamsStructured(data []byte) int {
 	return cborFuzzUtilStructured(data, cborTypeMap["EnrollCronEventParams"])
-}
-
-// Fuzzing OnSectorTerminateParams unmarshal/marshal from raw byteslice
-func FuzzOnSectorTerminateParamsRaw(data []byte) int {
-	return cborFuzzUtilRaw(data, cborTypeMap["OnSectorTerminateParams"])
-}
-
-// Fuzzing OnSectorTerminateParams marshal/unmarshal from generated struct
-func FuzzOnSectorTerminateParamsStructured(data []byte) int {
-	return cborFuzzUtilStructured(data, cborTypeMap["OnSectorTerminateParams"])
-}
-
-// Fuzzing OnSectorModifyWeightDescParams unmarshal/marshal from raw byteslice
-func FuzzOnSectorModifyWeightDescParamsRaw(data []byte) int {
-	return cborFuzzUtilRaw(data, cborTypeMap["OnSectorModifyWeightDescParams"])
-}
-
-// Fuzzing OnSectorModifyWeightDescParams marshal/unmarshal from generated struct
-func FuzzOnSectorModifyWeightDescParamsStructured(data []byte) int {
-	return cborFuzzUtilStructured(data, cborTypeMap["OnSectorModifyWeightDescParams"])
-}
-
-// Fuzzing OnSectorProveCommitParams unmarshal/marshal from raw byteslice
-func FuzzOnSectorProveCommitParamsRaw(data []byte) int {
-	return cborFuzzUtilRaw(data, cborTypeMap["OnSectorProveCommitParams"])
-}
-
-// Fuzzing OnSectorProveCommitParams marshal/unmarshal from generated struct
-func FuzzOnSectorProveCommitParamsStructured(data []byte) int {
-	return cborFuzzUtilStructured(data, cborTypeMap["OnSectorProveCommitParams"])
-}
-
-// Fuzzing OnFaultBeginParams unmarshal/marshal from raw byteslice
-func FuzzOnFaultBeginParamsRaw(data []byte) int {
-	return cborFuzzUtilRaw(data, cborTypeMap["OnFaultBeginParams"])
-}
-
-// Fuzzing OnFaultBeginParams marshal/unmarshal from generated struct
-func FuzzOnFaultBeginParamsStructured(data []byte) int {
-	return cborFuzzUtilStructured(data, cborTypeMap["OnFaultBeginParams"])
-}
-
-// Fuzzing OnFaultEndParams unmarshal/marshal from raw byteslice
-func FuzzOnFaultEndParamsRaw(data []byte) int {
-	return cborFuzzUtilRaw(data, cborTypeMap["OnFaultEndParams"])
-}
-
-// Fuzzing OnFaultEndParams marshal/unmarshal from generated struct
-func FuzzOnFaultEndParamsStructured(data []byte) int {
-	return cborFuzzUtilStructured(data, cborTypeMap["OnFaultEndParams"])
 }
 
 // Fuzzing MinerConstructorParams unmarshal/marshal from raw byteslice
