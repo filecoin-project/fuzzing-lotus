@@ -1,0 +1,57 @@
+[submodule "code/go-fil-markets"]
+	path = code/go-fil-markets
+	url = https://github.com/filecoin-project/go-fil-markets.git
+[submodule "code/lotus"]
+	path = code/lotus
+	url = https://github.com/filecoin-project/lotus.git
+[submodule "code/specs-actors"]
+	path = code/specs-actors
+	url = https://github.com/filecoin-project/specs-actors.git
+[submodule "code/deps/blst"]
+	path = code/deps/blst
+	url = https://github.com/supranational/blst.git
+[submodule "code/deps/cbor-gen"]
+	path = code/deps/cbor-gen
+	url = https://github.com/whyrusleeping/cbor-gen
+[submodule "code/deps/go-address"]
+	path = code/deps/go-address
+	url = https://github.com/filecoin-project/go-address.git
+[submodule "code/deps/go-amt-ipld"]
+	path = code/deps/go-amt-ipld
+	url = https://github.com/filecoin-project/go-amt-ipld.git
+[submodule "code/deps/go-bitfield"]
+	path = code/deps/go-bitfield
+	url = https://github.com/filecoin-project/go-bitfield
+[submodule "code/deps/go-cbor-util"]
+	path = code/deps/go-cbor-util
+	url = https://github.com/filecoin-project/go-cbor-util
+[submodule "code/deps/go-crypto"]
+	path = code/deps/go-crypto
+	url = https://github.com/filecoin-project/go-crypto
+[submodule "code/deps/go-data-transfer"]
+	path = code/deps/go-data-transfer
+	url = https://github.com/filecoin-project/go-data-transfer
+[submodule "code/deps/go-fil-commcid"]
+	path = code/deps/go-fil-commcid
+	url = https://github.com/filecoin-project/go-fil-commcid
+[submodule "code/deps/go-graphsync"]
+	path = code/deps/go-graphsync
+	url = https://github.com/ipfs/go-graphsync
+[submodule "code/deps/go-hamt-ipld"]
+	path = code/deps/go-hamt-ipld
+	url = https://github.com/ipfs/go-hamt-ipld
+[submodule "code/deps/go-ipld-cbor"]
+	path = code/deps/go-ipld-cbor
+	url = https://github.com/ipfs/go-ipld-cbor
+[submodule "code/deps/go-padreader"]
+	path = code/deps/go-padreader
+	url = https://github.com/filecoin-project/go-padreader
+[submodule "code/deps/go-statemachine"]
+	path = code/deps/go-statemachine
+	url = https://github.com/filecoin-project/go-statemachine
+[submodule "code/deps/go-statestore"]
+	path = code/deps/go-statestore
+	url = https://github.com/filecoin-project/go-statestore
+[submodule "code/deps/specs-storage"]
+	path = code/deps/specs-storage
+	url = https://github.com/filecoin-project/specs-storage
